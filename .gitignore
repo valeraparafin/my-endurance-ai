@@ -1,0 +1,11 @@
+*.fit
+*.tcx
+*.json
+.env
+*health*.md
+*.log
+# Игнорируем служебные файлы OpenClaw
+.openclaw/
+*.log
+.env
+memory/cache/*
