@@ -150,6 +150,7 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           SYNC_TIME=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
+          git pull --rebase --autostash origin main
           
           if [ -f README.md ]; then
             echo "Current README content (first 5 lines):"
