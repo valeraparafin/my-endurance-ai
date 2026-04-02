@@ -10,9 +10,9 @@ Section 11 endurance coaching protocol with automated Intervals.icu data sync an
 ## Stack
 
 - **[Section 11](https://github.com/CrankAddict/section-11)** — AI coaching protocol (v11.23)
-- **Intervals.icu** — training data source
-- **GitHub Actions** — automated sync every 15 minutes
-- **OpenClaw** — AI coach interface (local agent, Russian language)
+- **Intervals.icu** — training data source  
+- **GitHub Actions** — automated sync 3× daily
+- **OpenClaw** — AI coach interface
 
 ## Quick Links
 
@@ -31,50 +31,26 @@ Section 11 endurance coaching protocol with automated Intervals.icu data sync an
 | `ftp_history.json` | [View](https://raw.githubusercontent.com/valeraparafin/my-endurance-ai/main/ftp_history.json) |
 | `routes.json` | [View](https://raw.githubusercontent.com/valeraparafin/my-endurance-ai/main/routes.json) |
 
-## Repo Structure
-
-| Path | Description |
-|------|-------------|
-| `dossier/` | Athlete profile (Artem, cycling, Section 11 v1.1) |
-| `framework/` | Section 11 protocol and sync engine (local only) |
-| `.github/workflows/` | GitHub Actions auto-sync |
-| `sync.py` | Data sync engine (from Section 11) |
-| `COMMANDS.md` | AI coach command reference |
-
 ## How It Works
 
-```
-Intervals.icu API ──→ GitHub Actions ──→ latest.json ──→ AI Coach
-   (every 15 min)       (sync.py)      (this repo)     (OpenClaw agent)
-```
+1. GitHub Actions runs `sync.py` 3× daily (14:30, 19:30, 23:30 MSK)
+2. Data is pulled from Intervals.icu API — activities, wellness, metrics
+3. JSON files are committed to this repo (anonymized)
+4. AI coach reads files directly and provides analysis & recommendations
 
-1. **GitHub Actions** runs `sync.py` every 15 minutes
-2. Pulls data from Intervals.icu (activities, wellness, intervals, power curves)
-3. Commits JSON files to this repo (anonymized athlete ID, outdoor names redacted)
-4. **AI coach** reads files directly → analyses → recommends
+```
+Intervals.icu ──→ GitHub Actions ──→ JSON files ──→ AI Coach
+   (API)         (sync.py 3×/day)   (this repo)    (OpenClaw)
+```
 
 ## Trigger Sync
 
 [**Run workflow →**](https://github.com/valeraparafin/my-endurance-ai/actions/workflows/auto-sync.yml) — tap "Run workflow" for a fresh sync.
 
-## Athlete Profile
+## Dossier
 
-- **Sport:** Cycling (gravel/endurance)
-- **FTP:** 215W indoor / ~215W outdoor | eFTP: 220W | W/kg: 3.1
-- **HR zones:** Empirical — Z1 <130, Z2 130–145, Z3 145–160, Z4 160–170, Z5 170+
-- **Goals 2026:** FTP 230–250W, cadence 90+, Гонка: Покрова gravel finish
-- **Phase:** Build (week 1 of 2026 season)
+See [dossier/DOSSIER.md](dossier/DOSSIER.md) for the complete athlete profile.
 
-Full profile: [dossier/DOSSIER.md](dossier/DOSSIER.md)
+---
 
-## Local Setup
-
-For local development, clone this repo and ensure:
-- `framework/` is not published (it's a submodule of https://github.com/CrankAddict/section-11)
-- `.sync_config.json` is in `.gitignore` (contains API credentials)
-
-See [Section 11 README](https://github.com/CrankAddict/section-11) for full protocol documentation.
-
-## License
-
-[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) — Free for personal and non-commercial use. Attribution required.
+[Section 11](https://github.com/CrankAddict/section-11) · [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)

@@ -2,20 +2,19 @@ name: Auto-Sync Intervals.icu Data
 
 on:
   schedule:
-    # Run every 15 minutes
-    - cron: '*/15 * * * *'
+    # Run 3x daily — 14:30, 19:30, 23:30 MSK (UTC+3 → 11:30, 16:30, 20:30 UTC)
+    - cron: '30 11,16,20 * * *'
   workflow_dispatch:  # Allow manual trigger
 
 permissions:
   contents: write
-  issues: write
 
 jobs:
   sync:
     runs-on: ubuntu-latest
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
-    
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -28,8 +27,7 @@ jobs:
           python-version: '3.13'
       
       - name: Install dependencies
-        run: |
-          pip install requests
+        run: pip install requests
       
       - name: Verify sync.py exists
         run: |
