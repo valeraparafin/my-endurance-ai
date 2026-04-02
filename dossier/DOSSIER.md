@@ -146,7 +146,7 @@ _No medications. No regular supplementation._
 | Endurance | 75-88% | 60 min | Aerobic base |
 | Sweetspot | 88-100% | 2 * 20 min | LT Development  |
 | Long Ride | 56-75%| 2h | Muscle stability |
-| Recovery | 50-60% | 40-60 min| Activity Recover |
+| Recovery | 50-60% | 40-60 min| Activity Recovery |
 |Strength | Bodyweight + 16kg | 45 min | Muscle stability |
 
 ### Recovery Protocol
@@ -310,7 +310,86 @@ _No dedicated recovery supplement. Post-training: regular food + water._
 
 ---
 
-## 7. Outdoor Transition Plan (if applicable)
+## 7a. Training Plan — 2026-04 to 2026-05 (Coach-Artem, 2026-04-02)
+
+### Phase Context
+- **Current Phase:** Build (week 1 of 4-week cycle)
+- **Previous Phase:** Deload (March 27-30)
+- **Target:** Stabilize CTL to 58-62, restore 250-300 TSS/week
+- **FTP Test:** May 1, Indoor 225W+
+
+### Week 1: Build Base (Apr 7–13) — 260-280 TSS, 2 hard days
+
+| Date | Day | Session | Type | Target Power | Duration | TSS | Details |
+|------|-----|---------|------|-------------|----------|-----|--------|
+| Apr 7 | Mon | Z2 Endurance Indoor | Z2 | 120-161W | 60 min | 55 | Cadence 85-90+ |
+| Apr 8 | Tue | Z2 Endurance Indoor | Z2 | 120-161W | 60 min | 55 | Cadence 85-90+ |
+| Apr 9 | Wed | Strength + Core | Strength | — | 45 min | 20 | DOSSIER routine |
+| Apr 10 | Thu | Threshold Intervals | Z4 | 2×15min 196-226W | ~60 min | 80 | 5min Z1 rest, cadence 90+ |
+| Apr 11 | Fri | Z1 Recovery | Z1 | 0-118W | 40 min | 25 | Easy spin |
+| Apr 12 | Sat | Outdoor Z2 | Z2 | 120-150W | 1.5-2h | 75 | Cadence focus 75-85rpm |
+| Apr 13 | Sun | Rest / Z1 optional | Rest/Z1 | 0-118W | 30-40 min | 30 | Full rest if needed |
+
+### Week 2: Build (Apr 14–20) — 280-300 TSS, 2-3 hard days
+
+| Date | Day | Session | Type | Target Power | Duration | TSS | Details |
+|------|-----|---------|------|-------------|----------|-----|--------|
+| Apr 14 | Mon | Z2 Endurance Indoor | Z2 | 120-161W | 70 min | 60 | Cadence 85-90+ |
+| Apr 15 | Tue | Sweetspot Intervals | SS | 2×20min 181-209W | ~70 min | 80 | 8min Z1 rest |
+| Apr 16 | Wed | Strength + Core | Strength | — | 45+20 min | 20 | Routine + 20min Z1 |
+| Apr 17 | Thu | VO2max Intervals | Z5 | 5×3min 228-258W | ~55 min | 75 | 3min Z1 rest |
+| Apr 18 | Fri | Z1 Recovery | Z1 | 0-118W | 40 min | 25 | Easy spin |
+| Apr 19 | Sat | Outdoor Z2 | Z2 | 120-150W | 2h | 80 | Cadence 75-85rpm |
+| Apr 20 | Sun | Rest | Rest | — | — | 0 | Full recovery |
+
+### Week 3: Build Peak (Apr 21–27) — 300-320 TSS, 3 hard days
+
+| Date | Day | Session | Type | Target Power | Duration | TSS | Details |
+|------|-----|---------|------|-------------|----------|-----|--------|
+| Apr 21 | Mon | Z2 Endurance Indoor | Z2 | 120-161W | 75 min | 65 | Cadence 85-90+ |
+| Apr 22 | Tue | Threshold Intervals | Z4 | 3×10min 196-226W | ~60 min | 90 | 5min Z1 rest |
+| Apr 23 | Wed | Strength + Core | Strength | — | 45 min | 20 | Routine |
+| Apr 24 | Thu | VO2max + Anaerobic | Z5/Z6 | 3×4min Z5 + 3×30s Z6 | ~60 min | 85 | Z5 cadence 90+ |
+| Apr 25 | Fri | Z1 Recovery | Z1 | 0-118W | 40 min | 25 | Easy spin |
+| Apr 26 | Sat | Outdoor Z2-SS | Z2/SS | 130-180W | 2-2.5h | 85 | Cadence 80+ |
+| Apr 27 | Sun | Rest | Rest | — | — | 0 | Full recovery |
+
+### Week 4: Recovery Deload (Apr 28–May 4) — 200-220 TSS, 1 hard day
+
+| Date | Day | Session | Type | Target Power | Duration | TSS | Details |
+|------|-----|---------|------|-------------|----------|-----|--------|
+| Apr 28 | Mon | Z1 Easy | Z1 | 0-118W | 30 min | 25 | Active recovery |
+| Apr 29 | Tue | Z2 Light | Z2 | 120-150W | 40 min | 35 | Easy endurance |
+| Apr 30 | Wed | Strength (light) | Strength | — | 30 min | 15 | Reduced volume |
+| May 1 | Thu | **FTP TEST** | Test | Ramp or 20min max | ~40 min | 70 | Goal: Indoor 225W+ |
+| May 2 | Fri | Z1 Recovery | Z1 | 0-118W | 30-40 min | 25 | Post-test recovery |
+| May 3 | Sat | Outdoor Z2 | Z2 | 120-150W | 1h | 50 | Cadence focus |
+| May 4 | Sun | Rest | Rest | — | — | 0 | Full recovery |
+
+### Monthly Targets
+
+| Metric | Target | Baseline (Apr 2) |
+|--------|--------|----------------|
+| Avg weekly TSS | 270 | 152 |
+| CTL by May 4 | 58-62 | 52.3 |
+| Training consistency | ≤1 skip/week | Currently inconsistent |
+| Outdoor cadence avg | 75-80 rpm | 51-62 rpm |
+| HRV baseline | 80+ | 78.6 (7d avg) |
+| Sleep quality avg | >2.5 | ~3.0 |
+| Weight | 68.0 kg | 68.35 kg |
+| FTP Test (May 1) | Indoor 225W+ | 215W |
+
+### Adaptation Focus
+
+- [x] Aerobic base development (Z2 endurance)
+- [x] Cadence optimization (target: 90+ rpm indoor, outdoor 75-80)
+- [ ] FTP 215W → 230W
+- [ ] Outdoor riding consistency (spring transition)
+- [ ] Training consistency (eliminate boom-bust pattern)
+
+---
+
+## 8. Outdoor Transition Plan (if applicable)
 
 ### Transition Timeline
 
@@ -327,7 +406,7 @@ _No dedicated recovery supplement. Post-training: regular food + water._
 
 ---
 
-## 8. Long-Term Performance Roadmap
+## 9. Long-Term Performance Roadmap
 
 ### Primary Objective
 
