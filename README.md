@@ -4,7 +4,7 @@
 
 Section 11 endurance coaching protocol with automated Intervals.icu data sync.
 
-**Last successful sync:** _updated automatically by GitHub Actions_
+**Last successful sync:** 2026-04-02 12:17:41 UTC
 
 ## Stack
 
