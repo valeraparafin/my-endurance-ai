@@ -2,7 +2,7 @@
 
 **Dossier Version:** v1.1.1  
 **Protocol Compatibility:** Section 11 v11.6+  
-**Date:** [2026-04-01]  
+**Date:** 2026-04-02  
 **Primary Source Systems:** Intervals.icu | Strava.com
 
 This document serves as a reference template for endurance athletes using the deterministic AI-coaching framework defined in Section 11.
@@ -28,12 +28,12 @@ This document serves as a reference template for endurance athletes using the de
 |-------|-------|
 | Name | Artem |
 | Age | 34 |
-| Height | [168] |
-| Current Weight | [69] |
+| Height | 168 cm |
+| Current Weight | 69 kg |
 | Target Weight | 68 |
 | Location | Vladimir, Russia |
 
-**Weigh-in Protocol:** [e.g., Once weekly, Friday morning, after bathroom, before food/drink]
+**Weigh-in Protocol:** Daily morning weigh-in (sent to Intervals.icu automatically via Amazfit Bip)
 
 ### Medications & Supplements (Optional)
 
@@ -132,11 +132,11 @@ _No medications. No regular supplementation._
 |-----|-----------------|----------|-----------|
 | Sunday | Outdoor ride / Rest | 1-2h / Rest | Chill ride |
 | Monday | Rest or Z1 recovery or Volume | 40-60 min | Depends on day before |
-| Tuesday | Z2 Endurance | 60 min | [Optional] |
-| Wednesday | Strength + Core | 45 min | [Optional] |
-| Thursday | Z2 / Threshold | [Duration] | [Optional] |
-| Friday | Rest or Z1 | 40 min | [Optional] |
-| Saturday | Outdoor ride (weather) | 1-3h | [Optional] |
+| Tuesday | Z2 Endurance | 60 min | Indoor (MyWhoosh) |
+| Wednesday | Strength + Core | 45 min | Dumbbells (16kg) |
+| Thursday | Z2 / Threshold | 60 min | Indoor or outdoor |
+| Friday | Rest or Z1 | 40 min | Optional active recovery |
+| Saturday | Outdoor ride | 1-3h | Weather permitting |
 
 ### Session Details
 
