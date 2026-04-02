@@ -17,11 +17,13 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: '3.13'
       
       - name: Install dependencies
         run: |
@@ -86,95 +88,42 @@ jobs:
             echo "⚠️ latest.json not found - might be no changes detected"
           fi
       
-      - name: Archive latest.json with timestamp
-        if: success()
-        run: |
-          # Create archive directory with year-month subdirectory
-          YEAR_MONTH=$(date -u +"%Y-%m")
-          mkdir -p "archive/${YEAR_MONTH}"
-          
-          # Get timestamp
-          TIMESTAMP=$(date -u +"%Y%m%d_%H%M%S")
-          
-          # Copy latest.json to archive if it exists
-          if [ -f latest.json ]; then
-            cp latest.json "archive/${YEAR_MONTH}/${TIMESTAMP}.json"
-            echo "✅ Archived to archive/${YEAR_MONTH}/${TIMESTAMP}.json"
-            
-            # Configure git
-            git config --local user.email "github-actions[bot]@users.noreply.github.com"
-            git config --local user.name "github-actions[bot]"
-            
-            # Stage ALL generated files BEFORE pulling to prevent
-            # "untracked working tree files would be overwritten" errors
-            git add archive/
-            if [ -f ftp_history.json ]; then
-              git add ftp_history.json
-              echo "✅ Staged ftp_history.json"
-            fi
-            if [ -f history.json ]; then
-              git add history.json
-              echo "✅ Staged history.json"
-            fi
-            if [ -f latest.json ]; then
-              git add latest.json
-              echo "✅ Staged latest.json"
-            fi
-            if [ -f intervals.json ]; then
-              git add intervals.json
-              echo "✅ Staged intervals.json"
-            fi
-            if [ -f routes.json ]; then
-              git add routes.json
-              echo "✅ Staged routes.json"
-            fi
-            
-            # Now pull - autostash will safely stash staged changes
-            git pull --rebase --autostash origin main
-            
-            # Only commit if there are changes
-            if ! git diff --staged --quiet; then
-              git commit -m "Archive training data + FTP history - $(date -u +"%Y-%m-%d %H:%M:%S UTC")"
-              git push
-              echo "✅ Archive and FTP history committed and pushed"
-            else
-              echo "⏭️  No new archive to commit"
-            fi
-          else
-            echo "⚠️ Skipping archive - no latest.json to archive"
-          fi
-      
-      - name: Update README with last sync time
+      - name: Commit all changes (archive + data + README)
         if: success()
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           SYNC_TIME=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
-          git pull --rebase --autostash origin main
           
+          # Stage archive data files
+          YEAR_MONTH=$(date -u +"%Y-%m")
+          TIMESTAMP=$(date -u +"%Y%m%d_%H%M%S")
+          mkdir -p "archive/${YEAR_MONTH}"
+          cp -f latest.json "archive/${YEAR_MONTH}/${TIMESTAMP}.json" 2>/dev/null
+          git add archive/
+          
+          git add latest.json history.json intervals.json routes.json ftp_history.json 2>/dev/null
+          
+          # Update README timestamp
           if [ -f README.md ]; then
-            echo "Current README content (first 5 lines):"
-            head -5 README.md
-            
             if grep -q "Last successful sync:" README.md; then
-              echo "Found existing timestamp line, updating..."
               sed -i "s/\*\*Last successful sync:\*\*.*/\*\*Last successful sync:\*\* ${SYNC_TIME}/" README.md
             else
-              echo "No timestamp found, adding new line..."
               sed -i "/badge.svg)/a\\\n\*\*Last successful sync:\*\* ${SYNC_TIME}\n" README.md
             fi
-            
-            echo "Updated README content (first 5 lines):"
-            head -5 README.md
-            
-            if ! git diff --quiet README.md; then
-              git add README.md
-              git commit -m "Update last sync timestamp: ${SYNC_TIME}"
-              git push
-              echo "✅ README updated with sync time: ${SYNC_TIME}"
-            else
-              echo "⚠️ No changes detected in README"
-            fi
+            git add README.md
+          fi
+          
+          # Pull latest changes and rebase
+          git pull --rebase --autostash origin main
+          
+          # Commit if there are any staged changes
+          if ! git diff --staged --quiet; then
+            git commit -m "Sync training data + archive $(date -u +"%Y-%m-%d %H:%M:%S UTC")"
+            git push origin main
+            echo "✅ All changes pushed"
+          else
+            echo "⏭️ Nothing to commit"
           fi
       
       - name: Upload data files for download
