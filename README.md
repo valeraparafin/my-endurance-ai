@@ -33,7 +33,7 @@ Section 11 endurance coaching protocol with automated Intervals.icu data sync an
 
 ## How It Works
 
-1. GitHub Actions runs `sync.py` 3× daily (14:30, 19:30, 23:30 MSK)
+1. GitHub Actions runs `sync.py` 3× daily (15:30, 19:30, 23:30 MSK)
 2. Data is pulled from Intervals.icu API — activities, wellness, metrics
 3. JSON files are committed to this repo (anonymized)
 4. AI coach reads files directly and provides analysis & recommendations
