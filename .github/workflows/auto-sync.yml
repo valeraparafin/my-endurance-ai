@@ -2,8 +2,8 @@ name: Auto-Sync Intervals.icu Data
 
 on:
   schedule:
-    # Run 3x daily — 15:30, 19:30, 23:30 MSK (UTC+3 → 12:30, 16:30, 20:30 UTC)
-    - cron: "30 9,11,17 * * *"
+    # Run 3x daily — 10:30, 12:30, 15:30, 23:30 MSK
+    - cron: "30 7,9,12,20 * * *"
   workflow_dispatch: # Allow manual trigger
 
 permissions:
