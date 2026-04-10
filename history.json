@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-04-10T19:31:29.216537",
+  "generated_at": "2026-04-10T19:45:41.519734",
   "source": "Intervals.icu API",
-  "sync_version": "3.95",
-  "script_hash": "ec09283a7a09",
+  "sync_version": "3.96",
+  "script_hash": "f0df576f8f63",
   "data_range": {
     "earliest": "2025-07-13",
     "latest": "2026-04-10",
@@ -5221,5 +5221,31 @@
     }
   ],
   "monthly_2y": [],
-  "monthly_3y": []
+  "monthly_3y": [],
+  "averages": {
+    "7d": {
+      "avg_power": null,
+      "avg_hr": null,
+      "avg_cadence": 82.4,
+      "avg_hours": 0.8,
+      "avg_tss": 40.0,
+      "count": 7
+    },
+    "28d": {
+      "avg_power": null,
+      "avg_hr": null,
+      "avg_cadence": 82.9,
+      "avg_hours": 0.8,
+      "avg_tss": 41.9,
+      "count": 23
+    },
+    "42d": {
+      "avg_power": null,
+      "avg_hr": null,
+      "avg_cadence": 85.0,
+      "avg_hours": 0.9,
+      "avg_tss": 46.9,
+      "count": 39
+    }
+  }
 }
