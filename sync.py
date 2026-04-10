@@ -4,6 +4,10 @@ Intervals.icu → GitHub/Local JSON Export
 Exports training data for LLM access.
 Supports both automated GitHub sync and manual local export.
   
+Version 3.96 - Averages: calculate_averages(activities, days) for 7/28/42d windows.
+  Adds "averages" block to latest.json and history.json with avg_power, avg_hr,
+  avg_cadence, avg_hours, avg_tss, count. Handles nulls, rounds to 1 decimal.
+
 Version 3.95 - Polyline + event metadata: 500m downsampled polyline in terrain_summary for
   weather/wind/pacing lookups. Start time (HH:MM) on events when set. Indoor flag passthrough.
 
@@ -81,7 +85,7 @@ class IntervalsSync:
     HISTORY_FILE = "history.json"
     UPSTREAM_REPO = "CrankAddict/section-11"
     CHANGELOG_FILE = "changelog.json"
-    VERSION = "3.95"
+    VERSION = "3.96"
     INTERVALS_FILE = "intervals.json"
     ROUTES_FILE = "routes.json"
 
@@ -1482,6 +1486,12 @@ class IntervalsSync:
                 }
             },
             "derived_metrics": derived_metrics,
+            # Averages block (v3.96)
+            "averages": {
+                "7d": self.calculate_averages(activities_display, 7),
+                "28d": self.calculate_averages(activities_extended, 28),
+                "42d": self.calculate_averages(activities_extended, 42)
+            },
             "recent_activities": self._format_activities(activities_extended, anonymize, interval_activity_ids),
             "wellness_data": self._format_wellness(wellness),
             "planned_workouts": formatted_planned_workouts,
@@ -2090,6 +2100,60 @@ class IntervalsSync:
             return low <= benchmark_index <= high
         
         return None
+    
+    def calculate_averages(self, activities: List[Dict], days: int) -> Optional[Dict]:
+        """
+        Calculate averages for given activities over specified days.
+        
+        Args:
+            activities: List of activity dicts with power, HR, cadence, etc.
+            days: Number of days to look back
+            
+        Returns dict with avg_power, avg_hr, avg_cadence, avg_hours, avg_tss, count
+        or None if no valid data.
+        """
+        from datetime import datetime, timedelta
+        
+        now = datetime.now()
+        cutoff = (now - timedelta(days=days)).strftime("%Y-%m-%d")
+        
+        # Filter activities within window
+        filtered = []
+        for a in activities:
+            date_str = a.get("start_date_local", "")[:10]
+            if date_str and date_str >= cutoff:
+                filtered.append(a)
+        
+        if not filtered:
+            return None
+        
+        # Collect values, handling nulls
+        powers = [a.get("average_watts") or a.get("avg_watts") for a in filtered 
+                 if a.get("average_watts") or a.get("avg_watts")]
+        hrs = [a.get("average_hr") for a in filtered if a.get("average_hr")]
+        cadences = [a.get("average_cadence") for a in filtered if a.get("average_cadence")]
+        
+        # Duration in hours
+        seconds_list = [a.get("moving_time", 0) or 0 for a in filtered if a.get("moving_time")]
+        hours_list = [s / 3600 for s in seconds_list if s]
+        
+        # TSS
+        tss_list = [a.get("icu_training_load") or 0 for a in filtered if a.get("icu_training_load")]
+        
+        count = len(filtered)
+        
+        result = {
+            "avg_power": round(sum(powers) / len(powers), 1) if powers else None,
+            "avg_hr": round(sum(hrs) / len(hrs), 1) if hrs else None,
+            "avg_cadence": round(sum(cadences) / len(cadences), 1) if cadences else None,
+            "avg_hours": round(sum(hours_list) / len(hours_list), 1) if hours_list else None,
+            "avg_tss": round(sum(tss_list) / len(tss_list), 1) if tss_list else None,
+            "count": count
+        }
+        
+        print(f"    📊 Averages ({days}d): {count} activities, power {result['avg_power']}W, HR {result['avg_hr']}bpm")
+        
+        return result
     
     def _get_ftp_history_span(self) -> Dict[str, int]:
         """Get the number of days of FTP history available for indoor and outdoor"""
@@ -5043,7 +5107,13 @@ class IntervalsSync:
             "summaries": summaries,
             "daily_90d": daily_90d,
             "weekly_180d": weekly_180d,
-            **monthly_tiers
+            **monthly_tiers,
+            # Averages block (v3.96)
+            "averages": {
+                "7d": self.calculate_averages(all_activities, 7),
+                "28d": self.calculate_averages(all_activities, 28),
+                "42d": self.calculate_averages(all_activities, 42)
+            }
         }
         
         # Save locally
