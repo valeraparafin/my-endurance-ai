@@ -9,7 +9,7 @@ Section 11 endurance coaching protocol with automated Intervals.icu data sync an
 
 ## Stack
 
-- **[Section 11](https://github.com/CrankAddict/section-11)** — AI coaching protocol (v11.23)
+- **[Section 11](https://github.com/CrankAddict/section-11)** — AI coaching protocol (v11.25)
 - **Intervals.icu** — training data source  
 - **GitHub Actions** — automated sync 3× daily
 - **OpenClaw** — AI coach interface
