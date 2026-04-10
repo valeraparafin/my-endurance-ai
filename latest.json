@@ -70,10 +70,10 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-10T19:21:06.944691",
+    "last_updated": "2026-04-10T19:31:22.748072",
     "data_range_days": 7,
     "extended_range_days": 28,
-    "version": "3.96"
+    "version": "3.95"
   },
   "alerts": [
     {
@@ -153,8 +153,8 @@
   },
   "history": {
     "available": true,
-    "last_generated": "2026-04-02",
-    "age_days": 8,
+    "last_generated": "2026-04-10",
+    "age_days": 0,
     "total_months": 8,
     "history_confidence": "medium"
   },
@@ -561,7 +561,7 @@
       ],
       "basis": {
         "stream_1": {
-          "ctl_slope": -2.05,
+          "ctl_slope": -2.32,
           "acwr_trend": "rising",
           "hard_day_pattern": 1.5,
           "weeks_available": 4
@@ -607,7 +607,7 @@
     "p_max": 987,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-10T19:21:05.867902",
+    "calculation_timestamp": "2026-04-10T19:31:21.389190",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -618,32 +618,6 @@
         "indoor": 0,
         "outdoor": 0
       }
-    }
-  },
-  "averages": {
-    "7d": {
-      "avg_power": null,
-      "avg_hr": null,
-      "avg_cadence": 81.6,
-      "avg_hours": 0.8,
-      "avg_tss": 43.3,
-      "count": 6
-    },
-    "28d": {
-      "avg_power": null,
-      "avg_hr": null,
-      "avg_cadence": 82.9,
-      "avg_hours": 0.8,
-      "avg_tss": 41.9,
-      "count": 23
-    },
-    "42d": {
-      "avg_power": null,
-      "avg_hr": null,
-      "avg_cadence": 82.9,
-      "avg_hours": 0.8,
-      "avg_tss": 41.9,
-      "count": 23
     }
   },
   "recent_activities": [
