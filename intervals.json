@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-11T10:09:53.430499",
+  "generated_at": "2026-04-11T11:31:29.013000",
   "version": "3.96",
   "script_hash": "f0df576f8f63",
   "scan_hours": 72,
@@ -339,6 +339,54 @@
           "zone": 1,
           "training_load": 0.67340785,
           "decoupling": 23.008858
+        }
+      ]
+    },
+    {
+      "activity_id": "i138884190",
+      "date": "2026-04-11",
+      "type": "VirtualRide",
+      "name": "Mission Stage 2 - The Kwaremont Test",
+      "interval_summary": [
+        "1x 6s 793w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 3080,
+          "avg_power": 144,
+          "max_power": 1033,
+          "avg_hr": 132,
+          "max_hr": 155,
+          "avg_cadence": 89.097404,
+          "zone": 2,
+          "training_load": 38.37923,
+          "decoupling": 1.4850026
+        },
+        {
+          "type": "WORK",
+          "label": "6s@793w126rpm",
+          "duration_secs": 6,
+          "avg_power": 793,
+          "max_power": 845,
+          "avg_hr": 159,
+          "max_hr": 163,
+          "avg_cadence": 126.166664,
+          "zone": 7,
+          "training_load": 0.49895078,
+          "decoupling": 12.242963
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 89,
+          "avg_power": 18,
+          "max_power": 679,
+          "avg_hr": 158,
+          "max_hr": 180,
+          "avg_cadence": 20.089888,
+          "zone": 1,
+          "training_load": 4.1631207,
+          "decoupling": 100.0
         }
       ]
     }
