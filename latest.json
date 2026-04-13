@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-13T14:06:50.567997",
+    "last_updated": "2026-04-13T15:44:32.024463",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.96"
@@ -171,10 +171,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 49.45,
-      "atl": 37.33,
-      "tsb": 12.12,
-      "ramp_rate": -2.47,
+      "ctl": 46.7,
+      "atl": 36.59,
+      "tsb": 10.11,
+      "ramp_rate": -1.97,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -234,7 +234,7 @@
       "respiration": null,
       "body_fat_pct": 22.4,
       "abdomen_cm": null,
-      "steps": 642,
+      "steps": 1143,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -418,13 +418,13 @@
         "anchors": {
           "60s": {
             "current_bpm": 180,
-            "previous_bpm": 179,
-            "pct_change": 0.6
+            "previous_bpm": 178,
+            "pct_change": 1.1
           },
           "300s": {
             "current_bpm": 172,
-            "previous_bpm": 174,
-            "pct_change": -1.1
+            "previous_bpm": 173,
+            "pct_change": -0.6
           },
           "1200s": {
             "current_bpm": 166,
@@ -437,7 +437,7 @@
             "pct_change": -15.0
           }
         },
-        "rotation_index": 8.4,
+        "rotation_index": 8.9,
         "note": "Compares max sustained HR at 4 anchor durations (60s anaerobic ceiling, 300s VO2max HR, 1200s threshold HR, 3600s endurance HR) across two 28d windows. rotation_index = mean(60s,300s pct_change) - mean(1200s,3600s pct_change). Positive = intensity-biased HR shift, negative = endurance-biased. No sport filter \u2014 HR is cross-sport physiological (dominated by hardest efforts). IMPORTANT: rising max sustained HR is ambiguous \u2014 may indicate improved cardiac output (good) or accumulated fatigue/dehydration/heat (bad). Cross-reference with resting HRV, resting HR, RPE, and environmental context before interpreting. Null when either window has fewer than 3 valid anchor durations."
       },
       "sustainability_profile": {
@@ -513,8 +513,8 @@
             "5400s": {
               "actual_watts": 62,
               "actual_wpkg": 0.9,
-              "actual_hr": 93,
-              "pct_lthr": 55.0,
+              "actual_hr": null,
+              "pct_lthr": null,
               "source": "observed_outdoor",
               "coggan_watts": 176,
               "coggan_wpkg": 2.55,
@@ -558,7 +558,7 @@
       ],
       "basis": {
         "stream_1": {
-          "ctl_slope": -1.3,
+          "ctl_slope": -2.0,
           "acwr_trend": "rising",
           "hard_day_pattern": 1.2,
           "weeks_available": 4
@@ -604,12 +604,12 @@
     "p_max": 1031,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-13T14:06:50.566684",
+    "calculation_timestamp": "2026-04-13T15:44:32.023097",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 7,
-      "activities_28d": 23,
+      "activities_28d": 22,
       "planned_workouts_7d": 0,
       "ftp_history_days": {
         "indoor": 0,
@@ -632,7 +632,7 @@
       "avg_cadence": 81.7,
       "avg_hours": 0.8,
       "avg_tss": 40.2,
-      "count": 23
+      "count": 22
     },
     "42d": {
       "avg_power": null,
@@ -640,7 +640,7 @@
       "avg_cadence": 81.7,
       "avg_hours": 0.8,
       "avg_tss": 40.2,
-      "count": 23
+      "count": 22
     }
   },
   "recent_activities": [
@@ -674,8 +674,8 @@
       "efficiency_factor": 1.0840336,
       "hrrc": null,
       "elevation_m": 35.6,
-      "feel": null,
-      "rpe": null,
+      "feel": 2,
+      "rpe": 2,
       "zone_distribution": {
         "hr_zones": {
           "z1_time": 2097,
@@ -1298,7 +1298,7 @@
       "wind_speed": null,
       "work_kj": 464.0,
       "calories": 582,
-      "carbs_used": 299,
+      "carbs_used": 313,
       "carbs_ingested": null,
       "variability_index": 1.9883721,
       "decoupling": -118.48576,
@@ -1327,41 +1327,6 @@
           "z7_time": 172
         }
       },
-      "has_intervals": false
-    },
-    {
-      "id": "17900845799",
-      "date": "2026-03-29T14:13:59",
-      "type": "Unknown",
-      "name": "",
-      "duration_hours": 0.0,
-      "distance_km": 0.0,
-      "tss": null,
-      "intensity_factor": null,
-      "avg_power": null,
-      "normalized_power": null,
-      "avg_hr": null,
-      "max_hr": null,
-      "avg_cadence": null,
-      "avg_speed": null,
-      "max_speed": null,
-      "avg_pace": null,
-      "avg_temp": null,
-      "weather": null,
-      "humidity": null,
-      "wind_speed": null,
-      "work_kj": null,
-      "calories": null,
-      "carbs_used": null,
-      "carbs_ingested": null,
-      "variability_index": null,
-      "decoupling": null,
-      "efficiency_factor": null,
-      "hrrc": null,
-      "elevation_m": null,
-      "feel": null,
-      "rpe": null,
-      "zone_distribution": null,
       "has_intervals": false
     },
     {
@@ -2031,7 +1996,7 @@
       "sleep_quality": 3,
       "sleep_score": 73.0,
       "mental_energy": null,
-      "avg_sleeping_hr": null,
+      "avg_sleeping_hr": 51.97669,
       "vo2max": null,
       "fatigue": null,
       "soreness": null,
@@ -2049,7 +2014,7 @@
       "respiration": null,
       "body_fat_pct": 22.4,
       "abdomen_cm": null,
-      "steps": 642,
+      "steps": 1143,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
