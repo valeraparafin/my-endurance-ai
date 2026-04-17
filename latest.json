@@ -64,13 +64,13 @@
     "quick_stats": {
       "total_training_hours": 4.94,
       "total_training_formatted": "4h56m",
-      "total_activities": 7,
+      "total_activities": 8,
       "total_tss": 248
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-17T08:53:36.620375",
+    "last_updated": "2026-04-17T10:10:23.550360",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.96"
@@ -153,7 +153,7 @@
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
     "total_duration_decimal_hours": 4.94,
-    "total_activities": 7,
+    "total_activities": 8,
     "by_activity_type": {
       "Unknown": {
         "duration_decimal_hours": 0.0,
@@ -163,9 +163,9 @@
       },
       "VirtualRide": {
         "duration_decimal_hours": 4.94,
-        "count": 6,
+        "count": 7,
         "tss": 248,
-        "distance_km": 124.4
+        "distance_km": 139.1
       }
     }
   },
@@ -284,8 +284,8 @@
     "hard_days_this_week": 0,
     "hard_days_note": "Power ladder: z3+ >= 30min, z4+ >= 10min, z5+ >= 5min, z6+ >= 2min, z7 >= 1min. HR fallback (when no power): z4+ >= 10min, z5+ >= 5min. Per Seiler 3-zone model + Foster. HR-based days flagged with intensity_basis: hr",
     "seiler_tid_7d": {
-      "z1_seconds": 14810,
-      "z2_seconds": 2741,
+      "z1_seconds": 14829,
+      "z2_seconds": 2745,
       "z3_seconds": 225,
       "z1_pct": 83.3,
       "z2_pct": 15.4,
@@ -295,8 +295,8 @@
       "zone_basis": "power"
     },
     "seiler_tid_7d_primary": {
-      "z1_seconds": 14810,
-      "z2_seconds": 2741,
+      "z1_seconds": 14829,
+      "z2_seconds": 2745,
       "z3_seconds": 225,
       "z1_pct": 83.3,
       "z2_pct": 15.4,
@@ -307,8 +307,8 @@
       "sport": "cycling"
     },
     "seiler_tid_28d": {
-      "z1_seconds": 41157,
-      "z2_seconds": 5452,
+      "z1_seconds": 41176,
+      "z2_seconds": 5456,
       "z3_seconds": 3796,
       "z1_pct": 81.7,
       "z2_pct": 10.8,
@@ -318,8 +318,8 @@
       "zone_basis": "power"
     },
     "seiler_tid_28d_primary": {
-      "z1_seconds": 41157,
-      "z2_seconds": 5452,
+      "z1_seconds": 41176,
+      "z2_seconds": 5456,
       "z3_seconds": 3796,
       "z1_pct": 81.7,
       "z2_pct": 10.8,
@@ -546,7 +546,7 @@
     "consistency_index": null,
     "consistency_details": {
       "planned_days": 0,
-      "completed_days": 6,
+      "completed_days": 7,
       "matched_days": 0,
       "note": "No planned workouts in period"
     },
@@ -604,12 +604,12 @@
     "p_max": 1027,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-17T08:53:36.619040",
+    "calculation_timestamp": "2026-04-17T10:10:23.549110",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
-      "activities_7d": 7,
-      "activities_28d": 22,
+      "activities_7d": 8,
+      "activities_28d": 23,
       "planned_workouts_7d": 0,
       "ftp_history_days": {
         "indoor": 0,
@@ -621,29 +621,83 @@
     "7d": {
       "avg_power": null,
       "avg_hr": null,
-      "avg_cadence": 83.0,
-      "avg_hours": 0.8,
+      "avg_cadence": 80.4,
+      "avg_hours": 0.7,
       "avg_tss": 41.3,
-      "count": 7
+      "count": 8
     },
     "28d": {
       "avg_power": null,
       "avg_hr": null,
-      "avg_cadence": 80.9,
-      "avg_hours": 0.8,
+      "avg_cadence": 80.1,
+      "avg_hours": 0.7,
       "avg_tss": 41.8,
-      "count": 22
+      "count": 23
     },
     "42d": {
       "avg_power": null,
       "avg_hr": null,
-      "avg_cadence": 80.9,
-      "avg_hours": 0.8,
+      "avg_cadence": 80.1,
+      "avg_hours": 0.7,
       "avg_tss": 41.8,
-      "count": 22
+      "count": 23
     }
   },
   "recent_activities": [
+    {
+      "id": "i140574813",
+      "date": "2026-04-17T12:25:43",
+      "type": "VirtualRide",
+      "name": "Abu Dhabi Virtual Cycling",
+      "duration_hours": 0.01,
+      "distance_km": 14.7,
+      "tss": 0,
+      "intensity_factor": 0.0,
+      "avg_power": 160,
+      "normalized_power": 0,
+      "avg_hr": 140,
+      "max_hr": 144,
+      "avg_cadence": 64.91304,
+      "avg_speed": null,
+      "max_speed": 32.7,
+      "avg_pace": null,
+      "avg_temp": null,
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "work_kj": 3.4,
+      "calories": 273,
+      "carbs_used": null,
+      "carbs_ingested": null,
+      "variability_index": 0.0,
+      "decoupling": null,
+      "efficiency_factor": 0.0,
+      "hrrc": null,
+      "elevation_m": 0.0,
+      "feel": null,
+      "rpe": null,
+      "zone_distribution": {
+        "hr_zones": {
+          "z1_time": 0,
+          "z2_time": 23,
+          "z3_time": 0,
+          "z4_time": 0,
+          "z5_time": 0,
+          "z6_time": 0,
+          "z7_time": 0
+        },
+        "power_zones": {
+          "z1_time": 0,
+          "z2_time": 19,
+          "z3_time": 4,
+          "z4_time": 0,
+          "z5_time": 0,
+          "z6_time": 0,
+          "z7_time": 0
+        }
+      },
+      "has_intervals": false
+    },
     {
       "id": "i140339499",
       "date": "2026-04-16T15:11:47",
@@ -2061,7 +2115,7 @@
     "total_training_hours": 4.94,
     "total_training_formatted": "4h56m",
     "total_tss": 248,
-    "activities_count": 7,
+    "activities_count": 8,
     "avg_hrv": 65.6,
     "avg_resting_hr": 51.6
   },
