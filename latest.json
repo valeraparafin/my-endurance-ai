@@ -64,13 +64,13 @@
     "quick_stats": {
       "total_training_hours": 5.4,
       "total_training_formatted": "5h24m",
-      "total_activities": 7,
+      "total_activities": 8,
       "total_tss": 305
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-20T10:15:04.466932",
+    "last_updated": "2026-04-20T11:43:55.548734",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.96"
@@ -162,8 +162,14 @@
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
     "total_duration_decimal_hours": 5.4,
-    "total_activities": 7,
+    "total_activities": 8,
     "by_activity_type": {
+      "Unknown": {
+        "duration_decimal_hours": 0.0,
+        "count": 1,
+        "tss": 0,
+        "distance_km": 0.0
+      },
       "VirtualRide": {
         "duration_decimal_hours": 5.4,
         "count": 7,
@@ -174,17 +180,17 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 46.13,
-      "atl": 38.77,
-      "tsb": 7.36,
-      "ramp_rate": -0.56,
+      "ctl": 47.26,
+      "atl": 45.16,
+      "tsb": 2.1,
+      "ramp_rate": 0.57,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
-      "eftp": 216.9,
-      "w_prime": 18175,
+      "eftp": 217.1,
+      "w_prime": 18193,
       "w_prime_kj": 18.2,
-      "p_max": 1025,
+      "p_max": 1026,
       "vo2max": null,
       "sports": {
         "cycling": {
@@ -237,7 +243,7 @@
       "respiration": null,
       "body_fat_pct": 21.72,
       "abdomen_cm": null,
-      "steps": 484,
+      "steps": 1053,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -540,7 +546,7 @@
           },
           "coverage_ratio": 1.0,
           "ftp_used": 215,
-          "w_prime_used": 18175,
+          "w_prime_used": 18193,
           "ftp_staleness_days": 18,
           "model_trust_note": "CP/W' model (P=CP+W'/t) is primary for durations \u226420min where W' contribution is meaningful. Coggan duration factors (Allen & Coggan, 3rd ed.) are the established reference for \u226560min. 30min is the crossover zone where both apply. model_divergence_pct = (actual - CP_model) / CP_model \u00d7 100. Positive divergence at short durations may indicate strong anaerobic capacity or stale W' value. Indoor MMP is typically 3-5% lower than outdoor (cooling, motivation) \u2014 source flag indicates which environment produced each anchor."
         }
@@ -561,7 +567,7 @@
       ],
       "basis": {
         "stream_1": {
-          "ctl_slope": -1.97,
+          "ctl_slope": -1.57,
           "acwr_trend": "falling",
           "hard_day_pattern": 1.2,
           "weeks_available": 4
@@ -601,18 +607,18 @@
       "benchmark_percentage": null,
       "seasonal_expected": null
     },
-    "eftp": 216.9,
-    "w_prime": 18175,
+    "eftp": 217.1,
+    "w_prime": 18193,
     "w_prime_kj": 18.2,
-    "p_max": 1025,
+    "p_max": 1026,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-20T10:15:04.465633",
+    "calculation_timestamp": "2026-04-20T11:43:55.547440",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
-      "activities_7d": 7,
-      "activities_28d": 23,
+      "activities_7d": 8,
+      "activities_28d": 24,
       "planned_workouts_7d": 0,
       "ftp_history_days": {
         "indoor": 0,
@@ -627,7 +633,7 @@
       "avg_cadence": 82.2,
       "avg_hours": 0.8,
       "avg_tss": 43.6,
-      "count": 7
+      "count": 8
     },
     "28d": {
       "avg_power": null,
@@ -635,7 +641,7 @@
       "avg_cadence": 80.1,
       "avg_hours": 0.8,
       "avg_tss": 45.1,
-      "count": 23
+      "count": 24
     },
     "42d": {
       "avg_power": null,
@@ -643,10 +649,45 @@
       "avg_cadence": 80.1,
       "avg_hours": 0.8,
       "avg_tss": 45.1,
-      "count": 23
+      "count": 24
     }
   },
   "recent_activities": [
+    {
+      "id": "18182521428",
+      "date": "2026-04-20T13:24:31",
+      "type": "Unknown",
+      "name": "",
+      "duration_hours": 0.0,
+      "distance_km": 0.0,
+      "tss": null,
+      "intensity_factor": null,
+      "avg_power": null,
+      "normalized_power": null,
+      "avg_hr": null,
+      "max_hr": null,
+      "avg_cadence": null,
+      "avg_speed": null,
+      "max_speed": null,
+      "avg_pace": null,
+      "avg_temp": null,
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "work_kj": null,
+      "calories": null,
+      "carbs_used": null,
+      "carbs_ingested": null,
+      "variability_index": null,
+      "decoupling": null,
+      "efficiency_factor": null,
+      "hrrc": null,
+      "elevation_m": null,
+      "feel": null,
+      "rpe": null,
+      "zone_distribution": null,
+      "has_intervals": false
+    },
     {
       "id": "i141112816",
       "date": "2026-04-19T12:53:20",
@@ -2100,7 +2141,7 @@
       "respiration": null,
       "body_fat_pct": 21.72,
       "abdomen_cm": null,
-      "steps": 484,
+      "steps": 1053,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -2138,7 +2179,7 @@
     "total_training_hours": 5.4,
     "total_training_formatted": "5h24m",
     "total_tss": 305,
-    "activities_count": 7,
+    "activities_count": 8,
     "avg_hrv": 67.9,
     "avg_resting_hr": 52.3
   },
