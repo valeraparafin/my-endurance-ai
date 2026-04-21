@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-21T18:37:16.256332",
+    "last_updated": "2026-04-21T19:49:06.529413",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.96"
@@ -117,7 +117,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": -4.8
+        "value": 0.1
       }
     },
     "signal_summary": {
@@ -127,7 +127,7 @@
       "unavailable": 0
     },
     "phase_context": {
-      "phase": "Base",
+      "phase": "Deload",
       "phase_week": 1,
       "amber_threshold": 2,
       "modifier_applied": "default"
@@ -140,7 +140,7 @@
   "history": {
     "available": true,
     "last_generated": "2026-04-10",
-    "age_days": 10,
+    "age_days": 11,
     "total_months": 8,
     "history_confidence": "medium"
   },
@@ -166,10 +166,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 48.69,
-      "atl": 53.53,
-      "tsb": -4.84,
-      "ramp_rate": 1.35,
+      "ctl": 47.63,
+      "atl": 47.54,
+      "tsb": 0.09,
+      "ramp_rate": 0.29,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -229,7 +229,7 @@
       "respiration": null,
       "body_fat_pct": 21.87,
       "abdomen_cm": null,
-      "steps": 362,
+      "steps": 1418,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -538,39 +538,32 @@
         }
       }
     },
-    "consistency_index": 0.0,
+    "consistency_index": null,
     "consistency_details": {
-      "planned_days": 1,
+      "planned_days": 0,
       "completed_days": 5,
       "matched_days": 0,
-      "planned_dates": [
-        "2026-04-21"
-      ],
-      "completed_dates": [
-        "2026-04-15",
-        "2026-04-16",
-        "2026-04-17",
-        "2026-04-18",
-        "2026-04-19"
-      ]
+      "note": "No planned workouts in period"
     },
     "phase_detection": {
-      "phase": "Base",
+      "phase": "Deload",
       "confidence": "medium",
-      "reason_codes": [],
+      "reason_codes": [
+        "PLAN_GAP_NEXT_WEEK"
+      ],
       "basis": {
         "stream_1": {
-          "ctl_slope": -1.1,
+          "ctl_slope": -1.47,
           "acwr_trend": "falling",
           "hard_day_pattern": 1.2,
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 0.27,
-          "hard_sessions_planned": 1,
+          "planned_tss_delta": null,
+          "hard_sessions_planned": 0,
           "race_proximity": null,
           "next_week_load": null,
-          "plan_coverage_current_week": 0.2,
+          "plan_coverage_current_week": 0.0,
           "plan_coverage_next_week": 0.2
         },
         "data_quality": "good",
@@ -581,8 +574,10 @@
       "dossier_declared": null,
       "dossier_agreement": null
     },
-    "phase_detected": "Base",
-    "phase_triggers": [],
+    "phase_detected": "Deload",
+    "phase_triggers": [
+      "PLAN_GAP_NEXT_WEEK"
+    ],
     "seasonal_context": "Late Base / Build",
     "benchmark_indoor": {
       "current_ftp": null,
@@ -604,13 +599,13 @@
     "p_max": 1026,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-21T18:37:16.254953",
+    "calculation_timestamp": "2026-04-21T19:49:06.528018",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 8,
       "activities_28d": 25,
-      "planned_workouts_7d": 1,
+      "planned_workouts_7d": 0,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -2167,7 +2162,7 @@
       "respiration": null,
       "body_fat_pct": 21.87,
       "abdomen_cm": null,
-      "steps": 362,
+      "steps": 1418,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -2179,20 +2174,6 @@
     }
   ],
   "planned_workouts": [
-    {
-      "id": 105776785,
-      "date": "2026-04-21",
-      "name": "IntervalCoach - Endurance Build",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 45,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "09:00",
-      "description": "Warmup\n- Hey iparafin, let's build that engine! 9m ramp 45-75% 85rpm\n\nMain Set\n- Settle In 11m 65% 85rpm\n- Build 11m 67% 88rpm\n- Upper Z2 11m 70-74% 90rpm\n- Cruise 12m 74-70% 88rpm\n\nCooldown\n- Great work, enjoy the recovery spin 6m ramp 65-45% 85rpm"
-    },
     {
       "id": 96923709,
       "date": "2026-05-01",
@@ -2208,12 +2189,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 1,
+    "attempted": 0,
     "success": 0,
     "patternA": 0,
     "patternB": 0,
     "bail_no_workout_doc": 1,
-    "bail_no_match": 1
+    "bail_no_match": 0
   },
   "weekly_summary": {
     "total_training_hours": 4.42,
