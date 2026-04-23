@@ -1,83 +1,10 @@
 {
-  "generated_at": "2026-04-22T23:05:51.529507",
+  "generated_at": "2026-04-23T00:00:12.527405",
   "version": "3.96",
   "script_hash": "f0df576f8f63",
   "scan_hours": 72,
   "retention_days": 8,
   "activities": [
-    {
-      "activity_id": "i139753714",
-      "date": "2026-04-14",
-      "type": "VirtualRide",
-      "name": "MyWhoosh - Yas Marina Circuit",
-      "interval_summary": [
-        "2x 20s 654w"
-      ],
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 2238,
-          "avg_power": 124,
-          "max_power": 762,
-          "avg_hr": 125,
-          "max_hr": 163,
-          "avg_cadence": 85.37668,
-          "zone": 2,
-          "training_load": 21.691425,
-          "decoupling": 6.167828
-        },
-        {
-          "type": "WORK",
-          "label": "20s@654w110rpm",
-          "duration_secs": 20,
-          "avg_power": 641,
-          "max_power": 748,
-          "avg_hr": 171,
-          "max_hr": 179,
-          "avg_cadence": 106.7,
-          "zone": 7,
-          "training_load": 2.0301785,
-          "decoupling": 16.029535
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 617,
-          "avg_power": 128,
-          "max_power": 506,
-          "avg_hr": 144,
-          "max_hr": 179,
-          "avg_cadence": 88.34198,
-          "zone": 2,
-          "training_load": 15.279101,
-          "decoupling": -35.28015
-        },
-        {
-          "type": "WORK",
-          "label": "20s@654w110rpm",
-          "duration_secs": 20,
-          "avg_power": 667,
-          "max_power": 769,
-          "avg_hr": 175,
-          "max_hr": 182,
-          "avg_cadence": 112.85,
-          "zone": 7,
-          "training_load": 2.2951624,
-          "decoupling": 17.169893
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 644,
-          "avg_power": 106,
-          "max_power": 514,
-          "avg_hr": 146,
-          "max_hr": 185,
-          "avg_cadence": 80.13354,
-          "zone": 1,
-          "training_load": 17.229448,
-          "decoupling": -33.05182
-        }
-      ]
-    },
     {
       "activity_id": "i140586060",
       "date": "2026-04-17",
