@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-26T19:55:46.258427",
+    "last_updated": "2026-04-26T20:34:33.632348",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.96"
@@ -116,25 +116,25 @@
         "value": 0.9
       },
       "tsb": {
-        "status": "green",
-        "value": -13.9
+        "status": "amber",
+        "value": -27.5
       }
     },
     "signal_summary": {
-      "green": 5,
-      "amber": 1,
+      "green": 4,
+      "amber": 2,
       "red": 0,
       "unavailable": 0
     },
     "phase_context": {
-      "phase": "Base",
+      "phase": "Build",
       "phase_week": 1,
-      "amber_threshold": 2,
-      "modifier_applied": "default"
+      "amber_threshold": 3,
+      "modifier_applied": "build_loosened"
     },
     "race_week_defers": false,
     "modification": null,
-    "reason": "P3 green light. 5 green, 1 amber (threshold 2), 0 red.",
+    "reason": "P3 green light. 4 green, 2 amber (threshold 3), 0 red.",
     "alarm_refs": []
   },
   "history": {
@@ -166,10 +166,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 49.93,
-      "atl": 63.81,
-      "tsb": -13.88,
-      "ramp_rate": 2.69,
+      "ctl": 52.85,
+      "atl": 80.32,
+      "tsb": -27.47,
+      "ramp_rate": 5.61,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -557,22 +557,22 @@
       ]
     },
     "phase_detection": {
-      "phase": "Base",
+      "phase": "Build",
       "confidence": "medium",
       "reason_codes": [],
       "basis": {
         "stream_1": {
-          "ctl_slope": -0.7,
+          "ctl_slope": 0.3,
           "acwr_trend": "falling",
           "hard_day_pattern": 1.5,
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 5.08,
-          "hard_sessions_planned": 3,
+          "planned_tss_delta": 8.37,
+          "hard_sessions_planned": 6,
           "race_proximity": null,
           "next_week_load": null,
-          "plan_coverage_current_week": 0.6,
+          "plan_coverage_current_week": 1.2,
           "plan_coverage_next_week": 0.2
         },
         "data_quality": "good",
@@ -583,7 +583,7 @@
       "dossier_declared": null,
       "dossier_agreement": null
     },
-    "phase_detected": "Base",
+    "phase_detected": "Build",
     "phase_triggers": [],
     "seasonal_context": "Late Base / Build",
     "benchmark_indoor": {
@@ -606,13 +606,13 @@
     "p_max": 1022,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-26T19:55:46.257064",
+    "calculation_timestamp": "2026-04-26T20:34:33.631068",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 7,
       "activities_28d": 27,
-      "planned_workouts_7d": 4,
+      "planned_workouts_7d": 7,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -2361,12 +2361,12 @@
       "name": "IntervalCoach - Recovery Spin",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 60,
-      "duration_hours": 2.08,
-      "duration_formatted": "2h5m",
+      "planned_tss": 4,
+      "duration_hours": 0.15,
+      "duration_formatted": "9m",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "- Warmup: Hey iparafin, let's get ready for recovery 9m ramp 45-55% 85rpm\\n- Main Set: Easy Spin 23m 45-50% 85rpm\\n- Cooldown: Nice work, enjoy your cool down 6m ramp 55-45% 85rpm"
+      "description": "- Warmup: Hey iparafin, let's get ready for recovery 9m ramp 45-55% 85rpm\\n- Main Set: Easy Spin 23m 45-50% 85rpm\\n- Cooldown: Nice work, enjoy your cool down 6m ramp 55-45% 85rpm\n- 1 11 111%"
     },
     {
       "id": 106660116,
@@ -2380,6 +2380,45 @@
       "workout_summary": null,
       "has_terrain": false,
       "description": "- Warm up: 7m @ 50%-70% (125w)\n- Set 1: 10m @ 88%-92% (194w)\n- Recovery: 4m @ 55%-60% (125w)\n- Set 2: 15m @ 88%-92% (194w)\n- Recovery: 4m @ 55%-60% (125w)\n- Set 3: 12m @ 88%-92% (194w)\n- Cool down: 7m @ 50%-60% (118w)"
+    },
+    {
+      "id": 106665430,
+      "date": "2026-04-26",
+      "name": "Sweet Spot Base",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 60,
+      "duration_hours": 1.48,
+      "duration_formatted": "1h29m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "\u2022 Warmup: 10m ramp 50-70% FTP\\n\u2022 Main Set: 2 x 20min @ 88-94% FTP\\n\u2022 Main Set: Rest 5min easy between intervals\\n\u2022 Cooldown: 5m easy spin"
+    },
+    {
+      "id": 106667884,
+      "date": "2026-04-26",
+      "name": "IntervalCoach - Recovery Spin",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 60,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "\u2022 Warmup: Hey iparafin, let's get ready for recovery 9m ramp 45-55% 85rpm\\n\u2022 Main Set: Easy Spin 23m 45-50% 85rpm\\n\u2022 Cooldown: Nice work, enjoy your cool down 6m ramp 55-45% 85rpm"
+    },
+    {
+      "id": 106673388,
+      "date": "2026-04-26",
+      "name": "IntervalCoach - Recovery Spin",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 60,
+      "duration_hours": 1.28,
+      "duration_formatted": "1h17m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "\u2022 Warmup: Hey iparafin, let's get ready for recovery 9m ramp 45-55% 85rpm\\n\u2022 Main Set: Easy Spin 23m 45-50% 85rpm\\n\u2022 Cooldown: Nice work, enjoy your cool down 6m ramp 55-45% 85rpm"
     },
     {
       "id": 106659832,
@@ -2410,12 +2449,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 1,
+    "attempted": 2,
     "success": 0,
     "patternA": 0,
     "patternB": 0,
-    "bail_no_workout_doc": 3,
-    "bail_no_match": 1
+    "bail_no_workout_doc": 5,
+    "bail_no_match": 2
   },
   "weekly_summary": {
     "total_training_hours": 4.75,
