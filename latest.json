@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-26T20:34:33.632348",
+    "last_updated": "2026-04-26T21:20:53.886730",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.96"
@@ -116,25 +116,25 @@
         "value": 0.9
       },
       "tsb": {
-        "status": "amber",
-        "value": -27.5
+        "status": "green",
+        "value": 7.2
       }
     },
     "signal_summary": {
-      "green": 4,
-      "amber": 2,
+      "green": 5,
+      "amber": 1,
       "red": 0,
       "unavailable": 0
     },
     "phase_context": {
-      "phase": "Build",
-      "phase_week": 1,
-      "amber_threshold": 3,
-      "modifier_applied": "build_loosened"
+      "phase": null,
+      "phase_week": 0,
+      "amber_threshold": 2,
+      "modifier_applied": "default"
     },
     "race_week_defers": false,
     "modification": null,
-    "reason": "P3 green light. 4 green, 2 amber (threshold 3), 0 red.",
+    "reason": "P3 green light. 5 green, 1 amber (threshold 2), 0 red.",
     "alarm_refs": []
   },
   "history": {
@@ -166,17 +166,17 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 52.85,
-      "atl": 80.32,
-      "tsb": -27.47,
-      "ramp_rate": 5.61,
+      "ctl": 45.42,
+      "atl": 38.25,
+      "tsb": 7.17,
+      "ramp_rate": -1.83,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
-      "eftp": 216.3,
-      "w_prime": 18120,
+      "eftp": 216.1,
+      "w_prime": 18102,
       "w_prime_kj": 18.1,
-      "p_max": 1022,
+      "p_max": 1021,
       "vo2max": null,
       "sports": {
         "cycling": {
@@ -532,7 +532,7 @@
           },
           "coverage_ratio": 1.0,
           "ftp_used": 215,
-          "w_prime_used": 18120,
+          "w_prime_used": 18102,
           "ftp_staleness_days": 24,
           "model_trust_note": "CP/W' model (P=CP+W'/t) is primary for durations \u226420min where W' contribution is meaningful. Coggan duration factors (Allen & Coggan, 3rd ed.) are the established reference for \u226560min. 30min is the crossover zone where both apply. model_divergence_pct = (actual - CP_model) / CP_model \u00d7 100. Positive divergence at short durations may indicate strong anaerobic capacity or stale W' value. Indoor MMP is typically 3-5% lower than outdoor (cooling, motivation) \u2014 source flag indicates which environment produced each anchor."
         }
@@ -557,34 +557,38 @@
       ]
     },
     "phase_detection": {
-      "phase": "Build",
-      "confidence": "medium",
-      "reason_codes": [],
+      "phase": null,
+      "confidence": "low",
+      "reason_codes": [
+        "BUILD_BASE_AMBIGUOUS"
+      ],
       "basis": {
         "stream_1": {
-          "ctl_slope": 0.3,
+          "ctl_slope": -2.2,
           "acwr_trend": "falling",
           "hard_day_pattern": 1.5,
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 8.37,
-          "hard_sessions_planned": 6,
+          "planned_tss_delta": 3.5,
+          "hard_sessions_planned": 2,
           "race_proximity": null,
           "next_week_load": null,
-          "plan_coverage_current_week": 1.2,
+          "plan_coverage_current_week": 0.4,
           "plan_coverage_next_week": 0.2
         },
         "data_quality": "good",
         "stream_agreement": null
       },
       "previous_phase": null,
-      "phase_duration_weeks": 1,
+      "phase_duration_weeks": 0,
       "dossier_declared": null,
       "dossier_agreement": null
     },
-    "phase_detected": "Build",
-    "phase_triggers": [],
+    "phase_detected": null,
+    "phase_triggers": [
+      "BUILD_BASE_AMBIGUOUS"
+    ],
     "seasonal_context": "Late Base / Build",
     "benchmark_indoor": {
       "current_ftp": null,
@@ -600,19 +604,19 @@
       "benchmark_percentage": null,
       "seasonal_expected": null
     },
-    "eftp": 216.3,
-    "w_prime": 18120,
+    "eftp": 216.1,
+    "w_prime": 18102,
     "w_prime_kj": 18.1,
-    "p_max": 1022,
+    "p_max": 1021,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-26T20:34:33.631068",
+    "calculation_timestamp": "2026-04-26T21:20:53.885379",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 7,
       "activities_28d": 27,
-      "planned_workouts_7d": 7,
+      "planned_workouts_7d": 3,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -2356,19 +2360,6 @@
   ],
   "planned_workouts": [
     {
-      "id": 106659244,
-      "date": "2026-04-26",
-      "name": "IntervalCoach - Recovery Spin",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 4,
-      "duration_hours": 0.15,
-      "duration_formatted": "9m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": "- Warmup: Hey iparafin, let's get ready for recovery 9m ramp 45-55% 85rpm\\n- Main Set: Easy Spin 23m 45-50% 85rpm\\n- Cooldown: Nice work, enjoy your cool down 6m ramp 55-45% 85rpm\n- 1 11 111%"
-    },
-    {
       "id": 106660116,
       "date": "2026-04-26",
       "name": "Threshold Progression",
@@ -2380,45 +2371,6 @@
       "workout_summary": null,
       "has_terrain": false,
       "description": "- Warm up: 7m @ 50%-70% (125w)\n- Set 1: 10m @ 88%-92% (194w)\n- Recovery: 4m @ 55%-60% (125w)\n- Set 2: 15m @ 88%-92% (194w)\n- Recovery: 4m @ 55%-60% (125w)\n- Set 3: 12m @ 88%-92% (194w)\n- Cool down: 7m @ 50%-60% (118w)"
-    },
-    {
-      "id": 106665430,
-      "date": "2026-04-26",
-      "name": "Sweet Spot Base",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 60,
-      "duration_hours": 1.48,
-      "duration_formatted": "1h29m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": "\u2022 Warmup: 10m ramp 50-70% FTP\\n\u2022 Main Set: 2 x 20min @ 88-94% FTP\\n\u2022 Main Set: Rest 5min easy between intervals\\n\u2022 Cooldown: 5m easy spin"
-    },
-    {
-      "id": 106667884,
-      "date": "2026-04-26",
-      "name": "IntervalCoach - Recovery Spin",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 60,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": "\u2022 Warmup: Hey iparafin, let's get ready for recovery 9m ramp 45-55% 85rpm\\n\u2022 Main Set: Easy Spin 23m 45-50% 85rpm\\n\u2022 Cooldown: Nice work, enjoy your cool down 6m ramp 55-45% 85rpm"
-    },
-    {
-      "id": 106673388,
-      "date": "2026-04-26",
-      "name": "IntervalCoach - Recovery Spin",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 60,
-      "duration_hours": 1.28,
-      "duration_formatted": "1h17m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": "\u2022 Warmup: Hey iparafin, let's get ready for recovery 9m ramp 45-55% 85rpm\\n\u2022 Main Set: Easy Spin 23m 45-50% 85rpm\\n\u2022 Cooldown: Nice work, enjoy your cool down 6m ramp 55-45% 85rpm"
     },
     {
       "id": 106659832,
@@ -2449,12 +2401,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 2,
+    "attempted": 1,
     "success": 0,
     "patternA": 0,
     "patternB": 0,
-    "bail_no_workout_doc": 5,
-    "bail_no_match": 2
+    "bail_no_workout_doc": 2,
+    "bail_no_match": 1
   },
   "weekly_summary": {
     "total_training_hours": 4.75,
