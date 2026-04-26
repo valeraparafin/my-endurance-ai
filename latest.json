@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-26T19:12:50.784753",
+    "last_updated": "2026-04-26T19:55:46.258427",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.96"
@@ -117,7 +117,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": 7.2
+        "value": -13.9
       }
     },
     "signal_summary": {
@@ -127,7 +127,7 @@
       "unavailable": 0
     },
     "phase_context": {
-      "phase": "Deload",
+      "phase": "Base",
       "phase_week": 1,
       "amber_threshold": 2,
       "modifier_applied": "default"
@@ -140,7 +140,7 @@
   "history": {
     "available": true,
     "last_generated": "2026-04-10",
-    "age_days": 15,
+    "age_days": 16,
     "total_months": 8,
     "history_confidence": "medium"
   },
@@ -166,17 +166,17 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 45.42,
-      "atl": 38.25,
-      "tsb": 7.17,
-      "ramp_rate": -1.83,
+      "ctl": 49.93,
+      "atl": 63.81,
+      "tsb": -13.88,
+      "ramp_rate": 2.69,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
-      "eftp": 216.1,
-      "w_prime": 18102,
+      "eftp": 216.3,
+      "w_prime": 18120,
       "w_prime_kj": 18.1,
-      "p_max": 1021,
+      "p_max": 1022,
       "vo2max": null,
       "sports": {
         "cycling": {
@@ -532,7 +532,7 @@
           },
           "coverage_ratio": 1.0,
           "ftp_used": 215,
-          "w_prime_used": 18102,
+          "w_prime_used": 18120,
           "ftp_staleness_days": 24,
           "model_trust_note": "CP/W' model (P=CP+W'/t) is primary for durations \u226420min where W' contribution is meaningful. Coggan duration factors (Allen & Coggan, 3rd ed.) are the established reference for \u226560min. 30min is the crossover zone where both apply. model_divergence_pct = (actual - CP_model) / CP_model \u00d7 100. Positive divergence at short durations may indicate strong anaerobic capacity or stale W' value. Indoor MMP is typically 3-5% lower than outdoor (cooling, motivation) \u2014 source flag indicates which environment produced each anchor."
         }
@@ -540,11 +540,12 @@
     },
     "consistency_index": 1.0,
     "consistency_details": {
-      "planned_days": 1,
+      "planned_days": 2,
       "completed_days": 6,
-      "matched_days": 1,
+      "matched_days": 2,
       "planned_dates": [
-        "2026-04-23"
+        "2026-04-23",
+        "2026-04-26"
       ],
       "completed_dates": [
         "2026-04-21",
@@ -556,24 +557,22 @@
       ]
     },
     "phase_detection": {
-      "phase": "Deload",
+      "phase": "Base",
       "confidence": "medium",
-      "reason_codes": [
-        "PLAN_GAP_NEXT_WEEK"
-      ],
+      "reason_codes": [],
       "basis": {
         "stream_1": {
-          "ctl_slope": -2.2,
+          "ctl_slope": -0.7,
           "acwr_trend": "falling",
           "hard_day_pattern": 1.5,
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": null,
-          "hard_sessions_planned": 0,
+          "planned_tss_delta": 5.08,
+          "hard_sessions_planned": 3,
           "race_proximity": null,
           "next_week_load": null,
-          "plan_coverage_current_week": 0.0,
+          "plan_coverage_current_week": 0.6,
           "plan_coverage_next_week": 0.2
         },
         "data_quality": "good",
@@ -584,10 +583,8 @@
       "dossier_declared": null,
       "dossier_agreement": null
     },
-    "phase_detected": "Deload",
-    "phase_triggers": [
-      "PLAN_GAP_NEXT_WEEK"
-    ],
+    "phase_detected": "Base",
+    "phase_triggers": [],
     "seasonal_context": "Late Base / Build",
     "benchmark_indoor": {
       "current_ftp": null,
@@ -603,19 +600,19 @@
       "benchmark_percentage": null,
       "seasonal_expected": null
     },
-    "eftp": 216.1,
-    "w_prime": 18102,
+    "eftp": 216.3,
+    "w_prime": 18120,
     "w_prime_kj": 18.1,
-    "p_max": 1021,
+    "p_max": 1022,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-26T19:12:50.783445",
+    "calculation_timestamp": "2026-04-26T19:55:46.257064",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 7,
       "activities_28d": 27,
-      "planned_workouts_7d": 1,
+      "planned_workouts_7d": 4,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -2359,6 +2356,46 @@
   ],
   "planned_workouts": [
     {
+      "id": 106659244,
+      "date": "2026-04-26",
+      "name": "IntervalCoach - Recovery Spin",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 60,
+      "duration_hours": 2.08,
+      "duration_formatted": "2h5m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "- Warmup: Hey iparafin, let's get ready for recovery 9m ramp 45-55% 85rpm\\n- Main Set: Easy Spin 23m 45-50% 85rpm\\n- Cooldown: Nice work, enjoy your cool down 6m ramp 55-45% 85rpm"
+    },
+    {
+      "id": 106660116,
+      "date": "2026-04-26",
+      "name": "Threshold Progression",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 76,
+      "duration_hours": 0.77,
+      "duration_formatted": "46m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "- Warm up: 7m @ 50%-70% (125w)\n- Set 1: 10m @ 88%-92% (194w)\n- Recovery: 4m @ 55%-60% (125w)\n- Set 2: 15m @ 88%-92% (194w)\n- Recovery: 4m @ 55%-60% (125w)\n- Set 3: 12m @ 88%-92% (194w)\n- Cool down: 7m @ 50%-60% (118w)"
+    },
+    {
+      "id": 106659832,
+      "date": "2026-04-26",
+      "name": "IntervalCoach - Endurance Build",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 56,
+      "duration_hours": 1.25,
+      "duration_formatted": "1h15m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description": "Warmup\n- Hey iparafin! Endurance and pickups await. 11m ramp 45-75% 85rpm\n\nMain Set\n- Settle In 14m 65% 85rpm\n- Build 14m 67% 88rpm\n- Upper Z2 14m 70-74% 90rpm\n- Cruise 14m 74-70% 88rpm\n\nCooldown\n- Fantastic work, enjoy the ride down. 8m ramp 65-45% 85rpm"
+    },
+    {
       "id": 96923709,
       "date": "2026-05-01",
       "name": "\u041c\u0430\u0439-\u0418\u044e\u043b\u044c",
@@ -2373,12 +2410,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 0,
+    "attempted": 1,
     "success": 0,
     "patternA": 0,
     "patternB": 0,
-    "bail_no_workout_doc": 1,
-    "bail_no_match": 0
+    "bail_no_workout_doc": 3,
+    "bail_no_match": 1
   },
   "weekly_summary": {
     "total_training_hours": 4.75,
