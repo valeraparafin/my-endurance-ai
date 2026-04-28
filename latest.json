@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-28T01:22:00.055026",
+    "last_updated": "2026-04-28T04:53:29.572339",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.96"
@@ -126,7 +126,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": 6.6
+        "value": 12.2
       }
     },
     "signal_summary": {
@@ -169,10 +169,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 45.28,
-      "atl": 38.67,
-      "tsb": 6.61,
-      "ramp_rate": -2.35,
+      "ctl": 43.9,
+      "atl": 31.74,
+      "tsb": 12.16,
+      "ramp_rate": -3.73,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -566,7 +566,7 @@
       "reason_codes": [],
       "basis": {
         "stream_1": {
-          "ctl_slope": -2.3,
+          "ctl_slope": -3.0,
           "acwr_trend": "falling",
           "hard_day_pattern": 0.8,
           "weeks_available": 4
@@ -575,9 +575,9 @@
           "planned_tss_delta": null,
           "hard_sessions_planned": 0,
           "race_proximity": null,
-          "next_week_load": null,
+          "next_week_load": 0.44,
           "plan_coverage_current_week": 0.2,
-          "plan_coverage_next_week": 0.0
+          "plan_coverage_next_week": 0.2
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -610,7 +610,7 @@
     "p_max": 1019,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-28T01:22:00.053853",
+    "calculation_timestamp": "2026-04-28T04:53:29.571065",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
@@ -2317,15 +2317,29 @@
       "workout_summary": null,
       "has_terrain": false,
       "description": "\u041c\u0430\u0439 - \u0418\u044e\u043b\u044c 2026"
+    },
+    {
+      "id": 106992084,
+      "date": "2026-05-05",
+      "name": "IntervalCoach - Threshold Repeats",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 81,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description": "Warmup\n- Hey iparafin! FTP intervals are here 9m ramp 45-75% 85rpm\n\nMain Set\n- Threshold 1 20m 95% 90rpm\n- Recovery 5m 55% 80rpm\n- Threshold 2 20m 98-105% 95rpm\n\nCooldown\n- Awesome job, iparafin! Spin easy now 6m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
     }
   ],
   "workout_summary_stats": {
-    "attempted": 0,
+    "attempted": 1,
     "success": 0,
     "patternA": 0,
     "patternB": 0,
     "bail_no_workout_doc": 1,
-    "bail_no_match": 0
+    "bail_no_match": 1
   },
   "weekly_summary": {
     "total_training_hours": 4.46,
