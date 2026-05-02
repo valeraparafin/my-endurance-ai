@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-02T00:04:24.507390",
+    "last_updated": "2026-05-02T03:49:32.732642",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.96"
@@ -554,9 +554,9 @@
           "planned_tss_delta": null,
           "hard_sessions_planned": 0,
           "race_proximity": null,
-          "next_week_load": 0.48,
+          "next_week_load": 0.74,
           "plan_coverage_current_week": 0.0,
-          "plan_coverage_next_week": 0.4
+          "plan_coverage_next_week": 0.6
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -589,7 +589,7 @@
     "p_max": 1016,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-02T00:04:24.506014",
+    "calculation_timestamp": "2026-05-02T03:49:32.731313",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
@@ -2473,15 +2473,29 @@
       "has_terrain": false,
       "start_time": "09:00",
       "description": "Warmup\n- Hey iparafin! Endurance and cadence journey begins. 9m ramp 45-75% 85rpm\n\nMain Set\n- Settle In 11m 65% 85rpm\n- Build 11m 67% 88rpm\n- Upper Z2 11m 70-74% 90rpm\n- Cruise 12m 74-70% 88rpm\n\nCooldown\n- Fantastic ride, enjoy your recovery. 6m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
+    },
+    {
+      "id": 107639000,
+      "date": "2026-05-09",
+      "name": "IntervalCoach - Aerobic Endurance",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 67,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description": "Warmup\n- Hey iparafin, endurance and spin-ups await! 14m ramp 45-75% 85rpm\n\nMain Set\n- Settle In 17m 65% 85rpm\n- Build 17m 67% 88rpm\n- Upper Z2 17m 70-74% 90rpm\n- Cruise 16m 74-70% 88rpm\n\nCooldown\n- Fantastic ride, enjoy the recovery spin 9m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
     }
   ],
   "workout_summary_stats": {
-    "attempted": 2,
+    "attempted": 3,
     "success": 0,
     "patternA": 0,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 2
+    "bail_no_match": 3
   },
   "weekly_summary": {
     "total_training_hours": 6.1,
