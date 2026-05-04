@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-04T14:29:34.682837",
+    "last_updated": "2026-05-04T16:19:03.741709",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.96"
@@ -242,7 +242,7 @@
       "respiration": null,
       "body_fat_pct": 21.78,
       "abdomen_cm": null,
-      "steps": 608,
+      "steps": 785,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -570,7 +570,7 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.5,
+          "planned_tss_delta": 1.39,
           "hard_sessions_planned": 4,
           "race_proximity": null,
           "next_week_load": null,
@@ -608,7 +608,7 @@
     "p_max": 1016,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-04T14:29:34.681410",
+    "calculation_timestamp": "2026-05-04T16:19:03.740304",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -2456,7 +2456,7 @@
       "respiration": null,
       "body_fat_pct": 21.78,
       "abdomen_cm": null,
-      "steps": 608,
+      "steps": 785,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -2469,22 +2469,8 @@
   ],
   "planned_workouts": [
     {
-      "id": 106992084,
+      "id": 108183329,
       "date": "2026-05-05",
-      "name": "IntervalCoach - Threshold Repeats",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 81,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "09:00",
-      "description": "Warmup\n- Hey iparafin! FTP intervals are here 9m ramp 45-75% 85rpm\n\nMain Set\n- Threshold 1 20m 95% 90rpm\n- Recovery 5m 55% 80rpm\n- Threshold 2 20m 98-105% 95rpm\n\nCooldown\n- Awesome job, iparafin! Spin easy now 6m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
-    },
-    {
-      "id": 107358775,
-      "date": "2026-05-07",
       "name": "IntervalCoach - Aerobic Endurance",
       "type": "WORKOUT",
       "sport_type": "Ride",
@@ -2494,12 +2480,26 @@
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "09:00",
-      "description": "Warmup\n- Hey iparafin! Endurance and cadence journey begins. 9m ramp 45-75% 85rpm\n\nMain Set\n- Settle In 11m 65% 85rpm\n- Build 11m 67% 88rpm\n- Upper Z2 11m 70-74% 90rpm\n- Cruise 12m 74-70% 88rpm\n\nCooldown\n- Fantastic ride, enjoy your recovery. 6m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
+      "description": "Warmup\n- Hey iparafin! Progressive aerobic challenge awaits. 9m ramp 45-75% 85rpm\n\nMain Set\n- Z2 Low 15m 65% 85rpm\n- Z2 Mid 15m 69% 88rpm\n- Z2 Upper 15m 73% 90rpm\n\nCooldown\n- Fantastic ride, iparafin. Recover well. 6m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
     },
     {
-      "id": 107639000,
+      "id": 108183365,
+      "date": "2026-05-07",
+      "name": "IntervalCoach - Aerobic Build",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 45,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description": "Warmup\n- Hey iparafin! Endurance ride ahead 9m ramp 45-75% 85rpm\n\nMain Set\n- Settle In 11m 65% 85rpm\n- Build 11m 67% 88rpm\n- Upper Z2 11m 70-74% 90rpm\n- Cruise 12m 74-70% 88rpm\n\nCooldown\n- Fantastic effort, spin easy now 6m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
+    },
+    {
+      "id": 108183438,
       "date": "2026-05-09",
-      "name": "IntervalCoach - Aerobic Endurance",
+      "name": "IntervalCoach - Aerobic Build",
       "type": "WORKOUT",
       "sport_type": "Ride",
       "planned_tss": 67,
@@ -2508,21 +2508,21 @@
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "09:00",
-      "description": "Warmup\n- Hey iparafin, endurance and spin-ups await! 14m ramp 45-75% 85rpm\n\nMain Set\n- Settle In 17m 65% 85rpm\n- Build 17m 67% 88rpm\n- Upper Z2 17m 70-74% 90rpm\n- Cruise 16m 74-70% 88rpm\n\nCooldown\n- Fantastic ride, enjoy the recovery spin 9m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
+      "description": "Warmup\n- Hey iparafin, endurance and spin-ups await! 14m ramp 45-75% 85rpm\n\nMain Set\n- Settle In 17m 65% 85rpm\n- Build 17m 67% 88rpm\n- Upper Z2 17m 70-74% 90rpm\n- Cruise 16m 74-70% 88rpm\n\nCooldown\n- Excellent work, iparafin, enjoy the recovery 9m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
     },
     {
-      "id": 107799289,
+      "id": 108183506,
       "date": "2026-05-10",
-      "name": "IntervalCoach - Threshold Repeats",
+      "name": "IntervalCoach - Threshold Build",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 106,
+      "planned_tss": 120,
       "duration_hours": 1.5,
       "duration_formatted": "1h30m",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "09:00",
-      "description": "Warmup\n- Hey iparafin! Big FTP test coming up 14m ramp 45-75% 85rpm\n\nMain Set\n- Endurance 11m 65-75% 85rpm\n- Threshold 1 20m 95% 90rpm\n- Recovery 5m 55% 80rpm\n- Threshold 2 20m 98-105% 95rpm\n- Endurance 11m 65-75% 85rpm\n\nCooldown\n- Fantastic work, recover well! 9m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
+      "description": "Warmup\n- Hey iparafin! Let's get this threshold ride started. 14m ramp 45-75% 85rpm\n\nMain Set\n- Build 1 15m 88% 88rpm\n- Recovery 3m 55% 80rpm\n- Build 2 15m 94% 90rpm\n- Recovery 3m 55% 80rpm\n- Build 3 15m 100% 93rpm\n- Recovery 3m 55% 80rpm\n- Build 4 15m 105% 95rpm\n\nCooldown\n- Fantastic work, iparafin. Enjoy the spin down. 7m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
     }
   ],
   "workout_summary_stats": {
