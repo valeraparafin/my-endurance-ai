@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-06T21:06:03.342765",
+    "last_updated": "2026-05-06T22:08:06.281257",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.96"
@@ -210,7 +210,7 @@
       "motivation": null,
       "injury": null,
       "hydration": null,
-      "spO2": null,
+      "spO2": 97.0,
       "blood_glucose": null,
       "systolic": null,
       "diastolic": null,
@@ -219,7 +219,7 @@
       "respiration": null,
       "body_fat_pct": 21.39,
       "abdomen_cm": null,
-      "steps": 836,
+      "steps": 3730,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -559,9 +559,9 @@
           "planned_tss_delta": 1.51,
           "hard_sessions_planned": 3,
           "race_proximity": null,
-          "next_week_load": 0.21,
+          "next_week_load": 0.42,
           "plan_coverage_current_week": 0.6,
-          "plan_coverage_next_week": 0.2
+          "plan_coverage_next_week": 0.4
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -594,7 +594,7 @@
     "p_max": 1014,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-06T21:06:03.341373",
+    "calculation_timestamp": "2026-05-06T22:08:06.279873",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -2406,7 +2406,7 @@
       "sleep_quality": 3,
       "sleep_score": 77.0,
       "mental_energy": null,
-      "avg_sleeping_hr": 53.084034,
+      "avg_sleeping_hr": 53.080883,
       "vo2max": null,
       "fatigue": null,
       "soreness": null,
@@ -2415,7 +2415,7 @@
       "motivation": null,
       "injury": null,
       "hydration": null,
-      "spO2": null,
+      "spO2": 97.0,
       "blood_glucose": null,
       "systolic": null,
       "diastolic": null,
@@ -2424,7 +2424,7 @@
       "respiration": null,
       "body_fat_pct": 21.39,
       "abdomen_cm": null,
-      "steps": 836,
+      "steps": 3730,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -2491,15 +2491,29 @@
       "has_terrain": false,
       "start_time": "09:00",
       "description": "Warmup\n- Hey iparafin! Endurance and spin-ups await. 9m ramp 45-75% 85rpm\n\nMain Set\n- Settle In 11m 65% 85rpm\n- Build 11m 67% 88rpm\n- Upper Z2 11m 70-74% 90rpm\n- Cruise 12m 74-70% 88rpm\n\nCooldown\n- Fantastic ride, iparafin! Recover well. 6m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
+    },
+    {
+      "id": 108654228,
+      "date": "2026-05-14",
+      "name": "IntervalCoach - Aerobic Build",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 45,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description_preview": "Warmup\n- Hey iparafin, endurance and spin-ups await! 9m ramp 45-75% 85rpm\nMain Set"
     }
   ],
   "workout_summary_stats": {
-    "attempted": 4,
+    "attempted": 5,
     "success": 0,
     "patternA": 0,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 4
+    "bail_no_match": 5
   },
   "weekly_summary": {
     "total_training_hours": 5.19,
