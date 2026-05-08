@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T09:51:17.696240",
+  "generated_at": "2026-05-08T11:07:15.720184",
   "version": "3.96",
   "script_hash": "f0df576f8f63",
   "scan_hours": 72,
@@ -602,6 +602,54 @@
           "zone": 2,
           "training_load": 0.6712962,
           "decoupling": -4.411699
+        }
+      ]
+    },
+    {
+      "activity_id": "i146442873",
+      "date": "2026-05-08",
+      "type": "VirtualRide",
+      "name": "Zurich Virtual Cycling",
+      "interval_summary": [
+        "1x 51s 287w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1753,
+          "avg_power": 143,
+          "max_power": 296,
+          "avg_hr": 121,
+          "max_hr": 145,
+          "avg_cadence": 83.955505,
+          "zone": 2,
+          "training_load": 23.387028,
+          "decoupling": -0.2872499
+        },
+        {
+          "type": "WORK",
+          "label": "51s@287w100rpm",
+          "duration_secs": 51,
+          "avg_power": 287,
+          "max_power": 352,
+          "avg_hr": 154,
+          "max_hr": 157,
+          "avg_cadence": 99.90196,
+          "zone": 6,
+          "training_load": 2.1521993,
+          "decoupling": 2.9691858
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 406,
+          "avg_power": 94,
+          "max_power": 291,
+          "avg_hr": 124,
+          "max_hr": 158,
+          "avg_cadence": 67.45813,
+          "zone": 1,
+          "training_load": 4.512575,
+          "decoupling": -14.661205
         }
       ]
     }
