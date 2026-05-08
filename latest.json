@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-08T11:07:15.861862",
+    "last_updated": "2026-05-08T12:18:37.823352",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.96"
@@ -219,7 +219,7 @@
       "respiration": null,
       "body_fat_pct": 21.69,
       "abdomen_cm": null,
-      "steps": 496,
+      "steps": 1064,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -595,7 +595,7 @@
     "p_max": 1013,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-08T11:07:15.719053",
+    "calculation_timestamp": "2026-05-08T12:18:37.822002",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -639,7 +639,7 @@
       "id": "i146442873",
       "date": "2026-05-08T13:29:38",
       "type": "VirtualRide",
-      "name": "Zurich Virtual Cycling",
+      "name": "MyWhoosh - Limmat Loop",
       "duration_hours": 0.61,
       "distance_km": 18.14,
       "tss": 31,
@@ -665,8 +665,8 @@
       "efficiency_factor": 1.2520325,
       "hrrc": null,
       "elevation_m": 38.0,
-      "feel": null,
-      "rpe": null,
+      "feel": 2,
+      "rpe": 4,
       "zone_distribution": {
         "hr_zones": {
           "z1_time": 1904,
@@ -687,7 +687,8 @@
           "z7_time": 2
         }
       },
-      "has_intervals": true
+      "has_intervals": true,
+      "description": "\ud83d\udcca IntervalCoach Analysis\nWorkout score: 7/10\nTSS: 31\nTraining stimulus: endurance\nEst. recovery: 24h\n\n\ud83d\udd17 https://www.intervalcoach.app/?ref=REF-EEEWQG"
     },
     {
       "id": "i146160692",
@@ -2517,7 +2518,7 @@
       "sleep_quality": 3,
       "sleep_score": 79.0,
       "mental_energy": null,
-      "avg_sleeping_hr": null,
+      "avg_sleeping_hr": 54.645473,
       "vo2max": null,
       "fatigue": null,
       "soreness": null,
@@ -2535,7 +2536,7 @@
       "respiration": null,
       "body_fat_pct": 21.69,
       "abdomen_cm": null,
-      "steps": 496,
+      "steps": 1064,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
