@@ -70,50 +70,40 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-13T05:11:36.783653",
+    "last_updated": "2026-05-13T08:12:06.745367",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.96"
   },
-  "alerts": [
-    {
-      "metric": "rhr",
-      "value": 61,
-      "severity": "warning",
-      "threshold": "\u2191\u22655bpm vs baseline (54.6)",
-      "context": "RHR 61 is 6.4bpm above baseline. Monitor \u2014 alarm if persists >2 days.",
-      "persistence_days": 1,
-      "tier": 1
-    }
-  ],
+  "alerts": [],
   "readiness_decision": {
-    "recommendation": "modify",
-    "priority": 2,
+    "recommendation": "go",
+    "priority": 3,
     "signals": {
       "hrv": {
-        "status": "unavailable",
-        "value": null,
-        "baseline_7d": 64.8,
-        "delta_pct": null
+        "status": "green",
+        "value": 63.0,
+        "baseline_7d": 64.6,
+        "delta_pct": -2.5
       },
       "rhr": {
-        "status": "red",
-        "value": 61,
-        "baseline_7d": 54.6,
-        "delta_bpm": 6.4
+        "status": "green",
+        "value": 53,
+        "baseline_7d": 53.4,
+        "delta_bpm": -0.4
       },
       "sleep": {
-        "status": "unavailable",
-        "hours": null,
-        "quality": null
+        "status": "green",
+        "hours": 7.85,
+        "quality": 3
       },
       "acwr": {
         "status": "green",
         "value": 1.06
       },
       "ri": {
-        "status": "unavailable",
-        "value": null
+        "status": "green",
+        "value": 0.98
       },
       "tsb": {
         "status": "green",
@@ -121,10 +111,10 @@
       }
     },
     "signal_summary": {
-      "green": 2,
+      "green": 6,
       "amber": 0,
-      "red": 1,
-      "unavailable": 3
+      "red": 0,
+      "unavailable": 0
     },
     "phase_context": {
       "phase": "Base",
@@ -133,17 +123,8 @@
       "modifier_applied": "default"
     },
     "race_week_defers": false,
-    "modification": {
-      "triggers": [
-        "rhr"
-      ],
-      "suggested_adjustments": {
-        "intensity": "reduce",
-        "volume": "preserve",
-        "cap_zone": null
-      }
-    },
-    "reason": "P2 signal count. 1 red (rhr), 0 amber ().",
+    "modification": null,
+    "reason": "P3 green light. 6 green, 0 amber (threshold 2), 0 red.",
     "alarm_refs": []
   },
   "history": {
@@ -209,13 +190,13 @@
       }
     },
     "current_metrics": {
-      "weight_kg": 67.65,
-      "resting_hr": 61,
-      "hrv": null,
-      "sleep_quality": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
-      "sleep_score": null,
+      "weight_kg": 68.0,
+      "resting_hr": 53,
+      "hrv": 63.0,
+      "sleep_quality": 3,
+      "sleep_hours": 7.85,
+      "sleep_formatted": "7h51m",
+      "sleep_score": 79.0,
       "fatigue": null,
       "soreness": null,
       "stress": null,
@@ -230,9 +211,9 @@
       "baevsky_si": null,
       "lactate": null,
       "respiration": null,
-      "body_fat_pct": null,
+      "body_fat_pct": 21.84,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 447,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -244,13 +225,13 @@
     }
   },
   "derived_metrics": {
-    "recovery_index": null,
-    "hrv_baseline_7d": 64.8,
-    "rhr_baseline_7d": 54.6,
-    "hrv_baseline_28d": 65.3,
-    "rhr_baseline_28d": 52.9,
-    "latest_hrv": null,
-    "latest_rhr": 61,
+    "recovery_index": 0.98,
+    "hrv_baseline_7d": 64.6,
+    "rhr_baseline_7d": 53.4,
+    "hrv_baseline_28d": 65.2,
+    "rhr_baseline_28d": 52.6,
+    "latest_hrv": 63.0,
+    "latest_rhr": 53,
     "acwr": 1.06,
     "acwr_interpretation": "optimal",
     "monotony": 1.12,
@@ -262,7 +243,7 @@
     "multi_sport_detected": false,
     "strain": 349.0,
     "stress_tolerance": 3.1,
-    "load_recovery_ratio": null,
+    "load_recovery_ratio": 3.2,
     "tss_7d_total": 312.0,
     "tss_28d_total": 1178.0,
     "zone_distribution_7d": {
@@ -444,92 +425,92 @@
           "start": "2026-04-02",
           "end": "2026-05-13"
         },
-        "weight_kg": 67.7,
+        "weight_kg": 68.0,
         "weight_source": "wellness_recent",
         "cycling": {
           "anchors": {
             "300s": {
               "actual_watts": 259,
-              "actual_wpkg": 3.83,
+              "actual_wpkg": 3.81,
               "actual_hr": 177,
               "pct_lthr": 104.7,
               "source": "observed_outdoor",
               "coggan_watts": 228,
-              "coggan_wpkg": 3.37,
+              "coggan_wpkg": 3.35,
               "cp_model_watts": 275,
-              "cp_model_wpkg": 4.06,
+              "cp_model_wpkg": 4.04,
               "model_divergence_pct": -5.8
             },
             "600s": {
               "actual_watts": 229,
-              "actual_wpkg": 3.38,
+              "actual_wpkg": 3.37,
               "actual_hr": 174,
               "pct_lthr": 103.0,
               "source": "observed_outdoor",
               "coggan_watts": 209,
-              "coggan_wpkg": 3.09,
+              "coggan_wpkg": 3.07,
               "cp_model_watts": 245,
-              "cp_model_wpkg": 3.62,
+              "cp_model_wpkg": 3.6,
               "model_divergence_pct": -6.5
             },
             "1200s": {
               "actual_watts": 214,
-              "actual_wpkg": 3.16,
+              "actual_wpkg": 3.15,
               "actual_hr": 172,
               "pct_lthr": 101.8,
               "source": "observed_outdoor",
               "coggan_watts": 200,
-              "coggan_wpkg": 2.95,
+              "coggan_wpkg": 2.94,
               "cp_model_watts": 230,
-              "cp_model_wpkg": 3.4,
+              "cp_model_wpkg": 3.38,
               "model_divergence_pct": -7.0
             },
             "1800s": {
               "actual_watts": 208,
-              "actual_wpkg": 3.07,
+              "actual_wpkg": 3.06,
               "actual_hr": 172,
               "pct_lthr": 101.8,
               "source": "observed_outdoor",
               "coggan_watts": 194,
-              "coggan_wpkg": 2.87,
+              "coggan_wpkg": 2.85,
               "cp_model_watts": 225,
-              "cp_model_wpkg": 3.32,
+              "cp_model_wpkg": 3.31,
               "model_divergence_pct": -7.6
             },
             "3600s": {
               "actual_watts": 194,
-              "actual_wpkg": 2.87,
+              "actual_wpkg": 2.85,
               "actual_hr": 161,
               "pct_lthr": 95.3,
               "source": "observed_outdoor",
               "coggan_watts": 185,
-              "coggan_wpkg": 2.73,
+              "coggan_wpkg": 2.72,
               "cp_model_watts": 220,
-              "cp_model_wpkg": 3.25,
+              "cp_model_wpkg": 3.24,
               "model_divergence_pct": -11.8
             },
             "5400s": {
               "actual_watts": 159,
-              "actual_wpkg": 2.35,
+              "actual_wpkg": 2.34,
               "actual_hr": 148,
               "pct_lthr": 87.6,
               "source": "observed_outdoor",
               "coggan_watts": 176,
-              "coggan_wpkg": 2.6,
+              "coggan_wpkg": 2.59,
               "cp_model_watts": 218,
-              "cp_model_wpkg": 3.22,
+              "cp_model_wpkg": 3.21,
               "model_divergence_pct": -27.1
             },
             "7200s": {
               "actual_watts": 151,
-              "actual_wpkg": 2.23,
+              "actual_wpkg": 2.22,
               "actual_hr": 142,
               "pct_lthr": 84.0,
               "source": "observed_outdoor",
               "coggan_watts": 168,
-              "coggan_wpkg": 2.48,
+              "coggan_wpkg": 2.47,
               "cp_model_watts": 217,
-              "cp_model_wpkg": 3.21,
+              "cp_model_wpkg": 3.19,
               "model_divergence_pct": -30.4
             }
           },
@@ -572,12 +553,12 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.3,
-          "hard_sessions_planned": 3,
+          "planned_tss_delta": 1.04,
+          "hard_sessions_planned": 2,
           "race_proximity": null,
-          "next_week_load": 0.31,
-          "plan_coverage_current_week": 0.6,
-          "plan_coverage_next_week": 0.2
+          "next_week_load": 0.45,
+          "plan_coverage_current_week": 0.4,
+          "plan_coverage_next_week": 0.4
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -610,9 +591,9 @@
     "p_max": 1012,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-13T05:11:36.782136",
+    "calculation_timestamp": "2026-05-13T08:12:06.743898",
     "data_quality": {
-      "hrv_data_points": 6,
+      "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 6,
       "activities_28d": 28,
@@ -2403,14 +2384,14 @@
     },
     {
       "date": "2026-05-13",
-      "weight_kg": null,
-      "resting_hr": 61,
-      "hrv_rmssd": null,
+      "weight_kg": 68.0,
+      "resting_hr": 53,
+      "hrv_rmssd": 63.0,
       "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
-      "sleep_quality": null,
-      "sleep_score": null,
+      "sleep_hours": 7.85,
+      "sleep_formatted": "7h51m",
+      "sleep_quality": 3,
+      "sleep_score": 79.0,
       "mental_energy": null,
       "avg_sleeping_hr": null,
       "vo2max": null,
@@ -2428,9 +2409,9 @@
       "baevsky_si": null,
       "lactate": null,
       "respiration": null,
-      "body_fat_pct": null,
+      "body_fat_pct": 21.84,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 447,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -2443,8 +2424,50 @@
   ],
   "planned_workouts": [
     {
-      "id": 108654228,
-      "date": "2026-05-14",
+      "id": 109873676,
+      "date": "2026-05-16",
+      "name": "IntervalCoach - Endurance + Tempo Pushes",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 103,
+      "duration_hours": 2.08,
+      "duration_formatted": "2h5m",
+      "workout_summary": "15m @128W | 5\u00d715m @150W / 5m rec | 10m @118W",
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description": "Warmup\n- Hey iparafin! Endurance and tempo await. 15m ramp 45-75% 85rpm\n\nMain Set\n5x\n- Endurance 15m 65-75% 88rpm\n- Tempo 5m 76-82% 90rpm\n\nCooldown\n- Fantastic work, enjoy the recovery spin. 10m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
+    },
+    {
+      "id": 109873684,
+      "date": "2026-05-17",
+      "name": "IntervalCoach - Aerobic Endurance",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 91,
+      "duration_hours": 2.0,
+      "duration_formatted": "2h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description": "Warmup\n- Hey iparafin! Long aerobic ride awaits 15m ramp 45-75% 85rpm\n\nMain Set\n- Settle In 24m 65% 85rpm\n- Build 24m 67% 88rpm\n- Upper Z2 24m 70-74% 90rpm\n- Cruise 23m 74-70% 88rpm\n\nCooldown\n- Fantastic endurance, iparafin, enjoy the spin 10m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
+    },
+    {
+      "id": 109873689,
+      "date": "2026-05-19",
+      "name": "IntervalCoach - Threshold Repeats",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 72,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description": "Warmup\n- Hey iparafin! Threshold intervals are here. 9m ramp 45-75% 85rpm\n\nMain Set\n- Endurance 3m 65-75% 85rpm\n- Threshold 1 15m 95-100% 92rpm\n- Recovery 8m 55% 80rpm\n- Threshold 2 15m 95-100% 92rpm\n- Endurance 4m 65-75% 85rpm\n\nCooldown\n- Fantastic work, spin easy now. 6m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
+    },
+    {
+      "id": 109873695,
+      "date": "2026-05-20",
       "name": "IntervalCoach - Aerobic Build",
       "type": "WORKOUT",
       "sport_type": "Ride",
@@ -2454,49 +2477,7 @@
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "09:00",
-      "description": "Warmup\n- Hey iparafin, endurance and spin-ups await! 9m ramp 45-75% 85rpm\n\nMain Set\n- Settle In 11m 65% 85rpm\n- Build 11m 67% 88rpm\n- Upper Z2 11m 70-74% 90rpm\n- Cruise 12m 74-70% 88rpm\n\nCooldown\n- Awesome work, time to spin easy 6m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
-    },
-    {
-      "id": 109003967,
-      "date": "2026-05-16",
-      "name": "IntervalCoach - Endurance + Tempo Pushes",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 78,
-      "duration_hours": 1.58,
-      "duration_formatted": "1h35m",
-      "workout_summary": "14m @128W | 4\u00d713m @150W / 5m rec | 9m @118W",
-      "has_terrain": false,
-      "start_time": "09:00",
-      "description": "Warmup\n- Hey iparafin, endurance and tempo await! 14m ramp 45-75% 85rpm\n\nMain Set\n4x\n- Endurance 13m 65-75% 88rpm\n- Tempo 5m 76-82% 90rpm\n\nCooldown\n- Fantastic ride, let's spin it down 9m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
-    },
-    {
-      "id": 109141964,
-      "date": "2026-05-17",
-      "name": "IntervalCoach - Threshold Repeats",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 118,
-      "duration_hours": 1.5,
-      "duration_formatted": "1h30m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "09:00",
-      "description": "Warmup\n- Hey iparafin! Threshold intervals are here 14m ramp 45-75% 85rpm\n\nMain Set\n- Endurance 11m 65-75% 85rpm\n- Threshold 1 20m 105% 92rpm\n- Recovery 5m 55% 80rpm\n- Threshold 2 20m 105% 92rpm\n- Endurance 11m 65-75% 85rpm\n\nCooldown\n- Great job, let's recover 9m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
-    },
-    {
-      "id": 109601506,
-      "date": "2026-05-19",
-      "name": "IntervalCoach - Threshold Intervals",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 81,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "09:00",
-      "description": "Warmup\n- Hey iparafin! Progressive threshold today 9m ramp 45-75% 85rpm\n\nMain Set\n- Build 1 13m 88-93% 88rpm\n- Recovery 3m 55% 80rpm\n- Build 2 13m 97-102% 92rpm\n- Recovery 3m 55% 80rpm\n- Build 3 13m 105% 95rpm\n\nCooldown\n- Awesome work, enjoy the cool down 6m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
+      "description": "Warmup\n- Hey iparafin! Endurance ride is here 9m ramp 45-75% 85rpm\n\nMain Set\n- Settle In 11m 65% 85rpm\n- Build 11m 67% 88rpm\n- Upper Z2 11m 70-74% 90rpm\n- Cruise 12m 74-70% 88rpm\n\nCooldown\n- Fantastic ride, enjoy the recovery 6m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
     }
   ],
   "workout_summary_stats": {
@@ -2512,8 +2493,8 @@
     "total_training_formatted": "4h55m",
     "total_tss": 312,
     "activities_count": 6,
-    "avg_hrv": 64.8,
-    "avg_resting_hr": 54.6
+    "avg_hrv": 64.6,
+    "avg_resting_hr": 53.4
   },
   "race_calendar": {
     "next_race": null,
