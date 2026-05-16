@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-16T20:26:55.953105",
+    "last_updated": "2026-05-16T21:11:28.220443",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.96"
@@ -558,9 +558,9 @@
           "planned_tss_delta": 1.73,
           "hard_sessions_planned": 2,
           "race_proximity": null,
-          "next_week_load": 1.15,
+          "next_week_load": 1.37,
           "plan_coverage_current_week": 0.4,
-          "plan_coverage_next_week": 1.2
+          "plan_coverage_next_week": 1.4
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -595,7 +595,7 @@
     "p_max": 1011,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-16T20:26:55.951569",
+    "calculation_timestamp": "2026-05-16T21:11:28.218981",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -2486,12 +2486,25 @@
       "has_terrain": false,
       "start_time": "09:00",
       "description": "Warmup\n- Hello iparafin! Endurance and pickups await you. 14m ramp 45-75% 85rpm\n\nMain Set\n- Settle In 17m 65% 85rpm\n- Build 17m 67% 88rpm\n- Upper Z2 17m 70-74% 90rpm\n- Cruise 16m 74-70% 88rpm\n\nCooldown\n- Fantastic job, iparafin! Enjoy the recovery. 9m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
+    },
+    {
+      "id": 110497777,
+      "date": "2026-05-24",
+      "name": "IntervalCoach - Neuromuscular Sprints",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 72,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m",
+      "workout_summary": "14m @128W | 6\u00d711m @150W / 10s rec | 9m @118W",
+      "has_terrain": false,
+      "start_time": "09:00"
     }
   ],
   "workout_summary_stats": {
-    "attempted": 8,
-    "success": 0,
-    "patternA": 0,
+    "attempted": 9,
+    "success": 1,
+    "patternA": 1,
     "patternB": 0,
     "bail_no_workout_doc": 0,
     "bail_no_match": 8
