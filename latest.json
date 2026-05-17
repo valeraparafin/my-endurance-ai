@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-17T20:41:36.948119",
+    "last_updated": "2026-05-17T21:38:10.840887",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.96"
@@ -595,7 +595,7 @@
     "p_max": 1011,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-17T20:41:36.946592",
+    "calculation_timestamp": "2026-05-17T21:38:10.839281",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -2596,15 +2596,29 @@
       "has_terrain": false,
       "start_time": "09:00",
       "description": "Warmup\n- Hey iparafin! Endurance and sprints await. 14m ramp 45-75% 85rpm\n\nMain Set\n6x\n- Endurance 11m 65-75% 88rpm\n- Sprint 10s 150% 110rpm\n\nCooldown\n- Awesome ride, iparafin. Recover well! 9m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
+    },
+    {
+      "id": 110708450,
+      "date": "2026-05-25",
+      "name": "IntervalCoach - Aerobic Build",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 45,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description_preview": "Warmup\n- Hey iparafin! Endurance ride ahead. 9m ramp 45-75% 85rpm\nMain Set"
     }
   ],
   "workout_summary_stats": {
-    "attempted": 8,
+    "attempted": 9,
     "success": 1,
     "patternA": 1,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 7
+    "bail_no_match": 8
   },
   "weekly_summary": {
     "total_training_hours": 5.94,
