@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-23T11:34:54.668089",
+  "generated_at": "2026-05-23T12:41:39.653737",
   "version": "3.96",
   "script_hash": "f0df576f8f63",
   "scan_hours": 72,
@@ -1106,6 +1106,54 @@
           "zone": 1,
           "training_load": 1.8319308,
           "decoupling": 100.0
+        }
+      ]
+    },
+    {
+      "activity_id": "i150802294",
+      "date": "2026-05-23",
+      "type": "VirtualRide",
+      "name": "MyWhoosh - Heritage Climb",
+      "interval_summary": [
+        "1x 22s 377w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 2252,
+          "avg_power": 124,
+          "max_power": 308,
+          "avg_hr": 133,
+          "max_hr": 154,
+          "avg_cadence": 54.96359,
+          "zone": 2,
+          "training_load": 25.030342,
+          "decoupling": -11.841471
+        },
+        {
+          "type": "WORK",
+          "label": "22s@377w90rpm",
+          "duration_secs": 22,
+          "avg_power": 377,
+          "max_power": 466,
+          "avg_hr": 149,
+          "max_hr": 154,
+          "avg_cadence": 89.77273,
+          "zone": 7,
+          "training_load": 1.0438927,
+          "decoupling": -18.132193
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 817,
+          "avg_power": 96,
+          "max_power": 411,
+          "avg_hr": 125,
+          "max_hr": 165,
+          "avg_cadence": 54.188496,
+          "zone": 1,
+          "training_load": 16.084211,
+          "decoupling": 37.58946
         }
       ]
     }
