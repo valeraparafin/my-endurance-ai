@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-29T20:37:07.517909",
+    "last_updated": "2026-05-29T22:17:26.385489",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.96"
@@ -575,9 +575,9 @@
           "planned_tss_delta": 1.35,
           "hard_sessions_planned": 3,
           "race_proximity": null,
-          "next_week_load": 0.78,
+          "next_week_load": 1.06,
           "plan_coverage_current_week": 0.6,
-          "plan_coverage_next_week": 1.0
+          "plan_coverage_next_week": 1.2
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -610,7 +610,7 @@
     "p_max": 1011,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-29T20:37:07.516311",
+    "calculation_timestamp": "2026-05-29T22:17:26.384014",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -2688,6 +2688,20 @@
       "description": "Warmup\n- Hey iparafin! Fat Max ride awaits! 9m ramp 45-75% 85rpm\n\nMain Set\n- Low Z2 15m 67% 85rpm\n- Settle In 15m 67-72% 85rpm\n- Cruise 15m 72-67% 88rpm\n\nCooldown\n- Awesome job, iparafin! Recover well. 6m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
     },
     {
+      "id": 113069045,
+      "date": "2026-06-06",
+      "name": "IntervalCoach - Strength Intervals",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 105,
+      "duration_hours": 2.05,
+      "duration_formatted": "2h3m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description_preview": "Warmup\n- Hey iparafin! Endurance and strength await. 15m ramp 45-75% 85rpm\nMain Set"
+    },
+    {
       "id": 96923770,
       "date": "2026-07-01",
       "name": "\u0418\u044e\u043b\u044c - \u0414\u0435\u043a\u0430\u0431\u0440\u044c",
@@ -2702,12 +2716,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 8,
+    "attempted": 9,
     "success": 3,
     "patternA": 2,
     "patternB": 1,
     "bail_no_workout_doc": 1,
-    "bail_no_match": 5
+    "bail_no_match": 6
   },
   "weekly_summary": {
     "total_training_hours": 7.66,
