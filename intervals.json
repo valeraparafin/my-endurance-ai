@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-30T11:52:09.339429",
+  "generated_at": "2026-05-30T13:14:49.866377",
   "version": "3.96",
   "script_hash": "f0df576f8f63",
   "scan_hours": 72,
@@ -1521,6 +1521,146 @@
           "zone": 1,
           "training_load": 8.53915,
           "decoupling": 40.54382
+        }
+      ]
+    },
+    {
+      "activity_id": "i152709829",
+      "date": "2026-05-30",
+      "type": "VirtualRide",
+      "name": "MyWhoosh - Long z2",
+      "interval_summary": [
+        "1x 52s 239w",
+        "1x 81s 208w",
+        "1x 5m7s 219w",
+        "1x 4m6s 215w",
+        "1x 11s 396w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 4158,
+          "avg_power": 141,
+          "max_power": 597,
+          "avg_hr": 128,
+          "max_hr": 150,
+          "avg_cadence": 77.526695,
+          "zone": 2,
+          "training_load": 51.811962,
+          "decoupling": 1.6752691
+        },
+        {
+          "type": "WORK",
+          "label": "52s@239w100rpm",
+          "duration_secs": 52,
+          "avg_power": 239,
+          "max_power": 312,
+          "avg_hr": 160,
+          "max_hr": 162,
+          "avg_cadence": 99.59615,
+          "zone": 5,
+          "training_load": 1.8149222,
+          "decoupling": 11.721637
+        },
+        {
+          "type": "WORK",
+          "label": "81s@208w90rpm",
+          "duration_secs": 81,
+          "avg_power": 208,
+          "max_power": 247,
+          "avg_hr": 157,
+          "max_hr": 161,
+          "avg_cadence": 89.62963,
+          "zone": 4,
+          "training_load": 2.1670578,
+          "decoupling": -14.531673
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 384,
+          "avg_power": 151,
+          "max_power": 363,
+          "avg_hr": 143,
+          "max_hr": 160,
+          "avg_cadence": 76.5026,
+          "zone": 2,
+          "training_load": 6.3586946,
+          "decoupling": -13.531416
+        },
+        {
+          "type": "WORK",
+          "label": "307s@219w90rpm",
+          "duration_secs": 307,
+          "avg_power": 219,
+          "max_power": 303,
+          "avg_hr": 160,
+          "max_hr": 167,
+          "avg_cadence": 90.332245,
+          "zone": 4,
+          "training_load": 9.010388,
+          "decoupling": 1.2097605
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 16,
+          "avg_power": 168,
+          "max_power": 209,
+          "avg_hr": 160,
+          "max_hr": 162,
+          "avg_cadence": 85.375,
+          "zone": 3,
+          "training_load": 0.38075596,
+          "decoupling": 7.59978
+        },
+        {
+          "type": "WORK",
+          "label": "246s@215w84rpm",
+          "duration_secs": 246,
+          "avg_power": 215,
+          "max_power": 311,
+          "avg_hr": 164,
+          "max_hr": 167,
+          "avg_cadence": 83.731705,
+          "zone": 4,
+          "training_load": 6.769915,
+          "decoupling": 2.535366
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 688,
+          "avg_power": 165,
+          "max_power": 517,
+          "avg_hr": 149,
+          "max_hr": 172,
+          "avg_cadence": 76.389534,
+          "zone": 3,
+          "training_load": 15.082584,
+          "decoupling": -30.239922
+        },
+        {
+          "type": "WORK",
+          "label": "11s@396w112rpm",
+          "duration_secs": 11,
+          "avg_power": 396,
+          "max_power": 581,
+          "avg_hr": 163,
+          "max_hr": 167,
+          "avg_cadence": 111.72727,
+          "zone": 7,
+          "training_load": 0.3712872,
+          "decoupling": 28.260557
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 472,
+          "avg_power": 104,
+          "max_power": 733,
+          "avg_hr": 143,
+          "max_hr": 181,
+          "avg_cadence": 62.023304,
+          "zone": 1,
+          "training_load": 9.189833,
+          "decoupling": 13.748688
         }
       ]
     }
