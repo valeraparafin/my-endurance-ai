@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-31T18:49:39.952870",
+    "last_updated": "2026-05-31T20:02:52.799125",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.96"
@@ -216,7 +216,7 @@
       "motivation": null,
       "injury": null,
       "hydration": null,
-      "spO2": null,
+      "spO2": 99.0,
       "blood_glucose": null,
       "systolic": null,
       "diastolic": null,
@@ -607,7 +607,7 @@
     "p_max": 1011,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 51.0,
-    "calculation_timestamp": "2026-05-31T18:49:39.951123",
+    "calculation_timestamp": "2026-05-31T20:02:52.797595",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -677,8 +677,8 @@
       "efficiency_factor": 1.3612903,
       "hrrc": 31,
       "elevation_m": 390.0,
-      "feel": null,
-      "rpe": null,
+      "feel": 1,
+      "rpe": 10,
       "zone_distribution": {
         "hr_zones": {
           "z1_time": 718,
@@ -2487,7 +2487,7 @@
       "sleep_quality": 2,
       "sleep_score": 80.0,
       "mental_energy": null,
-      "avg_sleeping_hr": 52.63549,
+      "avg_sleeping_hr": 52.445396,
       "vo2max": 51.0,
       "fatigue": null,
       "soreness": null,
@@ -2496,7 +2496,7 @@
       "motivation": null,
       "injury": null,
       "hydration": null,
-      "spO2": null,
+      "spO2": 99.0,
       "blood_glucose": null,
       "systolic": null,
       "diastolic": null,
