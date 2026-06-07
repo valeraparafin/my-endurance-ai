@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-07T20:37:58.738714",
+    "last_updated": "2026-06-07T21:49:09.513967",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.96"
@@ -609,7 +609,7 @@
     "p_max": 1011,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-07T20:37:58.736808",
+    "calculation_timestamp": "2026-06-07T21:49:09.512294",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -2577,6 +2577,20 @@
       "description": "Warmup\n- Hey iparafin! Threshold repeats are here. 12m ramp 45-75% 85rpm\n- Primer 1 1m 100% 90rpm\n- Primer recovery 30s 55% 85rpm\n- Primer 2 1m 100% 90rpm\n- Primer recovery 30s 55% 85rpm\n\nMain Set\n- Endurance 21m 65-75% 85rpm\n- Threshold 1 12m 95-102% 90rpm\n- Recovery 4m 55% 80rpm\n- Threshold 2 10m 96-103% 91rpm\n- Recovery 4m 55% 80rpm\n- Threshold 3 8m 97-104% 93rpm\n- Recovery 4m 55% 80rpm\n- Threshold 4 7m 97-104% 94rpm\n- Recovery 4m 55% 80rpm\n- Endurance 21m 65-75% 85rpm\n\nCooldown\n- Awesome work, enjoy the recovery spin. 10m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
     },
     {
+      "id": 114738154,
+      "date": "2026-06-15",
+      "name": "IntervalCoach - Aerobic Cruise",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 44,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description_preview": "Warmup\n- Hey iparafin! Fat Max Ride is here. 9m ramp 45-75% 85rpm\nMain Set"
+    },
+    {
       "id": 96923770,
       "date": "2026-07-01",
       "name": "\u0418\u044e\u043b\u044c - \u0414\u0435\u043a\u0430\u0431\u0440\u044c",
@@ -2591,12 +2605,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 8,
+    "attempted": 9,
     "success": 2,
     "patternA": 2,
     "patternB": 0,
     "bail_no_workout_doc": 1,
-    "bail_no_match": 6
+    "bail_no_match": 7
   },
   "weekly_summary": {
     "total_training_hours": 7.44,
