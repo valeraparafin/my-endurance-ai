@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-13T16:04:11.229081",
+    "last_updated": "2026-06-13T17:43:59.583449",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.96"
@@ -107,7 +107,7 @@
       },
       "tsb": {
         "status": "red",
-        "value": -55.2
+        "value": -45.7
       }
     },
     "signal_summary": {
@@ -171,10 +171,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 70.37,
-      "atl": 125.57,
-      "tsb": -55.2,
-      "ramp_rate": 11.63,
+      "ctl": 68.32,
+      "atl": 113.99,
+      "tsb": -45.67,
+      "ramp_rate": 9.58,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -211,7 +211,7 @@
       }
     },
     "current_metrics": {
-      "weight_kg": 68.45,
+      "weight_kg": 68.35,
       "resting_hr": 48,
       "hrv": 75.0,
       "sleep_quality": 2,
@@ -232,9 +232,9 @@
       "baevsky_si": null,
       "lactate": null,
       "respiration": null,
-      "body_fat_pct": null,
+      "body_fat_pct": 22.05,
       "abdomen_cm": null,
-      "steps": 51,
+      "steps": 172,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -446,80 +446,80 @@
           "start": "2026-05-03",
           "end": "2026-06-13"
         },
-        "weight_kg": 68.5,
+        "weight_kg": 68.3,
         "weight_source": "wellness_recent",
         "cycling": {
           "anchors": {
             "300s": {
               "actual_watts": 255,
-              "actual_wpkg": 3.72,
+              "actual_wpkg": 3.73,
               "actual_hr": 174,
               "pct_lthr": 103.0,
               "source": "observed_outdoor",
               "coggan_watts": 228,
-              "coggan_wpkg": 3.33,
+              "coggan_wpkg": 3.34,
               "cp_model_watts": 277,
-              "cp_model_wpkg": 4.04,
+              "cp_model_wpkg": 4.06,
               "model_divergence_pct": -7.9
             },
             "600s": {
               "actual_watts": 244,
-              "actual_wpkg": 3.56,
+              "actual_wpkg": 3.57,
               "actual_hr": 169,
               "pct_lthr": 100.0,
               "source": "observed_outdoor",
               "coggan_watts": 209,
-              "coggan_wpkg": 3.05,
+              "coggan_wpkg": 3.06,
               "cp_model_watts": 246,
-              "cp_model_wpkg": 3.59,
+              "cp_model_wpkg": 3.6,
               "model_divergence_pct": -0.8
             },
             "1200s": {
               "actual_watts": 226,
-              "actual_wpkg": 3.3,
+              "actual_wpkg": 3.31,
               "actual_hr": 169,
               "pct_lthr": 100.0,
               "source": "observed_outdoor",
               "coggan_watts": 200,
-              "coggan_wpkg": 2.92,
+              "coggan_wpkg": 2.93,
               "cp_model_watts": 230,
-              "cp_model_wpkg": 3.36,
+              "cp_model_wpkg": 3.37,
               "model_divergence_pct": -1.7
             },
             "1800s": {
               "actual_watts": 221,
-              "actual_wpkg": 3.23,
+              "actual_wpkg": 3.24,
               "actual_hr": 168,
               "pct_lthr": 99.4,
               "source": "observed_outdoor",
               "coggan_watts": 194,
-              "coggan_wpkg": 2.83,
+              "coggan_wpkg": 2.84,
               "cp_model_watts": 225,
-              "cp_model_wpkg": 3.28,
+              "cp_model_wpkg": 3.29,
               "model_divergence_pct": -1.8
             },
             "3600s": {
               "actual_watts": 194,
-              "actual_wpkg": 2.83,
+              "actual_wpkg": 2.84,
               "actual_hr": 161,
               "pct_lthr": 95.3,
               "source": "observed_outdoor",
               "coggan_watts": 185,
-              "coggan_wpkg": 2.7,
+              "coggan_wpkg": 2.71,
               "cp_model_watts": 220,
-              "cp_model_wpkg": 3.21,
+              "cp_model_wpkg": 3.22,
               "model_divergence_pct": -11.8
             },
             "5400s": {
               "actual_watts": 187,
-              "actual_wpkg": 2.73,
+              "actual_wpkg": 2.74,
               "actual_hr": 154,
               "pct_lthr": 91.1,
               "source": "observed_outdoor",
               "coggan_watts": 176,
-              "coggan_wpkg": 2.57,
+              "coggan_wpkg": 2.58,
               "cp_model_watts": 218,
-              "cp_model_wpkg": 3.18,
+              "cp_model_wpkg": 3.19,
               "model_divergence_pct": -14.2
             },
             "7200s": {
@@ -529,9 +529,9 @@
               "pct_lthr": 91.7,
               "source": "observed_outdoor",
               "coggan_watts": 168,
-              "coggan_wpkg": 2.45,
+              "coggan_wpkg": 2.46,
               "cp_model_watts": 218,
-              "cp_model_wpkg": 3.18,
+              "cp_model_wpkg": 3.19,
               "model_divergence_pct": -15.6
             }
           },
@@ -616,7 +616,7 @@
     "p_max": 1011,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-13T16:04:11.009753",
+    "calculation_timestamp": "2026-06-13T17:43:59.581742",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -2603,7 +2603,7 @@
     },
     {
       "date": "2026-06-13",
-      "weight_kg": null,
+      "weight_kg": 68.35,
       "resting_hr": 48,
       "hrv_rmssd": 75.0,
       "hrv_sdnn": null,
@@ -2628,9 +2628,9 @@
       "baevsky_si": null,
       "lactate": null,
       "respiration": null,
-      "body_fat_pct": null,
+      "body_fat_pct": 22.05,
       "abdomen_cm": null,
-      "steps": 51,
+      "steps": 172,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -2643,8 +2643,21 @@
   ],
   "planned_workouts": [
     {
-      "id": 115136650,
+      "id": 115136656,
       "date": "2026-06-13",
+      "name": "IntervalCoach - Aerobic Endurance",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 90,
+      "duration_hours": 2.0,
+      "duration_formatted": "2h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "Warmup\n- Hey iparafin! Fat Max Ride awaits! 15m ramp 45-75% 85rpm\n\nMain Set\n- Low Z2 32m 67% 85rpm\n- Settle In 32m 67-72% 85rpm\n- Cruise 31m 72-67% 88rpm\n\nCooldown\n- Fantastic work, iparafin! Recover well. 10m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
+    },
+    {
+      "id": 115136650,
+      "date": "2026-06-14",
       "name": "IntervalCoach - Aerobic Endurance",
       "type": "WORKOUT",
       "sport_type": "Ride",
@@ -2655,20 +2668,6 @@
       "has_terrain": false,
       "start_time": "09:00",
       "description": "Warmup\n- Hey iparafin! Long aerobic ride ahead 15m ramp 45-75% 85rpm\n\nMain Set\n- Settle In 23m 65% 85rpm\n- Build 23m 67% 88rpm\n- Upper Z2 23m 70-74% 90rpm\n- Cruise 21m 74-70% 88rpm\n\nCooldown\n- Great job, enjoy the recovery 10m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
-    },
-    {
-      "id": 115136656,
-      "date": "2026-06-14",
-      "name": "IntervalCoach - Aerobic Endurance",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 90,
-      "duration_hours": 2.0,
-      "duration_formatted": "2h",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "09:00",
-      "description": "Warmup\n- Hey iparafin! Fat Max Ride awaits! 15m ramp 45-75% 85rpm\n\nMain Set\n- Low Z2 32m 67% 85rpm\n- Settle In 32m 67-72% 85rpm\n- Cruise 31m 72-67% 88rpm\n\nCooldown\n- Fantastic work, iparafin! Recover well. 10m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
     },
     {
       "id": 115136664,
