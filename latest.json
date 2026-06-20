@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-20T20:48:02.153555",
+    "last_updated": "2026-06-20T22:01:42.670963",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.96"
@@ -581,9 +581,9 @@
           "planned_tss_delta": 1.23,
           "hard_sessions_planned": 2,
           "race_proximity": 42,
-          "next_week_load": 0.84,
+          "next_week_load": 1.02,
           "plan_coverage_current_week": 0.4,
-          "plan_coverage_next_week": 1.2
+          "plan_coverage_next_week": 1.4
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -616,7 +616,7 @@
     "p_max": 1142,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-20T20:48:02.151913",
+    "calculation_timestamp": "2026-06-20T22:01:42.669326",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -2527,6 +2527,20 @@
       "description": "Warmup\n- Hey iparafin! Let's get ready for a big endurance ride. 12m ramp 45-75% 85rpm\n- Primer 1 1m 90% 90rpm\n- Primer recovery 30s 55% 85rpm\n- Primer 2 1m 90% 90rpm\n- Primer recovery 30s 55% 85rpm\n\nMain Set\n- Endurance 21m 65-75% 85rpm\n- Drop 1 11m 105% 95rpm\n- Recovery 3m 55% 80rpm\n- Drop 2 11m 95% 93rpm\n- Recovery 3m 55% 80rpm\n- Drop 3 11m 85% 90rpm\n- Recovery 3m 55% 80rpm\n- Drop 4 11m 76% 88rpm\n- Endurance 21m 65-75% 85rpm\n\nCooldown\n- Fantastic job, iparafin! Enjoy the recovery spin. 10m ramp 65-45% 85rpm\n\n[Weekly Plan - Peak]"
     },
     {
+      "id": 117454945,
+      "date": "2026-06-28",
+      "name": "IntervalCoach - Aerobic Build",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 91,
+      "duration_hours": 2.0,
+      "duration_formatted": "2h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description_preview": "Warmup\n- Hey iparafin! Long endurance ride ahead. 15m ramp 45-75% 85rpm\nMain Set"
+    },
+    {
       "id": 96923770,
       "date": "2026-07-01",
       "name": "\u0418\u044e\u043b\u044c - \u0414\u0435\u043a\u0430\u0431\u0440\u044c",
@@ -2554,12 +2568,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 8,
+    "attempted": 9,
     "success": 2,
     "patternA": 2,
     "patternB": 0,
     "bail_no_workout_doc": 2,
-    "bail_no_match": 6
+    "bail_no_match": 7
   },
   "weekly_summary": {
     "total_training_hours": 7.78,
