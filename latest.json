@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-25T20:22:04.828972",
+    "last_updated": "2026-06-25T21:59:02.717898",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.96"
@@ -107,7 +107,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": -7.3
+        "value": -2.4
       }
     },
     "signal_summary": {
@@ -156,17 +156,17 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 67.06,
-      "atl": 74.39,
-      "tsb": -7.33,
-      "ramp_rate": 0.85,
+      "ctl": 66.0,
+      "atl": 68.4,
+      "tsb": -2.4,
+      "ramp_rate": -0.2,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
-      "eftp": 221.6,
-      "w_prime": 18490,
+      "eftp": 221.3,
+      "w_prime": 18471,
       "w_prime_kj": 18.5,
-      "p_max": 1141,
+      "p_max": 1140,
       "vo2max": null,
       "sports": {
         "cycling": {
@@ -522,7 +522,7 @@
           },
           "coverage_ratio": 1.0,
           "ftp_used": 215,
-          "w_prime_used": 18490,
+          "w_prime_used": 18471,
           "ftp_staleness_days": 84,
           "model_trust_note": "CP/W' model (P=CP+W'/t) is primary for durations \u226420min where W' contribution is meaningful. Coggan duration factors (Allen & Coggan, 3rd ed.) are the established reference for \u226560min. 30min is the crossover zone where both apply. model_divergence_pct = (actual - CP_model) / CP_model \u00d7 100. Positive divergence at short durations may indicate strong anaerobic capacity or stale W' value. Indoor MMP is typically 3-5% lower than outdoor (cooling, motivation) \u2014 source flag indicates which environment produced each anchor."
         }
@@ -556,7 +556,7 @@
       "reason_codes": [],
       "basis": {
         "stream_1": {
-          "ctl_slope": 2.2,
+          "ctl_slope": 1.83,
           "acwr_trend": "falling",
           "hard_day_pattern": 3.5,
           "weeks_available": 4
@@ -565,9 +565,9 @@
           "planned_tss_delta": 1.36,
           "hard_sessions_planned": 4,
           "race_proximity": 37,
-          "next_week_load": 0.56,
+          "next_week_load": 0.67,
           "plan_coverage_current_week": 0.8,
-          "plan_coverage_next_week": 1.0
+          "plan_coverage_next_week": 1.2
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -594,13 +594,13 @@
       "benchmark_percentage": null,
       "seasonal_expected": null
     },
-    "eftp": 221.6,
-    "w_prime": 18490,
+    "eftp": 221.3,
+    "w_prime": 18471,
     "w_prime_kj": 18.5,
-    "p_max": 1141,
+    "p_max": 1140,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-25T20:22:04.827502",
+    "calculation_timestamp": "2026-06-25T21:59:02.716415",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -2513,6 +2513,19 @@
       "description": "Warmup\n- Hello iparafin! Reversed Progression awaits 6m ramp 45-75% 85rpm\n- Primer 1 1m 90% 90rpm\n- Primer recovery 30s 55% 85rpm\n- Primer 2 1m 90% 90rpm\n- Primer recovery 30s 55% 85rpm\n\nMain Set\n- Drop 1 13m 105% 95rpm\n- Recovery 3m 55% 80rpm\n- Drop 2 13m 90-95% 92rpm\n- Recovery 3m 55% 80rpm\n- Drop 3 13m 76-81% 88rpm\n\nCooldown\n- Fantastic ride, enjoy the recovery 6m ramp 65-45% 85rpm\n\n[Weekly Plan - Peak]"
     },
     {
+      "id": 118650477,
+      "date": "2026-07-03",
+      "name": "IntervalCoach - Sprint Intervals",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 48,
+      "duration_hours": 1.0,
+      "duration_formatted": "59m50s",
+      "workout_summary": "9m @128W | 5\u00d78m @150W / 10s rec | 4m @140W | 6m @118W",
+      "has_terrain": false,
+      "start_time": "09:00"
+    },
+    {
       "id": 115134133,
       "date": "2026-08-01",
       "name": "POKROVA RACE",
@@ -2527,9 +2540,9 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 8,
-    "success": 4,
-    "patternA": 2,
+    "attempted": 9,
+    "success": 5,
+    "patternA": 3,
     "patternB": 2,
     "bail_no_workout_doc": 2,
     "bail_no_match": 4
