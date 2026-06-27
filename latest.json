@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-27T20:19:05.430612",
+    "last_updated": "2026-06-27T21:36:44.959465",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.96"
@@ -106,13 +106,13 @@
         "value": 1.16
       },
       "tsb": {
-        "status": "amber",
-        "value": -22.6
+        "status": "green",
+        "value": -12.1
       }
     },
     "signal_summary": {
-      "green": 5,
-      "amber": 1,
+      "green": 6,
+      "amber": 0,
       "red": 0,
       "unavailable": 0
     },
@@ -124,7 +124,7 @@
     },
     "race_week_defers": false,
     "modification": null,
-    "reason": "P3 green light. 5 green, 1 amber (threshold 3), 0 red.",
+    "reason": "P3 green light. 6 green, 0 amber (threshold 3), 0 red.",
     "alarm_refs": []
   },
   "history": {
@@ -162,10 +162,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 70.49,
-      "atl": 93.09,
-      "tsb": -22.6,
-      "ramp_rate": 3.89,
+      "ctl": 68.23,
+      "atl": 80.31,
+      "tsb": -12.08,
+      "ramp_rate": 1.63,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -562,7 +562,7 @@
       "reason_codes": [],
       "basis": {
         "stream_1": {
-          "ctl_slope": 3.33,
+          "ctl_slope": 2.57,
           "acwr_trend": "falling",
           "hard_day_pattern": 4,
           "weeks_available": 4
@@ -571,9 +571,9 @@
           "planned_tss_delta": 1.56,
           "hard_sessions_planned": 2,
           "race_proximity": 35,
-          "next_week_load": 0.83,
+          "next_week_load": 1.01,
           "plan_coverage_current_week": 0.4,
-          "plan_coverage_next_week": 1.4
+          "plan_coverage_next_week": 1.6
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -606,7 +606,7 @@
     "p_max": 1140,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 52.0,
-    "calculation_timestamp": "2026-06-27T20:19:05.429101",
+    "calculation_timestamp": "2026-06-27T21:36:44.957944",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -2575,6 +2575,20 @@
       "description": "Warmup\n- Hey iparafin! Threshold power today 12m ramp 45-75% 85rpm\n- Primer 1 1m 100% 90rpm\n- Primer recovery 30s 55% 85rpm\n- Primer 2 1m 100% 90rpm\n- Primer recovery 30s 55% 85rpm\n\nMain Set\n- Endurance 17m 65-75% 85rpm\n- Threshold 1 15m 95-100% 92rpm\n- Recovery 8m 55% 80rpm\n- Threshold 2 15m 95-100% 92rpm\n- Recovery 8m 55% 80rpm\n- Threshold 3 15m 95-100% 92rpm\n- Endurance 17m 65-75% 85rpm\n\nCooldown\n- Fantastic work, recover well 10m ramp 65-45% 85rpm\n\n[Weekly Plan - Peak]"
     },
     {
+      "id": 118984973,
+      "date": "2026-07-05",
+      "name": "IntervalCoach - Aerobic Progression",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 90,
+      "duration_hours": 2.0,
+      "duration_formatted": "2h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description_preview": "Warmup\n- Hey iparafin! Progressive aerobic challenge awaits. 15m ramp 45-75% 85rpm\nMain Set"
+    },
+    {
       "id": 115134133,
       "date": "2026-08-01",
       "name": "POKROVA RACE",
@@ -2589,12 +2603,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 8,
+    "attempted": 9,
     "success": 5,
     "patternA": 3,
     "patternB": 2,
     "bail_no_workout_doc": 2,
-    "bail_no_match": 3
+    "bail_no_match": 4
   },
   "weekly_summary": {
     "total_training_hours": 8.68,
