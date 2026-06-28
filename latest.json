@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-28T20:55:55.300481",
+    "last_updated": "2026-06-28T21:59:28.069158",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.96"
@@ -616,7 +616,7 @@
     "p_max": 1140,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-28T20:55:55.299026",
+    "calculation_timestamp": "2026-06-28T21:59:28.067734",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -2585,6 +2585,20 @@
       "description": "Warmup\n- Hey iparafin! Progressive aerobic challenge awaits. 15m ramp 45-75% 85rpm\n\nMain Set\n- Low 32m 65% 85rpm\n- Mid 32m 69% 88rpm\n- Upper 31m 73% 90rpm\n\nCooldown\n- Amazing work, iparafin! Enjoy the recovery. 10m ramp 65-45% 85rpm\n\n[Weekly Plan - Peak]"
     },
     {
+      "id": 119198598,
+      "date": "2026-07-06",
+      "name": "IntervalCoach - Aerobic Build",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 45,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description_preview": "Warmup\n- Hey iparafin! Steady endurance awaits. 9m ramp 45-75% 85rpm\nMain Set"
+    },
+    {
       "id": 115134133,
       "date": "2026-08-01",
       "name": "POKROVA RACE",
@@ -2599,12 +2613,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 8,
+    "attempted": 9,
     "success": 4,
     "patternA": 2,
     "patternB": 2,
     "bail_no_workout_doc": 2,
-    "bail_no_match": 4
+    "bail_no_match": 5
   },
   "weekly_summary": {
     "total_training_hours": 8.32,
