@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-30T13:29:24.455924",
+    "last_updated": "2026-06-30T16:07:44.108861",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.96"
@@ -235,7 +235,7 @@
       "respiration": null,
       "body_fat_pct": 22.34,
       "abdomen_cm": null,
-      "steps": 674,
+      "steps": 850,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -620,7 +620,7 @@
     "p_max": 1138,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-30T13:29:24.294459",
+    "calculation_timestamp": "2026-06-30T16:07:44.107339",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -664,7 +664,7 @@
       "id": "i161481745",
       "date": "2026-06-30T14:41:17",
       "type": "VirtualRide",
-      "name": "MyWhoosh - V2O 7x3m",
+      "name": "MyWhoosh - VO2 7x3m",
       "duration_hours": 1.03,
       "distance_km": 16.44,
       "tss": 90,
@@ -690,8 +690,8 @@
       "efficiency_factor": 1.3958334,
       "hrrc": 19,
       "elevation_m": 599.8,
-      "feel": null,
-      "rpe": null,
+      "feel": 2,
+      "rpe": 10,
       "zone_distribution": {
         "hr_zones": {
           "z1_time": 1177,
@@ -985,7 +985,7 @@
       "id": "i159674146",
       "date": "2026-06-23T15:16:20",
       "type": "VirtualRide",
-      "name": "MyWhoosh - Mystique Heights (Wasnt ready 5x7 v2o)",
+      "name": "MyWhoosh - Mystique Heights (Wasnt ready 5x7 vo2)",
       "duration_hours": 0.94,
       "distance_km": 20.67,
       "tss": 81,
@@ -1034,7 +1034,7 @@
         }
       },
       "has_intervals": true,
-      "description": "\ud83d\udcca IntervalCoach Analysis\nWorkout score: 7/10\nTSS: 81\nTraining stimulus: endurance\nEst. recovery: 58h\n\n\ud83d\udd17 https://www.intervalcoach.app/?ref=REF-EEEWQG"
+      "description": "\ud83d\udcca IntervalCoach Analysis\r\nWorkout score: 7/10\r\nTSS: 81\r\nTraining stimulus: endurance\r\nEst. recovery: 58h\r\n\r\n\ud83d\udd17 https://www.intervalcoach.app/?ref=REF-EEEWQG"
     },
     {
       "id": "i159454680",
@@ -2452,7 +2452,7 @@
       "respiration": null,
       "body_fat_pct": 22.34,
       "abdomen_cm": null,
-      "steps": 674,
+      "steps": 850,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
