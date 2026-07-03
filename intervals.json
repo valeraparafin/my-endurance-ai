@@ -1,84 +1,10 @@
 {
-  "generated_at": "2026-07-02T23:59:53.304042",
+  "generated_at": "2026-07-03T03:53:50.008728",
   "version": "3.96",
   "script_hash": "f0df576f8f63",
   "scan_hours": 72,
   "retention_days": 8,
   "activities": [
-    {
-      "activity_id": "i159964040",
-      "date": "2026-06-24",
-      "type": "VirtualRide",
-      "name": "MyWhoosh - Aerobic Ramps",
-      "interval_summary": [
-        "1x 57s 241w",
-        "1x 3m53s 195w"
-      ],
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 365,
-          "avg_power": 133,
-          "max_power": 237,
-          "avg_hr": 114,
-          "max_hr": 131,
-          "avg_cadence": 84.70137,
-          "zone": 2,
-          "training_load": 4.0568714,
-          "decoupling": -21.675138
-        },
-        {
-          "type": "WORK",
-          "label": "57s@241w91rpm",
-          "duration_secs": 57,
-          "avg_power": 241,
-          "max_power": 250,
-          "avg_hr": 137,
-          "max_hr": 144,
-          "avg_cadence": 90.96491,
-          "zone": 5,
-          "training_load": 1.7962484,
-          "decoupling": 4.023004
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 126,
-          "avg_power": 114,
-          "max_power": 241,
-          "avg_hr": 127,
-          "max_hr": 144,
-          "avg_cadence": 92.78571,
-          "zone": 1,
-          "training_load": 1.5919416,
-          "decoupling": -11.207487
-        },
-        {
-          "type": "WORK",
-          "label": "233s@195w89rpm",
-          "duration_secs": 233,
-          "avg_power": 195,
-          "max_power": 210,
-          "avg_hr": 140,
-          "max_hr": 151,
-          "avg_cadence": 88.66094,
-          "zone": 4,
-          "training_load": 5.1615357,
-          "decoupling": 4.475442
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 2407,
-          "avg_power": 148,
-          "max_power": 241,
-          "avg_hr": 131,
-          "max_hr": 147,
-          "avg_cadence": 87.947655,
-          "zone": 2,
-          "training_load": 33.418262,
-          "decoupling": -1.4666604
-        }
-      ]
-    },
     {
       "activity_id": "i160488050",
       "date": "2026-06-26",
