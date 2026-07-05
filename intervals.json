@@ -1,108 +1,10 @@
 {
-  "generated_at": "2026-07-04T23:42:17.810923",
+  "generated_at": "2026-07-05T01:24:06.376654",
   "version": "3.96",
   "script_hash": "f0df576f8f63",
   "scan_hours": 72,
   "retention_days": 8,
   "activities": [
-    {
-      "activity_id": "i160488050",
-      "date": "2026-06-26",
-      "type": "VirtualRide",
-      "name": "MyWhoosh - Mount Fuji (ss 12x3)",
-      "interval_summary": [
-        "3x 11m55s 205w"
-      ],
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 546,
-          "avg_power": 134,
-          "max_power": 194,
-          "avg_hr": 114,
-          "max_hr": 135,
-          "avg_cadence": 78.53297,
-          "zone": 2,
-          "training_load": 6.158208,
-          "decoupling": -7.884359
-        },
-        {
-          "type": "WORK",
-          "label": "715s@205w92rpm",
-          "duration_secs": 717,
-          "avg_power": 205,
-          "max_power": 224,
-          "avg_hr": 152,
-          "max_hr": 160,
-          "avg_cadence": 91.47559,
-          "zone": 4,
-          "training_load": 18.10704,
-          "decoupling": 0.8978983
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 305,
-          "avg_power": 122,
-          "max_power": 206,
-          "avg_hr": 134,
-          "max_hr": 157,
-          "avg_cadence": 79.62951,
-          "zone": 2,
-          "training_load": 3.1453068,
-          "decoupling": -8.549921
-        },
-        {
-          "type": "WORK",
-          "label": "715s@205w92rpm",
-          "duration_secs": 714,
-          "avg_power": 205,
-          "max_power": 269,
-          "avg_hr": 156,
-          "max_hr": 165,
-          "avg_cadence": 90.890755,
-          "zone": 4,
-          "training_load": 18.031279,
-          "decoupling": 2.5787268
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 306,
-          "avg_power": 125,
-          "max_power": 212,
-          "avg_hr": 140,
-          "max_hr": 163,
-          "avg_cadence": 88.052284,
-          "zone": 2,
-          "training_load": 3.2527096,
-          "decoupling": -7.8549237
-        },
-        {
-          "type": "WORK",
-          "label": "715s@205w92rpm",
-          "duration_secs": 713,
-          "avg_power": 205,
-          "max_power": 269,
-          "avg_hr": 158,
-          "max_hr": 164,
-          "avg_cadence": 93.6101,
-          "zone": 4,
-          "training_load": 17.830784,
-          "decoupling": 0.53451437
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 300,
-          "avg_power": 105,
-          "max_power": 213,
-          "avg_hr": 137,
-          "max_hr": 163,
-          "avg_cadence": 86.65667,
-          "zone": 1,
-          "training_load": 2.6394448,
-          "decoupling": -0.97579396
-        }
-      ]
-    },
     {
       "activity_id": "i160761681",
       "date": "2026-06-27",
