@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-06T14:02:36.917510",
+    "last_updated": "2026-07-06T17:13:54.181991",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.96"
@@ -105,7 +105,7 @@
       "sleep": {
         "status": "green",
         "hours": 7.88,
-        "quality": 3
+        "quality": 2
       },
       "acwr": {
         "status": "green",
@@ -209,7 +209,7 @@
       "weight_kg": 68.15,
       "resting_hr": 50,
       "hrv": 89.0,
-      "sleep_quality": 3,
+      "sleep_quality": 2,
       "sleep_hours": 7.88,
       "sleep_formatted": "7h53m",
       "sleep_score": 80.0,
@@ -229,7 +229,7 @@
       "respiration": null,
       "body_fat_pct": 21.931387,
       "abdomen_cm": null,
-      "steps": 331,
+      "steps": 909,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -574,7 +574,7 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.12,
+          "planned_tss_delta": 1.21,
           "hard_sessions_planned": 7,
           "race_proximity": 26,
           "next_week_load": 0.82,
@@ -612,7 +612,7 @@
     "p_max": 1138,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-06T14:02:36.758138",
+    "calculation_timestamp": "2026-07-06T17:13:54.180515",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -682,8 +682,8 @@
       "efficiency_factor": 1.3020134,
       "hrrc": null,
       "elevation_m": 990.4,
-      "feel": null,
-      "rpe": null,
+      "feel": 2,
+      "rpe": 9,
       "zone_distribution": {
         "hr_zones": {
           "z1_time": 779,
@@ -2479,7 +2479,7 @@
       "hrv_sdnn": null,
       "sleep_hours": 7.88,
       "sleep_formatted": "7h53m",
-      "sleep_quality": 3,
+      "sleep_quality": 2,
       "sleep_score": 80.0,
       "mental_energy": null,
       "avg_sleeping_hr": 54.14959,
@@ -2500,7 +2500,7 @@
       "respiration": null,
       "body_fat_pct": 21.931387,
       "abdomen_cm": null,
-      "steps": 331,
+      "steps": 909,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -2527,18 +2527,18 @@
       "description": "Warmup\n- Alright iparafin, Threshold is coming up! 6m ramp 45-75% 85rpm\n- Primer 1 1m 100% 90rpm\n- Primer recovery 30s 55% 85rpm\n- Primer 2 1m 100% 90rpm\n- Primer recovery 30s 55% 85rpm\n\nMain Set\n- Threshold 1 20m 95-100% 92rpm\n- Recovery 6m 55% 80rpm\n- Threshold 2 20m 95-100% 92rpm\n\nCooldown\n- Fantastic work, iparafin. Spin easy now. 5m ramp 65-45% 85rpm\n\n[Weekly Plan - Peak]"
     },
     {
-      "id": 119644770,
+      "id": 120992684,
       "date": "2026-07-07",
-      "name": "IntervalCoach - Aerobic Build",
+      "name": "IntervalCoach - VO2max Intervals",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 45,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h",
-      "workout_summary": null,
+      "planned_tss": 84,
+      "duration_hours": 1.05,
+      "duration_formatted": "1h3m",
+      "workout_summary": "6m @128W | 1m @242W | 30s @118W | 1m @242W | 30s @118W | 3m @150W | 7\u00d73m @242W / 3m rec | 3m @150W | 6m @118W",
       "has_terrain": false,
       "start_time": "09:00",
-      "description": "Warmup\n- Hey iparafin! Endurance and pickups await 9m ramp 45-75% 85rpm\n\nMain Set\n- Settle In 11m 65% 85rpm\n- Build 11m 67% 88rpm\n- Upper 11m 70-74% 90rpm\n- Cruise 12m 74-70% 88rpm\n\nCooldown\n- Fantastic work, iparafin. Recover well 6m ramp 65-45% 85rpm\n\n[Weekly Plan - Peak]"
+      "description": "Warmup\n- Hey iparafin! VO2max awaits! 6m ramp 45-75% 85rpm\n- Primer 1 1m 113% 90rpm\n- Primer recovery 30s 55%\n- Primer 2 1m 113% 90rpm\n- Primer recovery 30s 55%\n\nMain Set\n- Endurance 3m 65-75% 85rpm\n\n7x\n- VO2max 3m 106-120% 100rpm\n- Recovery 3m 55%\n\nRecovery\n- Endurance 3m 65-75% 85rpm\n\nCooldown\n- Crushed it, iparafin! Enjoy the spin. 6m ramp 65-45%\n\n[Weekly Plan - Peak]"
     },
     {
       "id": 119497046,
@@ -2791,11 +2791,11 @@
   ],
   "workout_summary_stats": {
     "attempted": 19,
-    "success": 5,
-    "patternA": 5,
+    "success": 6,
+    "patternA": 6,
     "patternB": 0,
     "bail_no_workout_doc": 1,
-    "bail_no_match": 14
+    "bail_no_match": 13
   },
   "weekly_summary": {
     "total_training_hours": 11.36,
