@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-11T16:48:57.244562",
+    "last_updated": "2026-07-11T17:50:13.903887",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.96"
@@ -87,8 +87,8 @@
     }
   ],
   "readiness_decision": {
-    "recommendation": "modify",
-    "priority": 2,
+    "recommendation": "go",
+    "priority": 3,
     "signals": {
       "hrv": {
         "status": "green",
@@ -116,14 +116,14 @@
         "value": 1.39
       },
       "tsb": {
-        "status": "red",
-        "value": -37.5
+        "status": "amber",
+        "value": -23.9
       }
     },
     "signal_summary": {
       "green": 5,
-      "amber": 0,
-      "red": 1,
+      "amber": 1,
+      "red": 0,
       "unavailable": 0
     },
     "phase_context": {
@@ -133,17 +133,8 @@
       "modifier_applied": "build_loosened"
     },
     "race_week_defers": false,
-    "modification": {
-      "triggers": [
-        "tsb"
-      ],
-      "suggested_adjustments": {
-        "intensity": "preserve",
-        "volume": "reduce",
-        "cap_zone": null
-      }
-    },
-    "reason": "P2 signal count. 1 red (tsb), 0 amber ().",
+    "modification": null,
+    "reason": "P3 green light. 5 green, 1 amber (threshold 3), 0 red.",
     "alarm_refs": []
   },
   "history": {
@@ -187,10 +178,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 80.24,
-      "atl": 117.71,
-      "tsb": -37.47,
-      "ramp_rate": 6.41,
+      "ctl": 77.32,
+      "atl": 101.21,
+      "tsb": -23.89,
+      "ramp_rate": 3.5,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -250,7 +241,7 @@
       "respiration": null,
       "body_fat_pct": 22.484457,
       "abdomen_cm": null,
-      "steps": 521,
+      "steps": 4140,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -632,7 +623,7 @@
     "p_max": 1138,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-11T16:48:57.094977",
+    "calculation_timestamp": "2026-07-11T17:50:13.902061",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -702,8 +693,8 @@
       "efficiency_factor": 1.3219178,
       "hrrc": null,
       "elevation_m": 1662.6002,
-      "feel": null,
-      "rpe": null,
+      "feel": 3,
+      "rpe": 10,
       "zone_distribution": {
         "hr_zones": {
           "z1_time": 2560,
@@ -2531,7 +2522,7 @@
       "respiration": null,
       "body_fat_pct": 22.484457,
       "abdomen_cm": null,
-      "steps": 521,
+      "steps": 4140,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
