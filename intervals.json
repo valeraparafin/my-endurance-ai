@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T10:54:05.955847",
+  "generated_at": "2026-07-13T13:15:11.170293",
   "version": "3.96",
   "script_hash": "f0df576f8f63",
   "scan_hours": 72,
@@ -1785,6 +1785,54 @@
           "zone": 1,
           "training_load": 5.045526,
           "decoupling": -3.0536375
+        }
+      ]
+    },
+    {
+      "activity_id": "i165254826",
+      "date": "2026-07-13",
+      "type": "VirtualRide",
+      "name": "MyWhoosh - IntervalCoach - Endurance + Tempo Pushes",
+      "interval_summary": [
+        "1x 4m56s 178w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 563,
+          "avg_power": 155,
+          "max_power": 209,
+          "avg_hr": 120,
+          "max_hr": 128,
+          "avg_cadence": 84.415634,
+          "zone": 2,
+          "training_load": 8.128162,
+          "decoupling": 5.1245646
+        },
+        {
+          "type": "WORK",
+          "label": "296s@178w91rpm",
+          "duration_secs": 296,
+          "avg_power": 178,
+          "max_power": 212,
+          "avg_hr": 133,
+          "max_hr": 140,
+          "avg_cadence": 91.195946,
+          "zone": 3,
+          "training_load": 5.6357574,
+          "decoupling": 3.8076043
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 2366,
+          "avg_power": 144,
+          "max_power": 227,
+          "avg_hr": 126,
+          "max_hr": 140,
+          "avg_cadence": 79.09763,
+          "zone": 2,
+          "training_load": 32.849026,
+          "decoupling": 10.291526
         }
       ]
     }
