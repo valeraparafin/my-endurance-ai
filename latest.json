@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-17T11:49:39.371205",
+    "last_updated": "2026-07-17T13:14:43.637799",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.96"
@@ -174,7 +174,7 @@
           "max_hr": 186,
           "threshold_pace": null,
           "pace_units": null,
-          "ftp": 215,
+          "ftp": 220,
           "ftp_indoor": null
         },
         "run": {
@@ -203,13 +203,13 @@
       "sleep_hours": 8.52,
       "sleep_formatted": "8h31m",
       "sleep_score": 86.0,
-      "fatigue": null,
-      "soreness": null,
-      "stress": null,
-      "mood": null,
-      "motivation": null,
-      "injury": null,
-      "hydration": null,
+      "fatigue": 1,
+      "soreness": 1,
+      "stress": 1,
+      "mood": 2,
+      "motivation": 2,
+      "injury": 1,
+      "hydration": 2,
       "spO2": null,
       "blood_glucose": null,
       "systolic": null,
@@ -441,11 +441,11 @@
               "actual_hr": 172,
               "pct_lthr": 101.8,
               "source": "observed_outdoor",
-              "coggan_watts": 228,
-              "coggan_wpkg": 3.31,
-              "cp_model_watts": 277,
-              "cp_model_wpkg": 4.02,
-              "model_divergence_pct": -7.9
+              "coggan_watts": 233,
+              "coggan_wpkg": 3.38,
+              "cp_model_watts": 282,
+              "cp_model_wpkg": 4.09,
+              "model_divergence_pct": -9.6
             },
             "600s": {
               "actual_watts": 239,
@@ -453,11 +453,11 @@
               "actual_hr": 169,
               "pct_lthr": 100.0,
               "source": "observed_outdoor",
-              "coggan_watts": 209,
-              "coggan_wpkg": 3.03,
-              "cp_model_watts": 246,
-              "cp_model_wpkg": 3.57,
-              "model_divergence_pct": -2.8
+              "coggan_watts": 213,
+              "coggan_wpkg": 3.09,
+              "cp_model_watts": 251,
+              "cp_model_wpkg": 3.64,
+              "model_divergence_pct": -4.8
             },
             "1200s": {
               "actual_watts": 230,
@@ -465,11 +465,11 @@
               "actual_hr": 166,
               "pct_lthr": 98.2,
               "source": "observed_outdoor",
-              "coggan_watts": 200,
-              "coggan_wpkg": 2.9,
-              "cp_model_watts": 231,
-              "cp_model_wpkg": 3.35,
-              "model_divergence_pct": -0.4
+              "coggan_watts": 205,
+              "coggan_wpkg": 2.98,
+              "cp_model_watts": 236,
+              "cp_model_wpkg": 3.43,
+              "model_divergence_pct": -2.5
             },
             "1800s": {
               "actual_watts": 226,
@@ -477,11 +477,11 @@
               "actual_hr": 161,
               "pct_lthr": 95.3,
               "source": "observed_outdoor",
-              "coggan_watts": 194,
-              "coggan_wpkg": 2.82,
-              "cp_model_watts": 225,
-              "cp_model_wpkg": 3.27,
-              "model_divergence_pct": 0.4
+              "coggan_watts": 198,
+              "coggan_wpkg": 2.87,
+              "cp_model_watts": 230,
+              "cp_model_wpkg": 3.34,
+              "model_divergence_pct": -1.7
             },
             "3600s": {
               "actual_watts": 196,
@@ -489,11 +489,11 @@
               "actual_hr": 155,
               "pct_lthr": 91.7,
               "source": "observed_outdoor",
-              "coggan_watts": 185,
-              "coggan_wpkg": 2.69,
-              "cp_model_watts": 220,
-              "cp_model_wpkg": 3.19,
-              "model_divergence_pct": -10.9
+              "coggan_watts": 189,
+              "coggan_wpkg": 2.74,
+              "cp_model_watts": 225,
+              "cp_model_wpkg": 3.27,
+              "model_divergence_pct": -12.9
             },
             "5400s": {
               "actual_watts": 187,
@@ -501,11 +501,11 @@
               "actual_hr": 152,
               "pct_lthr": 89.9,
               "source": "observed_outdoor",
-              "coggan_watts": 176,
-              "coggan_wpkg": 2.55,
-              "cp_model_watts": 218,
-              "cp_model_wpkg": 3.16,
-              "model_divergence_pct": -14.2
+              "coggan_watts": 180,
+              "coggan_wpkg": 2.61,
+              "cp_model_watts": 223,
+              "cp_model_wpkg": 3.24,
+              "model_divergence_pct": -16.1
             },
             "7200s": {
               "actual_watts": 185,
@@ -513,17 +513,17 @@
               "actual_hr": 151,
               "pct_lthr": 89.3,
               "source": "observed_outdoor",
-              "coggan_watts": 168,
-              "coggan_wpkg": 2.44,
-              "cp_model_watts": 218,
-              "cp_model_wpkg": 3.16,
-              "model_divergence_pct": -15.1
+              "coggan_watts": 172,
+              "coggan_wpkg": 2.5,
+              "cp_model_watts": 223,
+              "cp_model_wpkg": 3.24,
+              "model_divergence_pct": -17.0
             }
           },
           "coverage_ratio": 1.0,
-          "ftp_used": 215,
+          "ftp_used": 220,
           "w_prime_used": 18701,
-          "ftp_staleness_days": 106,
+          "ftp_staleness_days": 0,
           "model_trust_note": "CP/W' model (P=CP+W'/t) is primary for durations \u226420min where W' contribution is meaningful. Coggan duration factors (Allen & Coggan, 3rd ed.) are the established reference for \u226560min. 30min is the crossover zone where both apply. model_divergence_pct = (actual - CP_model) / CP_model \u00d7 100. Positive divergence at short durations may indicate strong anaerobic capacity or stale W' value. Indoor MMP is typically 3-5% lower than outdoor (cooling, motivation) \u2014 source flag indicates which environment produced each anchor."
         }
       }
@@ -588,7 +588,7 @@
       "seasonal_expected": null
     },
     "benchmark_outdoor": {
-      "current_ftp": 215,
+      "current_ftp": 220,
       "ftp_8_weeks_ago": null,
       "benchmark_index": null,
       "benchmark_percentage": null,
@@ -600,7 +600,7 @@
     "p_max": 1137,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-17T11:49:39.004160",
+    "calculation_timestamp": "2026-07-17T13:14:43.636268",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -609,7 +609,7 @@
       "planned_workouts_7d": 6,
       "ftp_history_days": {
         "indoor": 0,
-        "outdoor": 0
+        "outdoor": 106
       }
     }
   },
@@ -2483,13 +2483,13 @@
       "mental_energy": null,
       "avg_sleeping_hr": null,
       "vo2max": null,
-      "fatigue": null,
-      "soreness": null,
-      "stress": null,
-      "mood": null,
-      "motivation": null,
-      "injury": null,
-      "hydration": null,
+      "fatigue": 1,
+      "soreness": 1,
+      "stress": 1,
+      "mood": 2,
+      "motivation": 2,
+      "injury": 1,
+      "hydration": 2,
       "spO2": null,
       "blood_glucose": null,
       "systolic": null,
@@ -2531,7 +2531,7 @@
       "name": "IntervalCoach - Aerobic Ramp",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 86,
+      "planned_tss": 87,
       "duration_hours": 1.92,
       "duration_formatted": "1h55m",
       "workout_summary": null,
@@ -2562,7 +2562,7 @@
       "planned_tss": 48,
       "duration_hours": 1.0,
       "duration_formatted": "59m50s",
-      "workout_summary": "9m @128W | 5\u00d78m @150W / 10s rec | 4m @140W | 6m @118W",
+      "workout_summary": "9m @132W | 5\u00d78m @154W / 10s rec | 4m @143W | 6m @121W",
       "has_terrain": false,
       "start_time": "09:00",
       "description": "Warmup\n- Hello iparafin! Endurance and sprints await. 9m ramp 45-75% 85rpm\n\nMain Set\n5x\n- Endurance 8m 65-75% 88rpm\n- Sprint 10s 150% 110rpm\n\nRecovery\n- Endurance 4m 60-70%\n\nCooldown\n- Fantastic work, iparafin! Recover well. 6m ramp 65-45% 85rpm\n\n[Weekly Plan - Taper]"
@@ -2576,7 +2576,7 @@
       "planned_tss": 47,
       "duration_hours": 1.0,
       "duration_formatted": "1h",
-      "workout_summary": "9m @128W | 35m @150W | 3\u00d730s @227W / 2m rec | 15s @322W | 2m @118W | 15s @322W | 6m @118W",
+      "workout_summary": "9m @132W | 35m @154W | 3\u00d730s @233W / 2m rec | 15s @330W | 2m @121W | 15s @330W | 6m @121W",
       "has_terrain": false,
       "start_time": "09:00",
       "description": "Warmup\n- Hey iparafin! Time for openers 9m ramp 45-75% 85rpm\n\nMain Set\n- Easy 35m 65-75% 85rpm\n\n3x\n- Opener 30s 106% 100rpm\n- Recovery 2m 55% 80rpm\n\n- Sprint 1 15s 150% 110rpm\n- Recovery 2m 55% 80rpm\n- Sprint 2 15s 150% 110rpm\n\nCooldown\n- Excellent work, spin easy now 6m ramp 65-45% 85rpm\n\n[Weekly Plan - Taper]"
