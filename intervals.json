@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T19:49:07.672997",
+  "generated_at": "2026-07-18T20:39:52.216269",
   "version": "3.96",
   "script_hash": "f0df576f8f63",
   "scan_hours": 72,
@@ -1430,6 +1430,131 @@
           "zone": 1,
           "training_load": 15.76592,
           "decoupling": -24.519657
+        }
+      ]
+    },
+    {
+      "activity_id": "i166969917",
+      "date": "2026-07-18",
+      "type": "GravelRide",
+      "name": "Vladimir - IntervalCoach - Aerobic Ramp",
+      "interval_summary": [
+        "1x 10s 337w",
+        "1x 12s 434w",
+        "1x 11s 555w",
+        "1x 2m47s 270w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 7441,
+          "avg_power": 67,
+          "max_power": 514,
+          "avg_hr": 114,
+          "max_hr": 155,
+          "avg_cadence": 37.13414,
+          "zone": 1,
+          "training_load": 35.81758,
+          "decoupling": -1.9972051
+        },
+        {
+          "type": "WORK",
+          "label": "10s@337w61rpm",
+          "duration_secs": 10,
+          "avg_power": 337,
+          "max_power": 372,
+          "avg_hr": 143,
+          "max_hr": 147,
+          "avg_cadence": 60.7,
+          "zone": 7,
+          "training_load": 0.28030878,
+          "decoupling": -12.952058
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1102,
+          "avg_power": 85,
+          "max_power": 362,
+          "avg_hr": 117,
+          "max_hr": 155,
+          "avg_cadence": 56.58802,
+          "zone": 1,
+          "training_load": 10.085455,
+          "decoupling": -11.135812
+        },
+        {
+          "type": "WORK",
+          "label": "12s@434w93rpm",
+          "duration_secs": 12,
+          "avg_power": 434,
+          "max_power": 582,
+          "avg_hr": 130,
+          "max_hr": 141,
+          "avg_cadence": 93.083336,
+          "zone": 7,
+          "training_load": 0.16546144,
+          "decoupling": 25.132986
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 7515,
+          "avg_power": 67,
+          "max_power": 402,
+          "avg_hr": 109,
+          "max_hr": 145,
+          "avg_cadence": 42.0134,
+          "zone": 1,
+          "training_load": 35.15868,
+          "decoupling": -0.8167071
+        },
+        {
+          "type": "WORK",
+          "label": "11s@555w86rpm",
+          "duration_secs": 11,
+          "avg_power": 555,
+          "max_power": 621,
+          "avg_hr": 140,
+          "max_hr": 147,
+          "avg_cadence": 86.09091,
+          "zone": 7,
+          "training_load": 0.7733586,
+          "decoupling": 9.315373
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 28493,
+          "avg_power": 73,
+          "max_power": 607,
+          "avg_hr": 113,
+          "max_hr": 155,
+          "avg_cadence": 51.437595,
+          "zone": 1,
+          "training_load": 89.05132
+        },
+        {
+          "type": "WORK",
+          "label": "167s@270w89rpm",
+          "duration_secs": 167,
+          "avg_power": 270,
+          "max_power": 355,
+          "avg_hr": 156,
+          "max_hr": 165,
+          "avg_cadence": 89.233536,
+          "zone": 6,
+          "training_load": 6.8326807,
+          "decoupling": 5.2401333
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 110,
+          "avg_power": 157,
+          "max_power": 262,
+          "avg_hr": 156,
+          "max_hr": 165,
+          "avg_cadence": 76.60909,
+          "zone": 2,
+          "training_load": 2.1840909,
+          "decoupling": -6.0414166
         }
       ]
     }
