@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-26T16:13:32.322690",
+    "last_updated": "2026-07-26T17:16:00.592449",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.96"
@@ -589,7 +589,7 @@
           "planned_tss_delta": 0.89,
           "hard_sessions_planned": 1,
           "race_proximity": 6,
-          "next_week_load": 0.35,
+          "next_week_load": 0.25,
           "plan_coverage_current_week": 0.2,
           "plan_coverage_next_week": 1.0
         },
@@ -626,7 +626,7 @@
     "p_max": 1130,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-26T16:13:32.321098",
+    "calculation_timestamp": "2026-07-26T17:16:00.590854",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -751,8 +751,8 @@
       "efficiency_factor": 1.5696203,
       "hrrc": 29,
       "elevation_m": 751.0,
-      "feel": null,
-      "rpe": null,
+      "feel": 2,
+      "rpe": 10,
       "zone_distribution": {
         "hr_zones": {
           "z1_time": 295,
@@ -2630,22 +2630,8 @@
       "description": "Warmup\n- Hey iparafin! Steady recovery ride ahead 13m ramp 45-55% 85rpm\n\nMain Set\n- Easy Spin 32m 45-50% 85rpm intensity=recovery\n- Loosen Up 31m 50-55% 90rpm intensity=recovery\n\nCooldown\n- Well done, iparafin! Enjoy the spin 8m ramp 55-45%\n\n[Weekly Plan - Race Week]"
     },
     {
-      "id": 124535851,
-      "date": "2026-07-28",
-      "name": "IntervalCoach - Race Openers",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 86,
-      "duration_hours": 1.85,
-      "duration_formatted": "1h51m",
-      "workout_summary": "15m @140W | 1h16m @164W | 3\u00d730s @248W / 2m rec | 15s @351W | 2m @128W | 15s @351W | 10m @128W",
-      "has_terrain": false,
-      "start_time": "09:00",
-      "description": "Warmup\n- Hey iparafin! Openers are here! 15m ramp 45-75% 85rpm\n\nMain Set\n- Easy 76m 65-75% 85rpm\n\n3x\n- Opener 30s 106% 100rpm\n- Recovery 2m 55%\n\n- Sprint 1 15s 150% 110rpm\n- Recovery 2m 55%\n- Sprint 2 15s 150% 110rpm\n\nCooldown\n- Fantastic work, enjoy the recovery spin 10m ramp 65-45%\n\n[Weekly Plan - Race Week]"
-    },
-    {
       "id": 125128275,
-      "date": "2026-07-31",
+      "date": "2026-07-28",
       "name": "IntervalCoach - Recovery Spin",
       "type": "WORKOUT",
       "sport_type": "Ride",
@@ -2656,6 +2642,20 @@
       "has_terrain": false,
       "start_time": "09:00",
       "description": "Warmup\n- Hey iparafin, easy spin and drills today 10m ramp 45-55% 85rpm\n\nMain Set\n6x\n- Fast Pedal Drill 4m 45-55% 100rpm intensity=recovery\n- Smooth Pedal Drill 4m 45-55% 80rpm intensity=recovery\n\nRecovery\n- Smooth Pedal Drill 6 5m 45-55% 80rpm intensity=recovery\n\nCooldown\n- Great job, iparafin, enjoy the recovery 7m ramp 55-45%\n\n[Weekly Plan - Race Week]"
+    },
+    {
+      "id": 124535851,
+      "date": "2026-07-31",
+      "name": "IntervalCoach - Race Openers",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 30,
+      "duration_hours": 0.67,
+      "duration_formatted": "40m",
+      "workout_summary": "10m @140W | 10m @164W | 3\u00d730s @248W / 2m rec | 15s @351W | 2m @128W | 15s @351W | 10m @128W",
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description": "Warmup\n- Hey iparafin! Openers are here! 10m ramp 45-75% 85rpm\n\nMain Set\n- Easy 10m 65-75% 85rpm\n\n3x\n- Opener 30s 106% 100rpm\n- Recovery 2m 55%\n\n- Sprint 1 15s 150% 110rpm\n- Recovery 2m 55%\n- Sprint 2 15s 150% 110rpm\n\nCooldown\n- Fantastic work, enjoy the recovery spin 10m ramp 65-45%\n\n[Weekly Plan - Race Week]"
     },
     {
       "id": 115134133,
