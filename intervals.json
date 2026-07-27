@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T17:16:08.603876",
+  "generated_at": "2026-07-27T18:54:23.297189",
   "version": "3.96",
   "script_hash": "f0df576f8f63",
   "scan_hours": 72,
@@ -1220,6 +1220,53 @@
           "zone": 1,
           "training_load": 6.0,
           "decoupling": -19.1551
+        }
+      ]
+    },
+    {
+      "activity_id": "i169800073",
+      "date": "2026-07-27",
+      "type": "GravelRide",
+      "name": "Recovery spin",
+      "interval_summary": [
+        "1x 12s 603w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 5305,
+          "avg_power": 77,
+          "max_power": 651,
+          "avg_hr": 110,
+          "max_hr": 160,
+          "avg_cadence": 42.9307,
+          "zone": 1,
+          "training_load": 33.94724,
+          "decoupling": -10.487416
+        },
+        {
+          "type": "WORK",
+          "label": "12s@603w83rpm",
+          "duration_secs": 12,
+          "avg_power": 603,
+          "max_power": 669,
+          "avg_hr": 128,
+          "max_hr": 130,
+          "avg_cadence": 83.416664,
+          "zone": 7,
+          "training_load": 0.75,
+          "decoupling": -16.815111
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 460,
+          "avg_power": 33,
+          "max_power": 579,
+          "avg_hr": 113,
+          "max_hr": 141,
+          "avg_cadence": 29.62776,
+          "zone": 1,
+          "training_load": 5.3612776
         }
       ]
     }
