@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T15:06:29.513809",
+  "generated_at": "2026-07-30T16:47:01.921319",
   "version": "3.96",
   "script_hash": "f0df576f8f63",
   "scan_hours": 72,
@@ -786,6 +786,106 @@
           "avg_cadence": 29.62776,
           "zone": 1,
           "training_load": 5.3612776
+        }
+      ]
+    },
+    {
+      "activity_id": "i170829195",
+      "date": "2026-07-30",
+      "type": "VirtualRide",
+      "name": "MyWhoosh - Col du Galibier",
+      "interval_summary": [
+        "1x 22s 401w",
+        "1x 28s 386w",
+        "1x 92s 280w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1630,
+          "avg_power": 152,
+          "max_power": 331,
+          "avg_hr": 120,
+          "max_hr": 155,
+          "avg_cadence": 72.395706,
+          "zone": 2,
+          "training_load": 22.512373,
+          "decoupling": -7.1729484
+        },
+        {
+          "type": "WORK",
+          "label": "22s@401w122rpm",
+          "duration_secs": 22,
+          "avg_power": 401,
+          "max_power": 499,
+          "avg_hr": 137,
+          "max_hr": 147,
+          "avg_cadence": 121.63636,
+          "zone": 7,
+          "training_load": 1.0178936,
+          "decoupling": 9.556365
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 251,
+          "avg_power": 169,
+          "max_power": 384,
+          "avg_hr": 137,
+          "max_hr": 156,
+          "avg_cadence": 61.48207,
+          "zone": 2,
+          "training_load": 5.2990723,
+          "decoupling": -24.148203
+        },
+        {
+          "type": "WORK",
+          "label": "28s@386w112rpm",
+          "duration_secs": 28,
+          "avg_power": 386,
+          "max_power": 426,
+          "avg_hr": 153,
+          "max_hr": 160,
+          "avg_cadence": 111.57143,
+          "zone": 7,
+          "training_load": 1.5751151,
+          "decoupling": -6.0629005
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 377,
+          "avg_power": 180,
+          "max_power": 350,
+          "avg_hr": 143,
+          "max_hr": 165,
+          "avg_cadence": 71.82228,
+          "zone": 3,
+          "training_load": 8.194979,
+          "decoupling": -37.787918
+        },
+        {
+          "type": "WORK",
+          "label": "92s@280w93rpm",
+          "duration_secs": 92,
+          "avg_power": 280,
+          "max_power": 321,
+          "avg_hr": 160,
+          "max_hr": 168,
+          "avg_cadence": 92.945656,
+          "zone": 5,
+          "training_load": 3.5810728,
+          "decoupling": -2.406284
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 3613,
+          "avg_power": 134,
+          "max_power": 393,
+          "avg_hr": 130,
+          "max_hr": 169,
+          "avg_cadence": 74.383064,
+          "zone": 2,
+          "training_load": 49.900124,
+          "decoupling": -4.1228805
         }
       ]
     }
