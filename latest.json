@@ -64,13 +64,13 @@
     "quick_stats": {
       "total_training_hours": 5.06,
       "total_training_formatted": "5h3m",
-      "total_activities": 5,
+      "total_activities": 6,
       "total_tss": 313
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-01T18:38:48.687931",
+    "last_updated": "2026-08-01T19:52:41.256338",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.96"
@@ -91,6 +91,15 @@
       "severity": "info",
       "threshold": "RACE_A within 7 days",
       "context": "Race week D-0 of 'POKROVA RACE'. Today: Race day, 0-0 TSS. Race effort",
+      "persistence_days": null,
+      "tier": 1
+    },
+    {
+      "metric": "race_week_tsb",
+      "value": -15.5,
+      "severity": "warning",
+      "threshold": "TSB target 10-25",
+      "context": "Projected race-day TSB -15.5 is below target range 10-25. Consider additional rest to reach target.",
       "persistence_days": null,
       "tier": 1
     }
@@ -125,13 +134,13 @@
         "value": null
       },
       "tsb": {
-        "status": "green",
-        "value": 19.8
+        "status": "amber",
+        "value": -15.5
       }
     },
     "signal_summary": {
-      "green": 2,
-      "amber": 2,
+      "green": 1,
+      "amber": 3,
       "red": 0,
       "unavailable": 2
     },
@@ -145,7 +154,8 @@
     "modification": {
       "triggers": [
         "sleep",
-        "acwr"
+        "acwr",
+        "tsb"
       ],
       "suggested_adjustments": {
         "intensity": "reduce",
@@ -153,7 +163,7 @@
         "cap_zone": "Z2"
       }
     },
-    "reason": "P2 signal count. 2 amber (sleep, acwr) >= threshold 1.",
+    "reason": "P2 signal count. 3 amber (sleep, acwr, tsb) >= threshold 1.",
     "alarm_refs": []
   },
   "history": {
@@ -167,7 +177,7 @@
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
     "total_duration_decimal_hours": 5.06,
-    "total_activities": 5,
+    "total_activities": 6,
     "by_activity_type": {
       "GravelRide": {
         "duration_decimal_hours": 1.25,
@@ -181,6 +191,12 @@
         "tss": 23,
         "distance_km": 11.7
       },
+      "Unknown": {
+        "duration_decimal_hours": 0.0,
+        "count": 1,
+        "tss": 0,
+        "distance_km": 0.0
+      },
       "VirtualRide": {
         "duration_decimal_hours": 3.15,
         "count": 3,
@@ -191,17 +207,17 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 69.16,
-      "atl": 49.37,
-      "tsb": 19.79,
-      "ramp_rate": -1.71,
-      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
+      "ctl": 76.73,
+      "atl": 92.23,
+      "tsb": -15.5,
+      "ramp_rate": 2.88,
+      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
-      "eftp": 250.5,
-      "w_prime": 20769,
+      "eftp": 250.7,
+      "w_prime": 20790,
       "w_prime_kj": 20.8,
-      "p_max": 1124,
+      "p_max": 1125,
       "vo2max": null,
       "sports": {
         "cycling": {
@@ -533,8 +549,8 @@
             "5400s": {
               "actual_watts": 184,
               "actual_wpkg": 2.71,
-              "actual_hr": 152,
-              "pct_lthr": 89.9,
+              "actual_hr": 158,
+              "pct_lthr": 93.5,
               "source": "observed_outdoor",
               "coggan_watts": 192,
               "coggan_wpkg": 2.83,
@@ -545,8 +561,8 @@
             "7200s": {
               "actual_watts": 185,
               "actual_wpkg": 2.73,
-              "actual_hr": 150,
-              "pct_lthr": 88.8,
+              "actual_hr": 155,
+              "pct_lthr": 91.7,
               "source": "observed_outdoor",
               "coggan_watts": 183,
               "coggan_wpkg": 2.7,
@@ -557,7 +573,7 @@
           },
           "coverage_ratio": 1.0,
           "ftp_used": 234,
-          "w_prime_used": 20769,
+          "w_prime_used": 20790,
           "ftp_staleness_days": 0,
           "model_trust_note": "CP/W' model (P=CP+W'/t) is primary for durations \u226420min where W' contribution is meaningful. Coggan duration factors (Allen & Coggan, 3rd ed.) are the established reference for \u226560min. 30min is the crossover zone where both apply. model_divergence_pct = (actual - CP_model) / CP_model \u00d7 100. Positive divergence at short durations may indicate strong anaerobic capacity or stale W' value. Indoor MMP is typically 3-5% lower than outdoor (cooling, motivation) \u2014 source flag indicates which environment produced each anchor."
         }
@@ -629,18 +645,18 @@
       "benchmark_percentage": null,
       "seasonal_expected": null
     },
-    "eftp": 250.5,
-    "w_prime": 20769,
+    "eftp": 250.7,
+    "w_prime": 20790,
     "w_prime_kj": 20.8,
-    "p_max": 1124,
+    "p_max": 1125,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-01T18:38:48.686850",
+    "calculation_timestamp": "2026-08-01T19:52:41.254855",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 7,
-      "activities_7d": 5,
-      "activities_28d": 28,
+      "activities_7d": 6,
+      "activities_28d": 29,
       "planned_workouts_7d": 5,
       "ftp_history_days": {
         "indoor": 0,
@@ -655,7 +671,7 @@
       "avg_cadence": 77.0,
       "avg_hours": 1.0,
       "avg_tss": 62.6,
-      "count": 5
+      "count": 6
     },
     "28d": {
       "avg_power": null,
@@ -663,7 +679,7 @@
       "avg_cadence": 82.2,
       "avg_hours": 1.1,
       "avg_tss": 69.9,
-      "count": 28
+      "count": 29
     },
     "42d": {
       "avg_power": null,
@@ -671,10 +687,45 @@
       "avg_cadence": 82.2,
       "avg_hours": 1.1,
       "avg_tss": 69.9,
-      "count": 28
+      "count": 29
     }
   },
   "recent_activities": [
+    {
+      "id": "19560692649",
+      "date": "2026-08-01T09:41:56",
+      "type": "Unknown",
+      "name": "",
+      "duration_hours": 0.0,
+      "distance_km": 0.0,
+      "tss": null,
+      "intensity_factor": null,
+      "avg_power": null,
+      "normalized_power": null,
+      "avg_hr": null,
+      "max_hr": null,
+      "avg_cadence": null,
+      "avg_speed": null,
+      "max_speed": null,
+      "avg_pace": null,
+      "avg_temp": null,
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "work_kj": null,
+      "calories": null,
+      "carbs_used": null,
+      "carbs_ingested": null,
+      "variability_index": null,
+      "decoupling": null,
+      "efficiency_factor": null,
+      "hrrc": null,
+      "elevation_m": null,
+      "feel": null,
+      "rpe": null,
+      "zone_distribution": null,
+      "has_intervals": false
+    },
     {
       "id": "i170829195",
       "date": "2026-07-30T17:28:59",
@@ -2485,7 +2536,7 @@
     "total_training_hours": 5.06,
     "total_training_formatted": "5h3m",
     "total_tss": 313,
-    "activities_count": 5,
+    "activities_count": 6,
     "avg_hrv": 78.8,
     "avg_resting_hr": 50.1
   },
@@ -2525,18 +2576,18 @@
       "event_moving_time_seconds": null,
       "days_until_event": 0,
       "current_day": "D-0",
-      "ctl_baseline": 69.2,
-      "normal_weekly_tss": 484.1,
+      "ctl_baseline": 76.7,
+      "normal_weekly_tss": 537.1,
       "race_week_tss_budget": {
-        "min": 194,
-        "max": 266
+        "min": 215,
+        "max": 295
       },
       "race_week_tss_spent": 313,
       "race_week_tss_remaining": {
         "min": 0,
         "max": 0
       },
-      "projected_race_day_tsb": 19.8,
+      "projected_race_day_tsb": -15.5,
       "tsb_target_range": {
         "min": 10,
         "max": 25
@@ -2563,8 +2614,10 @@
         "intensity": "lighter"
       },
       "go_no_go": {
-        "tsb_status": "green",
-        "notes": []
+        "tsb_status": "flag",
+        "notes": [
+          "Projected race-day TSB -15.5 is significantly below target range 10-25. Fatigue may impact performance."
+        ]
       }
     }
   }
