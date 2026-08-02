@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-02T01:13:54.387154",
+    "last_updated": "2026-08-02T04:39:15.091105",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.96"
@@ -591,9 +591,9 @@
           "planned_tss_delta": 0.76,
           "hard_sessions_planned": 1,
           "race_proximity": null,
-          "next_week_load": null,
+          "next_week_load": 0.65,
           "plan_coverage_current_week": 0.2,
-          "plan_coverage_next_week": 0.0
+          "plan_coverage_next_week": 1.4
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -626,7 +626,7 @@
     "p_max": 1125,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-02T01:13:54.385690",
+    "calculation_timestamp": "2026-08-02T04:39:15.089650",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
@@ -2429,15 +2429,113 @@
       "has_terrain": false,
       "start_time": "09:00",
       "description": "Warmup\n- Hey iparafin, easy recovery ride today! 15m ramp 45-55% 85rpm\n\nMain Set\n- Easy Spin 41m 45-50% 85rpm intensity=recovery\n- Loosen Up 40m 50-55% 90rpm intensity=recovery\n\nCooldown\n- Fantastic job, spin easy now 10m ramp 55-45%\n\n[Weekly Plan - Race Week]"
+    },
+    {
+      "id": 126658752,
+      "date": "2026-08-03",
+      "name": "IntervalCoach - VO2 Max Intervals",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 36,
+      "duration_hours": 0.59,
+      "duration_formatted": "35m20s",
+      "workout_summary": "5m @140W | 3m @164W | 10\u00d723s @280W / 23s rec | 4m @128W | 10\u00d723s @280W / 23s rec | 4m @164W | 4m @128W",
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description": "Main Set\n- Hey iparafin! Race week 30/30s ahead 5m 45-75%\n- Endurance 3m 65-75%\n\n10x\n- On 23s 120%\n- Off 23s 55%\n\nRecovery\n- Set Recovery 4m 55%\n\n10x\n- On 23s 120%\n- Off 23s 55%\n\nRecovery\n- Endurance 4m 65-75%\n- Fantastic work, enjoy the recovery spin 4m 65-45%"
+    },
+    {
+      "id": 126658762,
+      "date": "2026-08-04",
+      "name": "IntervalCoach - Active Recovery Spin",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 28,
+      "duration_hours": 1.33,
+      "duration_formatted": "1h20m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description": "Warmup\n- Hey iparafin! Easy spin ahead 12m ramp 45-55% 85rpm\n\nMain Set\n- Easy Spin 30m 38-44% 80rpm intensity=recovery\n- Loosen Up 30m 44-50% 85rpm intensity=recovery\n\nCooldown\n- Awesome work, nice recovery spin 8m ramp 55-45%\n\n[Weekly Plan - Race Week]"
+    },
+    {
+      "id": 126658767,
+      "date": "2026-08-05",
+      "name": "IntervalCoach - Recovery Spin-Up",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 28,
+      "duration_hours": 1.1,
+      "duration_formatted": "1h6m",
+      "workout_summary": "10m @116W | 7\u00d76m @116W / 1m rec | 7m @116W",
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description": "Warmup\n- Hey iparafin! Gentle spin-up today 10m ramp 45-55% 85rpm\n\nMain Set\n7x\n- Recovery 6m 45-55% intensity=recovery\n- Spin-Up 1m 55% 105rpm intensity=recovery\n\nCooldown\n- Nice work, iparafin. Recover well 7m ramp 55-45%\n\n\n[Weekly Plan - Race Week]"
+    },
+    {
+      "id": 126658774,
+      "date": "2026-08-06",
+      "name": "IntervalCoach - Recovery Drills",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 30,
+      "duration_hours": 1.2,
+      "duration_formatted": "1h12m",
+      "workout_summary": "10m @116W | 6\u00d74m @116W / 4m rec | 2 \u00d7 7m @116W",
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description": "Warmup\n- Hey iparafin! Easy spin and drills today. 10m ramp 45-55% 85rpm\n\nMain Set\n6x\n- Fast Pedal Drill 4m 45-55% 100rpm intensity=recovery\n- Smooth Pedal Drill 4m 45-55% 80rpm intensity=recovery\n\nRecovery\n- Smooth Pedal Drill 6 7m 45-55% 80rpm intensity=recovery\n\nCooldown\n- Nice job, iparafin! Relax and recover. 7m ramp 55-45%\n\n[Weekly Plan - Race Week]"
+    },
+    {
+      "id": 126658781,
+      "date": "2026-08-07",
+      "name": "IntervalCoach - Aerobic Recovery",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 28,
+      "duration_hours": 1.13,
+      "duration_formatted": "1h8m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description": "Warmup\n- Hey iparafin, let's get rolling! 10m ramp 45-55% 85rpm\n\nMain Set\n- Easy Spin 26m 45-50% 85rpm intensity=recovery\n- Loosen Up 25m 50-55% 90rpm intensity=recovery\n\nCooldown\n- Awesome work, spin easy now 7m ramp 55-45%\n\n[Weekly Plan - Race Week]"
+    },
+    {
+      "id": 126658784,
+      "date": "2026-08-08",
+      "name": "IntervalCoach - 10x5 Endurance Cadence",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 57,
+      "duration_hours": 1.25,
+      "duration_formatted": "1h15m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description": "Main Set\n- Hey iparafin! Endurance and cadence ahead. 11m 45-75%\n\n10x\n- High Cadence 5m 70%\n\nRecovery\n- Low Cadence 5 7m 70%\n- Well done, enjoy the spin down. 7m 65-45%"
+    },
+    {
+      "id": 126658792,
+      "date": "2026-08-09",
+      "name": "IntervalCoach - 5x8 Endurance Spin-Ups",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 56,
+      "duration_hours": 1.24,
+      "duration_formatted": "1h14m20s",
+      "workout_summary": "11m @140W | 5\u00d78m @164W / 52s rec | 11m @164W | 8m @128W",
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description": "Main Set\n- Hey iparafin! Endurance and spin-ups await. 11m 45-75%\n\n5x\n- Endurance 8m 65-75%\n- Spin-Up 52s 75%\n\nRecovery\n- Endurance 6 11m 65-75%\n- Fantastic work, enjoy the final spin. 8m 65-45%"
     }
   ],
   "workout_summary_stats": {
-    "attempted": 1,
-    "success": 0,
-    "patternA": 0,
+    "attempted": 8,
+    "success": 4,
+    "patternA": 4,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 1
+    "bail_no_match": 4
   },
   "weekly_summary": {
     "total_training_hours": 3.58,
