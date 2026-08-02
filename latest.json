@@ -64,13 +64,13 @@
     "quick_stats": {
       "total_training_hours": 8.6,
       "total_training_formatted": "8h35m",
-      "total_activities": 5,
+      "total_activities": 4,
       "total_tss": 426
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-02T16:03:42.830356",
+    "last_updated": "2026-08-02T17:13:05.359005",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.96"
@@ -106,13 +106,13 @@
         "value": null
       },
       "tsb": {
-        "status": "amber",
-        "value": -29.2
+        "status": "green",
+        "value": 0.5
       }
     },
     "signal_summary": {
-      "green": 1,
-      "amber": 1,
+      "green": 2,
+      "amber": 0,
       "red": 0,
       "unavailable": 4
     },
@@ -124,7 +124,7 @@
     },
     "race_week_defers": false,
     "modification": null,
-    "reason": "P3 green light. 1 green, 1 amber (threshold 3), 0 red. Note: 4 signals unavailable \u2014 limited data.",
+    "reason": "P3 green light. 2 green, 0 amber (threshold 3), 0 red. Note: 4 signals unavailable \u2014 limited data.",
     "alarm_refs": []
   },
   "history": {
@@ -138,7 +138,7 @@
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
     "total_duration_decimal_hours": 8.6,
-    "total_activities": 5,
+    "total_activities": 4,
     "by_activity_type": {
       "GravelRide": {
         "duration_decimal_hours": 6.26,
@@ -152,12 +152,6 @@
         "tss": 23,
         "distance_km": 11.7
       },
-      "Unknown": {
-        "duration_decimal_hours": 0.0,
-        "count": 1,
-        "tss": 0,
-        "distance_km": 0.0
-      },
       "VirtualRide": {
         "duration_decimal_hours": 1.67,
         "count": 1,
@@ -168,17 +162,17 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 80.95,
-      "atl": 110.19,
-      "tsb": -29.24,
-      "ramp_rate": 8.83,
+      "ctl": 73.55,
+      "atl": 73.03,
+      "tsb": 0.52,
+      "ramp_rate": 1.43,
       "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
-      "eftp": 250.7,
-      "w_prime": 20790,
+      "eftp": 250.5,
+      "w_prime": 20769,
       "w_prime_kj": 20.8,
-      "p_max": 1125,
+      "p_max": 1124,
       "vo2max": null,
       "sports": {
         "cycling": {
@@ -534,7 +528,7 @@
           },
           "coverage_ratio": 1.0,
           "ftp_used": 234,
-          "w_prime_used": 20790,
+          "w_prime_used": 20769,
           "ftp_staleness_days": 0,
           "model_trust_note": "CP/W' model (P=CP+W'/t) is primary for durations \u226420min where W' contribution is meaningful. Coggan duration factors (Allen & Coggan, 3rd ed.) are the established reference for \u226560min. 30min is the crossover zone where both apply. model_divergence_pct = (actual - CP_model) / CP_model \u00d7 100. Positive divergence at short durations may indicate strong anaerobic capacity or stale W' value. Indoor MMP is typically 3-5% lower than outdoor (cooling, motivation) \u2014 source flag indicates which environment produced each anchor."
         }
@@ -602,18 +596,18 @@
       "benchmark_percentage": null,
       "seasonal_expected": null
     },
-    "eftp": 250.7,
-    "w_prime": 20790,
+    "eftp": 250.5,
+    "w_prime": 20769,
     "w_prime_kj": 20.8,
-    "p_max": 1125,
+    "p_max": 1124,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-02T16:03:42.828841",
+    "calculation_timestamp": "2026-08-02T17:13:05.357648",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
-      "activities_7d": 5,
-      "activities_28d": 29,
+      "activities_7d": 4,
+      "activities_28d": 28,
       "planned_workouts_7d": 5,
       "ftp_history_days": {
         "indoor": 0,
@@ -628,7 +622,7 @@
       "avg_cadence": 73.6,
       "avg_hours": 2.1,
       "avg_tss": 106.5,
-      "count": 5
+      "count": 4
     },
     "28d": {
       "avg_power": null,
@@ -636,7 +630,7 @@
       "avg_cadence": 82.1,
       "avg_hours": 1.3,
       "avg_tss": 77.8,
-      "count": 29
+      "count": 28
     },
     "42d": {
       "avg_power": null,
@@ -644,7 +638,7 @@
       "avg_cadence": 82.1,
       "avg_hours": 1.3,
       "avg_tss": 77.8,
-      "count": 29
+      "count": 28
     }
   },
   "recent_activities": [
@@ -702,41 +696,6 @@
       },
       "has_intervals": true,
       "description": "\u041c\u043e\u044f \u043f\u0435\u0440\u0432\u0430\u044f \u0433\u043e\u043d\u043a\u0430 \u043e\u0444\u043b\u0430\u0439\u043d \u0438 \u0441\u0440\u0430\u0437\u0443 \u044d\u043f\u0438\u043a. \u0421\u0442\u0430\u0432\u0438\u043b \u0446\u0435\u043b\u044c \u0432\u044b\u0435\u0445\u0430\u0442\u044c \u0438\u0437 5\u0447 \u0438 \u0441\u043e \u0441\u0440\u0435\u0434\u043d\u0435\u0439 ~20. \u041f\u043e \u0447\u0430\u0441\u0430\u043c \u0432\u044b\u0435\u0445\u0430\u043b, \u043f\u043e \u0433\u0430\u0440\u043c\u0438\u043d\u0443 \u043d\u0435\u0442 \ud83e\udee0\r\n\u041c\u043d\u043e\u0433\u043e \u0440\u0430\u0437 \u0443\u043f\u0430\u043b \u0432 \u044d\u0442\u043e\u0439 \u0433\u043b\u0438\u043d\u043e\u043c\u0435\u0441\u0435, \u043d\u043e \u0432\u0441\u0435 \u0440\u0430\u0437\u044b \u043d\u0430 \u043d\u043e\u0433\u0438.\r\n\u0421\u0432\u0435\u0440\u043d\u0443\u043b\u043e \u0440\u0443\u043b\u044c, \u043f\u0438\u0441\u0442\u043e\u043b\u0435\u0442 \u0438 \u0440\u0430\u0441\u0441\u0435\u043a \u043a\u043e\u043b\u0435\u043d\u043a\u0443 \u043f\u0440\u0430\u043a\u0442\u0438\u0447\u0435\u0441\u043a\u0438 \u043d\u0430 \u043f\u0435\u0440\u0432\u044b\u0445 10\u043a\u043c, \u043f\u0435\u0440\u0432\u044b\u0439 \u0447\u0430\u0441 \u0431\u044b\u043b\u043e \u043e\u043a, \u043d\u043e \u043f\u043e\u0442\u043e\u043c \u0441\u0442\u0430\u043d\u043e\u0432\u0438\u043b\u043e\u0441\u044c \u0432\u0441\u0451 \u0431\u043e\u043b\u044c\u043d\u0435\u0435 \u0441 \u043a\u0430\u0436\u0434\u044b\u043c \u0443\u0441\u0438\u043b\u0438\u0435\u043c \u043d\u0430 \u043f\u0435\u0434\u0430\u043b\u044c. \u0421\u0435\u0433\u043e\u0434\u043d\u044f \u0445\u0440\u043e\u043c\u0430\u044e \u0438 \u0441\u0433\u0438\u0431\u0430\u0442\u044c/\u0440\u0430\u0437\u0433\u0438\u0431\u0430\u0442\u044c \u043d\u043e\u0433\u0443 \u0431\u043e\u043b\u044c\u043d\u043e, \u043e\u043f\u0443\u0445\u043b\u0430) \r\n\u0413\u0434\u0435-\u0442\u043e \u043d\u0430 50\u043a\u043c \u0432\u0435\u043b \u043f\u0440\u043e\u0441\u0442\u043e \u043f\u0435\u0440\u0435\u0441\u0442\u0430\u043b \u0435\u0445\u0430\u0442\u044c, \u044f \u0434\u0430\u0436\u0435 \u0434\u0443\u043c\u0430\u043b \u0447\u0442\u043e \u043f\u0440\u043e\u0431\u0438\u043b\u0441\u044f, \u043d\u043e \u043f\u043e\u043a\u0440\u044b\u0448\u043a\u0430 \u0431\u044b\u043b\u0430 \u0432 \u043d\u043e\u0440\u043c\u0435, \u0430 \u0432\u043e\u0442 \u0437\u0430\u0434\u043d\u0438\u0439 \u0441\u0443\u043f\u043f\u043e\u0440\u0442 \u043f\u0440\u043e\u0441\u0442\u043e \u0437\u0430\u043a\u043b\u0438\u043d\u0438\u043b, \u043f\u043e\u0442\u043e\u043c\u0443 \u0447\u0442\u043e \u0432 \u0440\u0443\u0431\u0430\u0448\u043a\u0443 \u043d\u0430\u0431\u0438\u043b\u043e\u0441\u044c \u0432\u0441\u0451 \u043b\u0443\u0447\u0448\u0435\u0435 \u0441 \u0437\u0435\u043c\u043b\u0438 \u043c\u0430\u0442\u0443\u0448\u043a\u0438 \u0438 \u0435\u0441\u043b\u0438 \u043f\u0435\u0440\u0435\u0434\u043d\u0438\u0439 \u044f \u043c\u043e\u0433 \u043d\u043e\u0433\u043e\u0439 \u043e\u0441\u043b\u0430\u0431\u043b\u044f\u0442\u044c, \u0442\u043e \u0437\u0430\u0434\u043d\u0438\u0439 \u0443\u0436\u0435 \u043d\u0435\u0442. \u041b\u0438\u0448\u043d\u0438\u0439 \u0440\u0430\u0437 \u043d\u0435 \u0442\u043e\u0440\u043c\u043e\u0437\u0438\u043b \u0438\u043c, \u043f\u043e\u0441\u043b\u0435 \u0444\u0438\u043d\u0438\u0448\u0430, \u043a\u043e\u0433\u0434\u0430 \u0448\u0451\u043b \u0432 \u043b\u0430\u0433\u0435\u0440\u044c \u0437\u0430\u0434\u043d\u0435\u0435 \u043a\u043e\u043b\u0435\u0441\u043e \u0443\u0436\u0435 \u043f\u0440\u0430\u043a\u0442\u0438\u0447\u0435\u0441\u043a\u0438 \u043d\u0435 \u0432\u0440\u0430\u0449\u0430\u043b\u043e\u0441\u044c, \u0431\u043b\u043e\u043a\u0438\u0440\u043e\u0432\u0430\u043b\u043e\u0441\u044c. \u041f\u0440\u043e \u043a\u043e\u043d\u0442\u0430\u043a\u0442\u044b \u0434\u0430\u0436\u0435 \u0433\u043e\u0432\u043e\u0440\u0438\u0442\u044c \u043d\u0435\u0447\u0435\u0433\u043e) \u041c\u043d\u043e\u0433\u043e \u0435\u0445\u0430\u043b \u043e\u0434\u0438\u043d, \u0447\u0442\u043e \u0441\u043b\u0435\u0433\u043a\u0430 \u0443\u0445\u0443\u0434\u0448\u0430\u043b\u043e \u0431\u043e\u0435\u0432\u043e\u0439 \u0434\u0443\u0445, \u043d\u043e \u0431\u044b\u043b\u0438 \u0438 \u0442\u0435 \u0448\u0438\u043a\u0430\u0440\u043d\u044b\u0435 \u043c\u043e\u043c\u0435\u043d\u0442\u044b, \u043a\u043e\u0433\u0434\u0430 \u043f\u043e\u043b\u0443\u0447\u0430\u043b\u043e\u0441\u044c \u0435\u0445\u0430\u0442\u044c \u0432 \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u0438 \u0438 \u0434\u0430\u0436\u0435 \u043f\u043e\u043e\u0431\u0449\u0430\u0442\u044c\u0441\u044f, \u044d\u0442\u043e \u0431\u044b\u043b\u043e \u0431\u0435\u0441\u0446\u0435\u043d\u043d\u043e.\n\n---\n\n\ud83d\udcca IntervalCoach Analysis\nWorkout score: 7/10\nTSS: 262\nTraining stimulus: mixed\nEst. recovery: 63h\n\n\ud83d\udd17 https://www.intervalcoach.app/?ref=REF-EEEWQG"
-    },
-    {
-      "id": "19560692649",
-      "date": "2026-08-01T09:41:56",
-      "type": "Unknown",
-      "name": "",
-      "duration_hours": 0.0,
-      "distance_km": 0.0,
-      "tss": null,
-      "intensity_factor": null,
-      "avg_power": null,
-      "normalized_power": null,
-      "avg_hr": null,
-      "max_hr": null,
-      "avg_cadence": null,
-      "avg_speed": null,
-      "max_speed": null,
-      "avg_pace": null,
-      "avg_temp": null,
-      "weather": null,
-      "humidity": null,
-      "wind_speed": null,
-      "work_kj": null,
-      "calories": null,
-      "carbs_used": null,
-      "carbs_ingested": null,
-      "variability_index": null,
-      "decoupling": null,
-      "efficiency_factor": null,
-      "hrrc": null,
-      "elevation_m": null,
-      "feel": null,
-      "rpe": null,
-      "zone_distribution": null,
-      "has_intervals": false
     },
     {
       "id": "i170829195",
@@ -2578,7 +2537,7 @@
     "total_training_hours": 8.6,
     "total_training_formatted": "8h35m",
     "total_tss": 426,
-    "activities_count": 5,
+    "activities_count": 4,
     "avg_hrv": 82.5,
     "avg_resting_hr": 50.5
   },
