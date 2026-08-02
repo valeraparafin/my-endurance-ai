@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-02T14:59:23.419323",
+    "last_updated": "2026-08-02T16:03:42.830356",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.96"
@@ -208,7 +208,7 @@
       }
     },
     "current_metrics": {
-      "weight_kg": 67.8,
+      "weight_kg": 66.45,
       "resting_hr": 48,
       "hrv": null,
       "sleep_quality": null,
@@ -229,7 +229,7 @@
       "baevsky_si": null,
       "lactate": null,
       "respiration": null,
-      "body_fat_pct": null,
+      "body_fat_pct": 20.896002,
       "abdomen_cm": null,
       "steps": null,
       "hydration_volume_l": null,
@@ -443,92 +443,92 @@
           "start": "2026-06-22",
           "end": "2026-08-02"
         },
-        "weight_kg": 67.8,
+        "weight_kg": 66.5,
         "weight_source": "wellness_recent",
         "cycling": {
           "anchors": {
             "300s": {
               "actual_watts": 291,
-              "actual_wpkg": 4.29,
+              "actual_wpkg": 4.38,
               "actual_hr": 175,
               "pct_lthr": 103.6,
               "source": "observed_outdoor",
               "coggan_watts": 248,
-              "coggan_wpkg": 3.66,
+              "coggan_wpkg": 3.73,
               "cp_model_watts": 303,
-              "cp_model_wpkg": 4.47,
+              "cp_model_wpkg": 4.56,
               "model_divergence_pct": -4.0
             },
             "600s": {
               "actual_watts": 265,
-              "actual_wpkg": 3.91,
+              "actual_wpkg": 3.98,
               "actual_hr": 175,
               "pct_lthr": 103.6,
               "source": "observed_outdoor",
               "coggan_watts": 227,
-              "coggan_wpkg": 3.35,
+              "coggan_wpkg": 3.41,
               "cp_model_watts": 269,
-              "cp_model_wpkg": 3.97,
+              "cp_model_wpkg": 4.05,
               "model_divergence_pct": -1.5
             },
             "1200s": {
               "actual_watts": 258,
-              "actual_wpkg": 3.81,
+              "actual_wpkg": 3.88,
               "actual_hr": 174,
               "pct_lthr": 103.0,
               "source": "observed_outdoor",
               "coggan_watts": 218,
-              "coggan_wpkg": 3.22,
+              "coggan_wpkg": 3.28,
               "cp_model_watts": 251,
-              "cp_model_wpkg": 3.7,
+              "cp_model_wpkg": 3.77,
               "model_divergence_pct": 2.8
             },
             "1800s": {
               "actual_watts": 256,
-              "actual_wpkg": 3.78,
+              "actual_wpkg": 3.85,
               "actual_hr": 172,
               "pct_lthr": 101.8,
               "source": "observed_outdoor",
               "coggan_watts": 211,
-              "coggan_wpkg": 3.11,
+              "coggan_wpkg": 3.17,
               "cp_model_watts": 246,
-              "cp_model_wpkg": 3.63,
+              "cp_model_wpkg": 3.7,
               "model_divergence_pct": 4.1
             },
             "3600s": {
               "actual_watts": 233,
-              "actual_wpkg": 3.44,
+              "actual_wpkg": 3.5,
               "actual_hr": 169,
               "pct_lthr": 100.0,
               "source": "observed_outdoor",
               "coggan_watts": 201,
-              "coggan_wpkg": 2.96,
+              "coggan_wpkg": 3.02,
               "cp_model_watts": 240,
-              "cp_model_wpkg": 3.54,
+              "cp_model_wpkg": 3.61,
               "model_divergence_pct": -2.9
             },
             "5400s": {
               "actual_watts": 184,
-              "actual_wpkg": 2.71,
+              "actual_wpkg": 2.77,
               "actual_hr": 168,
               "pct_lthr": 99.4,
               "source": "observed_outdoor",
               "coggan_watts": 192,
-              "coggan_wpkg": 2.83,
+              "coggan_wpkg": 2.89,
               "cp_model_watts": 238,
-              "cp_model_wpkg": 3.51,
+              "cp_model_wpkg": 3.58,
               "model_divergence_pct": -22.7
             },
             "7200s": {
               "actual_watts": 185,
-              "actual_wpkg": 2.73,
+              "actual_wpkg": 2.78,
               "actual_hr": 166,
               "pct_lthr": 98.2,
               "source": "observed_outdoor",
               "coggan_watts": 183,
-              "coggan_wpkg": 2.7,
+              "coggan_wpkg": 2.75,
               "cp_model_watts": 237,
-              "cp_model_wpkg": 3.5,
+              "cp_model_wpkg": 3.56,
               "model_divergence_pct": -21.9
             }
           },
@@ -608,7 +608,7 @@
     "p_max": 1125,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-02T14:59:23.417824",
+    "calculation_timestamp": "2026-08-02T16:03:42.828841",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
@@ -678,8 +678,8 @@
       "efficiency_factor": 1.0764331,
       "hrrc": 14,
       "elevation_m": 922.0,
-      "feel": null,
-      "rpe": null,
+      "feel": 3,
+      "rpe": 10,
       "zone_distribution": {
         "hr_zones": {
           "z1_time": 562,
@@ -701,7 +701,7 @@
         }
       },
       "has_intervals": true,
-      "description": "\ud83d\udcca IntervalCoach Analysis\nWorkout score: 7/10\nTSS: 262\nTraining stimulus: mixed\nEst. recovery: 63h\n\n\ud83d\udd17 https://www.intervalcoach.app/?ref=REF-EEEWQG"
+      "description": "\u041c\u043e\u044f \u043f\u0435\u0440\u0432\u0430\u044f \u0433\u043e\u043d\u043a\u0430 \u043e\u0444\u043b\u0430\u0439\u043d \u0438 \u0441\u0440\u0430\u0437\u0443 \u044d\u043f\u0438\u043a. \u0421\u0442\u0430\u0432\u0438\u043b \u0446\u0435\u043b\u044c \u0432\u044b\u0435\u0445\u0430\u0442\u044c \u0438\u0437 5\u0447 \u0438 \u0441\u043e \u0441\u0440\u0435\u0434\u043d\u0435\u0439 ~20. \u041f\u043e \u0447\u0430\u0441\u0430\u043c \u0432\u044b\u0435\u0445\u0430\u043b, \u043f\u043e \u0433\u0430\u0440\u043c\u0438\u043d\u0443 \u043d\u0435\u0442 \ud83e\udee0\r\n\u041c\u043d\u043e\u0433\u043e \u0440\u0430\u0437 \u0443\u043f\u0430\u043b \u0432 \u044d\u0442\u043e\u0439 \u0433\u043b\u0438\u043d\u043e\u043c\u0435\u0441\u0435, \u043d\u043e \u0432\u0441\u0435 \u0440\u0430\u0437\u044b \u043d\u0430 \u043d\u043e\u0433\u0438.\r\n\u0421\u0432\u0435\u0440\u043d\u0443\u043b\u043e \u0440\u0443\u043b\u044c, \u043f\u0438\u0441\u0442\u043e\u043b\u0435\u0442 \u0438 \u0440\u0430\u0441\u0441\u0435\u043a \u043a\u043e\u043b\u0435\u043d\u043a\u0443 \u043f\u0440\u0430\u043a\u0442\u0438\u0447\u0435\u0441\u043a\u0438 \u043d\u0430 \u043f\u0435\u0440\u0432\u044b\u0445 10\u043a\u043c, \u043f\u0435\u0440\u0432\u044b\u0439 \u0447\u0430\u0441 \u0431\u044b\u043b\u043e \u043e\u043a, \u043d\u043e \u043f\u043e\u0442\u043e\u043c \u0441\u0442\u0430\u043d\u043e\u0432\u0438\u043b\u043e\u0441\u044c \u0432\u0441\u0451 \u0431\u043e\u043b\u044c\u043d\u0435\u0435 \u0441 \u043a\u0430\u0436\u0434\u044b\u043c \u0443\u0441\u0438\u043b\u0438\u0435\u043c \u043d\u0430 \u043f\u0435\u0434\u0430\u043b\u044c. \u0421\u0435\u0433\u043e\u0434\u043d\u044f \u0445\u0440\u043e\u043c\u0430\u044e \u0438 \u0441\u0433\u0438\u0431\u0430\u0442\u044c/\u0440\u0430\u0437\u0433\u0438\u0431\u0430\u0442\u044c \u043d\u043e\u0433\u0443 \u0431\u043e\u043b\u044c\u043d\u043e, \u043e\u043f\u0443\u0445\u043b\u0430) \r\n\u0413\u0434\u0435-\u0442\u043e \u043d\u0430 50\u043a\u043c \u0432\u0435\u043b \u043f\u0440\u043e\u0441\u0442\u043e \u043f\u0435\u0440\u0435\u0441\u0442\u0430\u043b \u0435\u0445\u0430\u0442\u044c, \u044f \u0434\u0430\u0436\u0435 \u0434\u0443\u043c\u0430\u043b \u0447\u0442\u043e \u043f\u0440\u043e\u0431\u0438\u043b\u0441\u044f, \u043d\u043e \u043f\u043e\u043a\u0440\u044b\u0448\u043a\u0430 \u0431\u044b\u043b\u0430 \u0432 \u043d\u043e\u0440\u043c\u0435, \u0430 \u0432\u043e\u0442 \u0437\u0430\u0434\u043d\u0438\u0439 \u0441\u0443\u043f\u043f\u043e\u0440\u0442 \u043f\u0440\u043e\u0441\u0442\u043e \u0437\u0430\u043a\u043b\u0438\u043d\u0438\u043b, \u043f\u043e\u0442\u043e\u043c\u0443 \u0447\u0442\u043e \u0432 \u0440\u0443\u0431\u0430\u0448\u043a\u0443 \u043d\u0430\u0431\u0438\u043b\u043e\u0441\u044c \u0432\u0441\u0451 \u043b\u0443\u0447\u0448\u0435\u0435 \u0441 \u0437\u0435\u043c\u043b\u0438 \u043c\u0430\u0442\u0443\u0448\u043a\u0438 \u0438 \u0435\u0441\u043b\u0438 \u043f\u0435\u0440\u0435\u0434\u043d\u0438\u0439 \u044f \u043c\u043e\u0433 \u043d\u043e\u0433\u043e\u0439 \u043e\u0441\u043b\u0430\u0431\u043b\u044f\u0442\u044c, \u0442\u043e \u0437\u0430\u0434\u043d\u0438\u0439 \u0443\u0436\u0435 \u043d\u0435\u0442. \u041b\u0438\u0448\u043d\u0438\u0439 \u0440\u0430\u0437 \u043d\u0435 \u0442\u043e\u0440\u043c\u043e\u0437\u0438\u043b \u0438\u043c, \u043f\u043e\u0441\u043b\u0435 \u0444\u0438\u043d\u0438\u0448\u0430, \u043a\u043e\u0433\u0434\u0430 \u0448\u0451\u043b \u0432 \u043b\u0430\u0433\u0435\u0440\u044c \u0437\u0430\u0434\u043d\u0435\u0435 \u043a\u043e\u043b\u0435\u0441\u043e \u0443\u0436\u0435 \u043f\u0440\u0430\u043a\u0442\u0438\u0447\u0435\u0441\u043a\u0438 \u043d\u0435 \u0432\u0440\u0430\u0449\u0430\u043b\u043e\u0441\u044c, \u0431\u043b\u043e\u043a\u0438\u0440\u043e\u0432\u0430\u043b\u043e\u0441\u044c. \u041f\u0440\u043e \u043a\u043e\u043d\u0442\u0430\u043a\u0442\u044b \u0434\u0430\u0436\u0435 \u0433\u043e\u0432\u043e\u0440\u0438\u0442\u044c \u043d\u0435\u0447\u0435\u0433\u043e) \u041c\u043d\u043e\u0433\u043e \u0435\u0445\u0430\u043b \u043e\u0434\u0438\u043d, \u0447\u0442\u043e \u0441\u043b\u0435\u0433\u043a\u0430 \u0443\u0445\u0443\u0434\u0448\u0430\u043b\u043e \u0431\u043e\u0435\u0432\u043e\u0439 \u0434\u0443\u0445, \u043d\u043e \u0431\u044b\u043b\u0438 \u0438 \u0442\u0435 \u0448\u0438\u043a\u0430\u0440\u043d\u044b\u0435 \u043c\u043e\u043c\u0435\u043d\u0442\u044b, \u043a\u043e\u0433\u0434\u0430 \u043f\u043e\u043b\u0443\u0447\u0430\u043b\u043e\u0441\u044c \u0435\u0445\u0430\u0442\u044c \u0432 \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u0438 \u0438 \u0434\u0430\u0436\u0435 \u043f\u043e\u043e\u0431\u0449\u0430\u0442\u044c\u0441\u044f, \u044d\u0442\u043e \u0431\u044b\u043b\u043e \u0431\u0435\u0441\u0446\u0435\u043d\u043d\u043e.\n\n---\n\n\ud83d\udcca IntervalCoach Analysis\nWorkout score: 7/10\nTSS: 262\nTraining stimulus: mixed\nEst. recovery: 63h\n\n\ud83d\udd17 https://www.intervalcoach.app/?ref=REF-EEEWQG"
     },
     {
       "id": "19560692649",
@@ -2414,7 +2414,7 @@
     },
     {
       "date": "2026-08-02",
-      "weight_kg": null,
+      "weight_kg": 66.45,
       "resting_hr": null,
       "hrv_rmssd": null,
       "hrv_sdnn": null,
@@ -2439,7 +2439,7 @@
       "baevsky_si": null,
       "lactate": null,
       "respiration": null,
-      "body_fat_pct": null,
+      "body_fat_pct": 20.896002,
       "abdomen_cm": null,
       "steps": null,
       "hydration_volume_l": null,
